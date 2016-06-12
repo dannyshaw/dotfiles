@@ -1,0 +1,46 @@
+export PATH=$HOME/bin:$HOME/pear/bin:$PATH
+
+PATH=$PATH:/home/danny/bin
+#export PATH
+
+#disable insert
+xmodmap -e "keycode 118 ="
+
+#handy tools
+alias sagi='sudo apt-get install'
+alias cc='xclip -sel clip'
+alias pp='xclip -sel clip -o'
+alias n='notify-send "Script Completed"'
+
+#alias vpn='sudo openvpn --config /home/danny/bm/bash/openvpn/client.ovpn --script-security 2'
+
+alias fixwlan='sudo iw dev wlan0 set power_save off'
+alias btfix='pactl load-module module-bluetooth-discover'
+
+
+alias music-bak-test='rsync -azin --no-perms --no-owner --no-group --progress /share/music/ /media/danny/data/music/'
+alias music-bak='rsync -azi --no-perms --no-owner --no-group --progress /share/music/ /media/danny/data/music/'
+
+alias photo-bak-test='rsync -azin --progress /home/danny/Pictures/ /media/danny/data/photos/archive/'
+alias photo-bak='rsync -azi --progress /home/danny/Pictures/ /media/danny/data/photos/archive/'
+
+alias dev-bak-test='rsync -azin --progress /home/danny/dev/ /media/danny/data/dev/'
+alias dev-bak='rsync -azi --progress /home/danny/dev/ /media/danny/data/dev/'
+
+
+alias bakup-test='music-bak-test && photo-bak-test && dev-bak-test'
+alias bakup='music-bak && photo-bak && dev-bak'
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+export NVM_DIR="/home/danny/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+export NODE_PATH=/usr/lib/nodejs:/usr/lib/node_modules:/usr/share/javascript:/home/danny/.nvm/versions/node/v5.6.0/lib/node_modules
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+
+# Base16 Shell
+BASE16_SHELL="$HOME/.config/base16-shell/base16-default.dark.sh"
+[[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
+alias npi='npm install --cache-min 999999 '
