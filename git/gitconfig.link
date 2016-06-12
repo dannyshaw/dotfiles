@@ -1,0 +1,9 @@
+# Simple gitconfig
+#
+[user]
+	name = Danny Shaw
+	email = code@dannyshaw.io
+[credential]
+	helper = cache
+[core]
+	excludesfile = ~/.gitignore

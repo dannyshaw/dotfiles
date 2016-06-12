@@ -1,0 +1,38 @@
+{
+  "order": [
+    "ppa.js",
+    "apt.js",
+    "apm.js"
+  ],
+  "ppaRepos": [
+    "ppa:webupd8team/atom"
+  ],
+  "aptInstalls": [
+    "git",
+    "atom"
+  ],
+  "apmPackages": [
+    "atom-beautify",
+    "atom-handlebars",
+    "atom-material-ui",
+    "atom-ternjs",
+    "css-color-underline",
+    "editorconfig",
+    "jsonlint",
+    "language-babel",
+    "language-jade",
+    "linter",
+    "linter-eslint",
+    "linter-jade",
+    "project-manager",
+    "tab-switcher",
+    "tabs-to-spaces"
+  ],
+  "gitCredentials": {
+    "name": "Danny Shaw",
+    "email": "code@dannyshaw.io"
+  },
+  "globalNpmModules": [
+    "webpack"
+  ]
+}

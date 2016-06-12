@@ -1,0 +1,83 @@
+set nocompatible
+filetype off
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'https://github.com/fholgado/minibufexpl.vim'
+Plugin 'kien/ctrlp.vim'
+Plugin 'git://github.com/altercation/vim-colors-solarized.git'
+Plugin 'editorconfig/editorconfig-vim'
+Plugin 'jelera/vim-javascript-syntax'
+Plugin 'https://github.com/scrooloose/nerdcommenter.git'
+Plugin 'chriskempson/base16-vim'
+
+" All of your Plugins must be added before the following line
+call vundle#end()
+filetype plugin indent on
+" To ignore plugin indent changes, instead use:
+"filetype plugin on
+"
+" Brief help
+" :PluginList       - lists configured plugins
+" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+" :PluginSearch foo - searches for foo; append `!` to refresh local cache
+" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+"
+" see :h vundle for more details or wiki for FAQ
+" Put your non-Plugin stuff after this line
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => General
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Sets how many lines of history VIM has to remember
+set history=700
+
+" Enable filetype plugins
+filetype plugin on
+filetype indent on
+
+" Set to auto read when a file is changed from the outside
+set autoread
+
+" With a map leader it's possible to do extra key combinations
+" like <leader>w saves the current file
+let mapleader = ","
+let g:mapleader = ","
+
+"Fast saving
+nmap <leader>w :w!<cr>
+
+set number
+set relativenumber
+
+
+"NerdTree
+map <silent> <leader>e :NERDTreeToggle<CR>
+map <silent> <leader>f :NERDTreeFind<cr>
+let NERDTreeIgnore = ['\.swp$', '\.DS_Store']
+
+" keeps NERDTree open and highlights active buffer 
+" autocmd BufEnter * if &modifiable | NERDTreeFind | wincmd p | endif
+let NERDTreeQuitOnOpen = 1
+let g:NERDTreeShowHidden=1
+
+"Solarized
+"syntax enable
+"set background=dark
+"colorscheme solarized
+
+"FZF 
+set rtp+=~/.fzf
+
+"Minibufexplorer
+let g:miniBufExplMapWindowNavVim = 1
+let g:miniBufExplMapWindowNavArrows = 1
+let g:miniBufExplMapCTabSwitchBufs = 1
+let g:miniBufExplModSelTarget = 1
