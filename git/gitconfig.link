@@ -5,5 +5,7 @@
 	email = code@dannyshaw.io
 [credential]
 	helper = cache
+[push]
+	default = simple
 [core]
 	excludesfile = ~/.gitignore
