@@ -3,7 +3,6 @@
     "googleKey.js",
     "ppa.js",
     "apt.js",
-    "apm.js",
     "npm.js",
     "gitconfig.js"
   ],
@@ -43,13 +42,36 @@
     "linter-jade",
     "project-manager",
     "tab-switcher",
-    "tabs-to-spaces"
+    "tabs-to-spaces",
+    "vim-mode",
+    "todo-show",
+    "minimap",
+    "highlight-selected",
+    "minimap-highlight-selected",
+    "autoclose-html",
+    "pigments",
+    "auto-detect-indentation",
+    "keycount",
+    "git-time-machine",
+    "emmet",
+    "file-icons",
+    "javascript-snippets",
+    "git-plus"
   ],
   "gitCredentials": {
     "name": "Danny Shaw",
     "email": "code@dannyshaw.io"
   },
   "globalNpmModules": [
-    "webpack"
+    "webpack",
+    "babel-preset-es2015",
+    "babel-preset-react",
+    "babel-cli",
+    "babel-core",
+    "bable-eslint",
+    "eslint",
+    "eslint-plugin-import",
+    "eslint-plugin-react",
+    "eslint-plugin-jsx-a11y"
   ]
 }
