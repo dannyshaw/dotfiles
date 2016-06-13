@@ -4,7 +4,10 @@ My dotfiles.
 
 Makes use of [kody](https://github.com/jh3y/kody) as an installation tool to handle symlinking and some basic node powered scripting.  Kody was mainly used on OSX so I've added some linux specific install options.
 
-## Usage
+## Installation and Usage
+
+Download to ~/.dotfiles:
+`git clone https://github.com/dannyshaw/dotfiles.git ~/.dotfiles`
 
 running `bin/getnode` will install Node Version Manager. 
 
