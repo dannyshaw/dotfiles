@@ -1,0 +1,24 @@
+playground:
+  title: "Playground"
+  paths: [
+    "/home/danny/dev/clients/playground"
+    "/home/danny/dev/opensource/elemental"
+  ]
+personal:
+  title: "Personal"
+  paths: [
+    "/home/danny/dev/personal"
+  ]
+dev:
+  title: "Dev"
+  paths: [
+    "/home/danny/dev/repos"
+    "/home/danny/dev/opensource"
+    "/home/danny/dev/repos/dads-diary/node_modules/material-ui"
+  ]
+dotfiles:
+  title: "dotfiles"
+  paths: [
+    "/home/danny/.dotfiles"
+    "/home/danny/dev/opensource/kody"
+  ]
