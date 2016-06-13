@@ -1,15 +1,32 @@
 {
   "order": [
+    "googleKey.js",
     "ppa.js",
     "apt.js",
-    "apm.js"
+    "apm.js",
+    "npm.js",
+    "gitconfig.js"
   ],
+  "scripts": {
+    "pre": "shellScripts/pre.sh",
+    "post": "shellScripts/post.sh"
+  },
   "ppaRepos": [
     "ppa:webupd8team/atom"
   ],
   "aptInstalls": [
     "git",
-    "atom"
+    "atom",
+    "vim",
+    "gnome-do",
+    "google-chrome-stable",
+    "dropbox",
+    "python-gpgme",
+    "gparted",
+    "htop",
+    "meld",
+    "keepassx",
+    "unetbootin"
   ],
   "apmPackages": [
     "atom-beautify",
