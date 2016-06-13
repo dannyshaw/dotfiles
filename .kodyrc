@@ -56,7 +56,9 @@
     "emmet",
     "file-icons",
     "javascript-snippets",
-    "git-plus"
+    "git-plus",
+    "project-plus",
+    "sort-lines"
   ],
   "gitCredentials": {
     "name": "Danny Shaw",
