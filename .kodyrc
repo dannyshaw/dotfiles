@@ -58,7 +58,8 @@
     "javascript-snippets",
     "git-plus",
     "project-plus",
-    "sort-lines"
+    "sort-lines",
+    "react"
   ],
   "gitCredentials": {
     "name": "Danny Shaw",

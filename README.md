@@ -9,11 +9,7 @@ Makes use of [kody](https://github.com/jh3y/kody) as an installation tool to han
 Download to ~/.dotfiles:
 `git clone https://github.com/dannyshaw/dotfiles.git ~/.dotfiles`
 
-running `bin/getnode` will install Node Version Manager and Node 6.2.1. 
-
-
-Install kody:
-`npm install kody -g`
+running `bin/setup` will install Node Version Manager and Node 6.2.1. 
 
 Now just run `kody` in the root and you will be presented with options.
 

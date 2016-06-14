@@ -2,3 +2,4 @@
 
 wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.31.1/install.sh | bash
 nvm install 6.2.1
+npm install kody -g
