@@ -31,6 +31,7 @@
     "atom-beautify",
     "atom-handlebars",
     "atom-material-ui",
+    "atom-material-syntax-dark",
     "atom-ternjs",
     "css-color-underline",
     "editorconfig",
@@ -59,7 +60,8 @@
     "git-plus",
     "project-plus",
     "sort-lines",
-    "react"
+    "react",
+    "compare-files"
   ],
   "gitCredentials": {
     "name": "Danny Shaw",
@@ -75,6 +77,7 @@
     "eslint",
     "eslint-plugin-import",
     "eslint-plugin-react",
-    "eslint-plugin-jsx-a11y"
+    "eslint-plugin-jsx-a11y",
+    "diff-so-fancy"
   ]
 }

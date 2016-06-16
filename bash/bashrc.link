@@ -44,3 +44,9 @@ export PATH="/usr/local/heroku/bin:$PATH"
 BASE16_SHELL="$HOME/.config/base16-shell/base16-default.dark.sh"
 [[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
 alias npi='npm install --cache-min 999999 '
+export WORKON_HOME=$HOME/envs
+export PROJECT_HOME=/home/danny/dev/edrolo/repos
+
+alias edr='cd /home/danny/dev/edrolo/tod/tod_project/tod_django/react'
+alias fdiff='git diff --color | diff-so-fancy'
+. /usr/local/bin/virtualenvwrapper.sh

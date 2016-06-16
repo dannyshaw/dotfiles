@@ -17,6 +17,7 @@ Plugin 'editorconfig/editorconfig-vim'
 Plugin 'jelera/vim-javascript-syntax'
 Plugin 'https://github.com/scrooloose/nerdcommenter.git'
 Plugin 'chriskempson/base16-vim'
+Plugin 'https://github.com/rking/ag.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()

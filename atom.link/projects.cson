@@ -22,3 +22,9 @@ dotfiles:
     "/home/danny/.dotfiles"
     "/home/danny/dev/opensource/kody"
   ]
+edrolo:
+  title: "Edrolo"
+  paths: [
+    "/home/danny/dev/edrolo/notes"
+    "/home/danny/dev/edrolo/tod/tod_project/tod_django/react"
+  ]

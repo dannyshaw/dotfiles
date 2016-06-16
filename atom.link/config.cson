@@ -1,10 +1,11 @@
 "*":
   "atom-beautify":
-    _analyticsUserId: "aa570d88-cd6e-4edd-9ff1-3b9f9c7ee8a9"
+    general:
+      _analyticsUserId: "aa570d88-cd6e-4edd-9ff1-3b9f9c7ee8a9"
   core:
     themes: [
       "atom-material-ui"
-      "base16-tomorrow-dark-theme"
+      "atom-material-syntax-dark"
     ]
   editor:
     invisibles: {}
