@@ -18,6 +18,10 @@ Plugin 'jelera/vim-javascript-syntax'
 Plugin 'https://github.com/scrooloose/nerdcommenter.git'
 Plugin 'chriskempson/base16-vim'
 Plugin 'https://github.com/rking/ag.vim'
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'https://github.com/vim-scripts/Greplace.vim'
+Plugin 'mileszs/ack.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()
@@ -82,3 +86,7 @@ let g:miniBufExplMapWindowNavVim = 1
 let g:miniBufExplMapWindowNavArrows = 1
 let g:miniBufExplMapCTabSwitchBufs = 1
 let g:miniBufExplModSelTarget = 1
+
+"Ag for ack...
+let g:ackprg = 'ag --nogroup --nocolor --column'
+

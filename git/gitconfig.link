@@ -10,3 +10,14 @@
 [core]
 	excludesfile = ~/.gitignore
 	pager = diff-so-fancy | less --tabs=4 -RFX
+[difftool]
+    prompt = false
+
+[diff]
+    tool = meld
+    guitool = meld
+
+[difftool "meld"]
+    path = /usr/bin/meld
+[alias]
+	grog = log --graph --abbrev-commit --decorate --all --format=format:\"%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(dim white) - %an%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n %C(white)%s%C(reset)\"
