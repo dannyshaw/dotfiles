@@ -14,7 +14,6 @@
 
   ],
   "aptInstalls": [
-    "git",
     "vim",
     "gnome-do",
     "google-chrome-stable",
@@ -24,7 +23,8 @@
     "htop",
     "meld",
     "keepassx",
-    "unetbootin"
+    "unetbootin",
+    "sublime-text-installer"
   ],
   "gitCredentials": {
     "name": "Danny Shaw",

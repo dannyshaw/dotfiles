@@ -1,0 +1,33 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Babel",
+		"CSSTidy",
+		"Django",
+		"EditorConfig",
+		"Flow",
+		"Git",
+		"GitGutter",
+		"Gitignored File Excluder",
+		"greybeard theme",
+		"HTML-CSS-JS Prettify",
+		"JSONLint",
+		"Markdown Extended",
+		"Material Theme",
+		"Material Theme - Appbar",
+		"Package Control",
+		"Pretty JSON",
+		"Pug",
+		"React and React Router Snippets",
+		"Sass",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-contrib-eslint_d",
+		"Vintageous"
+	]
+}
