@@ -12,7 +12,7 @@ const options = {
       if (ppas.length > 0) {
         // async.forEachSeries(ppas, function (ppa, done) {
         ppas.forEach(function (ppa) {
-        shell.exec(`sudo add-apt-repository -y ${ppa}`);
+        shell.exec(`sudo add-apt-repository -y ppa:${ppa}`);
         //   done()
       });
         log.success('ppa repos installed');
