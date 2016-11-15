@@ -9,7 +9,7 @@ const options = {
     description: 'run pre installation scripts',
     exec: function(resolve, reject, shell, log, config) {
       const script = config.scripts.pre;
-      shell.exec(`sh ${script}`);
+      shell.exec(`${script}`);
       resolve();
     }
   };

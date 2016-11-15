@@ -9,7 +9,7 @@ const options = {
     description: 'run post installation scripts',
     exec: function(resolve, reject, shell, log, config) {
       const script = config.scripts.post;
-      shell.exec(`sh ${script}`);
+      shell.exec(`${script}`);
       resolve();
     }
   };

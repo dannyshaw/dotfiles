@@ -1,3 +1,5 @@
+#!/bin/bash
+
  echo "Running Pre installation script"
 
 

@@ -4,6 +4,7 @@
     "ppa.js",
     "apt.js",
     "npm.js",
+    "gem.js",
     "gitconfig.js"
   ],
   "scripts": {
@@ -14,6 +15,7 @@
 
   ],
   "aptInstalls": [
+    "zsh",
     "vim",
     "gnome-do",
     "google-chrome-stable",
@@ -30,6 +32,9 @@
     "name": "Danny Shaw",
     "email": "code@dannyshaw.io"
   },
+  "rubyGems": [
+    "tmuxinator"
+  ],
   "globalNpmModules": [
     "webpack",
     "babel-preset-es2015",
