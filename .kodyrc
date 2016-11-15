@@ -12,8 +12,7 @@
     "post": "shellScripts/post.sh"
   },
   "ppaRepos": [
-    "webupd8team/sublime-text-3",
-
+    "webupd8team/sublime-text-3"
   ],
   "aptInstalls": [
     "zsh",
