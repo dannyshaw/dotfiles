@@ -11,11 +11,10 @@
     "post": "shellScripts/post.sh"
   },
   "ppaRepos": [
-    "ppa:webupd8team/atom"
+
   ],
   "aptInstalls": [
     "git",
-    "atom",
     "vim",
     "gnome-do",
     "google-chrome-stable",
@@ -26,42 +25,6 @@
     "meld",
     "keepassx",
     "unetbootin"
-  ],
-  "apmPackages": [
-    "atom-beautify",
-    "atom-handlebars",
-    "atom-material-ui",
-    "atom-material-syntax-dark",
-    "atom-ternjs",
-    "css-color-underline",
-    "editorconfig",
-    "jsonlint",
-    "language-babel",
-    "language-jade",
-    "linter",
-    "linter-eslint",
-    "linter-jade",
-    "project-manager",
-    "tab-switcher",
-    "tabs-to-spaces",
-    "vim-mode",
-    "todo-show",
-    "minimap",
-    "highlight-selected",
-    "minimap-highlight-selected",
-    "autoclose-html",
-    "pigments",
-    "auto-detect-indentation",
-    "keycount",
-    "git-time-machine",
-    "emmet",
-    "file-icons",
-    "javascript-snippets",
-    "git-plus",
-    "project-plus",
-    "sort-lines",
-    "react",
-    "compare-files"
   ],
   "gitCredentials": {
     "name": "Danny Shaw",
