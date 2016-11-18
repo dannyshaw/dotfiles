@@ -17,4 +17,6 @@ fi
 #symlink sublime text packages
 ln -sf ${HOME}/.dotfiles/sublime/User ${HOME}/.config/sublime-text-3/Packages/User
 
+source ~/.bashrc
+
 echo "Post Installation Script Complete"
