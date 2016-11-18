@@ -1,6 +1,7 @@
 {
   "order": [
     "googleKey.js",
+    "dropboxKey.js",
     "ppa.js",
     "apt.js",
     "npm.js",
