@@ -5,7 +5,9 @@ echo "Running Post Installation Script"
 # everything in here should be idempotent
 
 # install oh my zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+if [ ! -d "$HOME/.oh-my-zsh" ]; then
+  git clone clone git://github.com/robbyrussell/oh-my-zsh.git $HOME/.oh-my-zsh
+fi
 
 # install Fuzzy File Search
 if [ ! -d "$HOME/.fzf" ]; then
@@ -18,6 +20,14 @@ if [ `echo $SHELL` != `which zsh` ]; then
 fi
 
 #symlink sublime text packages
+if [ ! -d "${HOME}/.config/sublime-text-3/Packages" ]; then
+  mkdir -p ${HOME}/.config/sublime-text-3/Packages
+fi
+
+if [ ! -d "${HOME}/.config/sublime-text-3/Packages/User" ]; then
+  mv ${HOME}/.config/sublime-text-3/Packages/User ${HOME}/.config/sublime-text-3/Packages/User.bak
+fi
+
 ln -sf ${HOME}/.dotfiles/sublime/User ${HOME}/.config/sublime-text-3/Packages/User
 
 source ~/.bashrc
