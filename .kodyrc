@@ -15,9 +15,13 @@
   "ppaRepos": [
     "webupd8team/sublime-text-3"
   ],
+  "pip": [
+    "virtualenvwrapper"
+  ],
   "aptInstalls": [
     "zsh",
     "vim",
+    "tmux",
     "gnome-do",
     "google-chrome-stable",
     "dropbox",
@@ -27,7 +31,9 @@
     "meld",
     "keepassx",
     "unetbootin",
-    "sublime-text-installer"
+    "sublime-text-installer",
+    "python-pip",
+    "powertop"
   ],
   "gitCredentials": {
     "name": "Danny Shaw",

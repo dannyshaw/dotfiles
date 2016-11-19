@@ -9,7 +9,7 @@ bind | split-window -h
 #unbind '"'
 unbind %
 
-set -g history-limit 7000 
+set -g history-limit 7000
 
 # reload config file (change file location to your the tmux.conf you want to use)
 bind r source-file ~/.tmux.conf
@@ -28,15 +28,10 @@ bind l select-pane -R
 # resize panes like vim
 # feel free to change the "1" to however many lines you want to resize by, only
 # one at a time can be slow
-bind < resize-pane -L 10 
+bind < resize-pane -L 10
 bind > resize-pane -R 10
 bind - resize-pane -D 10
 bind + resize-pane -U 10
-
-# Enable mouse control (clickable windows, panes, resizable panes)
-set -g mouse-select-window on
-set -g mouse-select-pane on
-set -g mouse-resize-pane on
 
 # don't rename windows automatically
 set-option -g allow-rename off

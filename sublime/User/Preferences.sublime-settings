@@ -15,8 +15,8 @@
 		"node_modules",
 		"webpack-dist"
 	],
-	"font_face": "GohuFont",
-	"font_size": 11,
+	"font_face": "InconsolataGo",
+	"font_size": 10,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
