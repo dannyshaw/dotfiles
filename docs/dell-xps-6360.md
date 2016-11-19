@@ -40,7 +40,7 @@ ref: http://www.download3k.com/articles/How-to-shrink-a-disk-volume-beyond-the-p
 I went through at least 4 kernels... all with little glitches here or there. 4.8 seems pretty stable
 * http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.8/
 * you want the amd64 'all' and the two 'generic' debs. download to a folder
-* in folder run:
+* in folder run
 
 	sudo dpkg -i *.deb
 	sudo update-grub
