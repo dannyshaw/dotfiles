@@ -1,14 +1,16 @@
 # Linux Mint on the Dell XPS 13 6360
 
-## Unsolved
+### Unsolved
 
-### HDMI external monitor output (worrying)
+#### HDMI external monitor output (worrying)
 * https://bugs.freedesktop.org/show_bug.cgi?id=93578
 
-## Untested
+### Untested
 
 * DP Output
 
+
+## Installation
 
 ### Shink windows partition
 
