@@ -125,7 +125,7 @@ alias ed='cd /home/danny/dev/edrolo/tod/tod_project/'
 alias fdiff='git diff --color | diff-so-fancy'
 . /usr/local/bin/virtualenvwrapper.sh
 
-source /home/danny/antigen.zsh
+source /home/danny/.antigen.zsh
 
 antigen bundle git
 antigen bundle tmuxinator
