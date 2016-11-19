@@ -26,12 +26,25 @@ ref: http://www.download3k.com/articles/How-to-shrink-a-disk-volume-beyond-the-p
 * boot and install
 
 
-### Upgrade Mint & Kernel
+### Upgrade Packages
 
 * tether phone to use as internet with usb, or use ethernet adapter (no wifi yet)
 * run update manager, it'll require disabling secure boot on reboot, so you'll enter a password then have to enter single characters of it on boot. it's weird..
-* run `sudo apt-get install linux-firmware` to bump the patch from 1.157.1 to 1.157.5, reboot and the wifi will be working
-* run `sudo apt-get install xserver-xorg-input-libinput` // this fixes a random trackpad freezing issue
+* run `sudo apt-get install linux-firmware` to bump the patch from 1.157.1 to 1.157.5
+* reboot and the wifi will be working
+
+### Upgrade Kernel to 4.8
+
+I actually went through at least 4 kernels... all with little glitches here or there. 4.8 seems pretty stable
+
+* http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.8/
+* you want the amd64 'all' and the two 'generic' debs. download to a folder
+* in folder run:
+
+	sudo dpkg -i *.deb
+	sudo update-grub
+	sudo reboot
+
 
 ### Enable Scaling for the HiDPI screen:
 
