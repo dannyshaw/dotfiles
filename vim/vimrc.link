@@ -16,11 +16,9 @@ Plugin 'altercation/vim-colors-solarized.git'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'jelera/vim-javascript-syntax'
 Plugin 'scrooloose/nerdcommenter.git'
-Plugin 'chriskempson/base16-vim'
 Plugin 'rking/ag.vim'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
-Plugin 'vim-scripts/Greplace.vim'
 Plugin 'mileszs/ack.vim'
 
 " All of your Plugins must be added before the following line
@@ -90,3 +88,5 @@ let g:miniBufExplModSelTarget = 1
 "Ag for ack...
 let g:ackprg = 'ag --nogroup --nocolor --column'
 
+"Search only from current directory
+let g:ctrlp_working_path_mode=0
