@@ -16,8 +16,13 @@
     "webupd8team/sublime-text-3"
   ],
   "pip": [
-    "virtualenvwrapper"
+    "virtualenvwrapper",
+    "autoenv"
   ],
+  "pip3": [
+    "thefuck",
+  ],
+
   "aptInstalls": [
     "zsh",
     "vim",
@@ -33,7 +38,9 @@
     "unetbootin",
     "sublime-text-installer",
     "python-pip",
-    "powertop"
+    "powertop",
+    "python3-dev",
+    "python3-pip"
   ],
   "gitCredentials": {
     "name": "Danny Shaw",

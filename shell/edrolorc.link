@@ -1,0 +1,6 @@
+export WORKON_HOME=$HOME/envs
+export PROJECT_HOME=$HOME/dev/edrolo
+. /usr/local/bin/virtualenvwrapper.sh
+alias edr='cd $PROJECT_HOME/tod/tod_project/tod_django/react'
+alias ed='cd $PROJECT_HOME/tod/tod_project/'
+
