@@ -12,15 +12,15 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'https://github.com/fholgado/minibufexpl.vim'
 Plugin 'kien/ctrlp.vim'
-Plugin 'git://github.com/altercation/vim-colors-solarized.git'
+Plugin 'altercation/vim-colors-solarized.git'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'jelera/vim-javascript-syntax'
-Plugin 'https://github.com/scrooloose/nerdcommenter.git'
+Plugin 'scrooloose/nerdcommenter.git'
 Plugin 'chriskempson/base16-vim'
-Plugin 'https://github.com/rking/ag.vim'
+Plugin 'rking/ag.vim'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
-Plugin 'https://github.com/vim-scripts/Greplace.vim'
+Plugin 'vim-scripts/Greplace.vim'
 Plugin 'mileszs/ack.vim'
 
 " All of your Plugins must be added before the following line
@@ -68,7 +68,7 @@ map <silent> <leader>e :NERDTreeToggle<CR>
 map <silent> <leader>f :NERDTreeFind<cr>
 let NERDTreeIgnore = ['\.swp$', '\.DS_Store']
 
-" keeps NERDTree open and highlights active buffer 
+" keeps NERDTree open and highlights active buffer
 " autocmd BufEnter * if &modifiable | NERDTreeFind | wincmd p | endif
 let NERDTreeQuitOnOpen = 1
 let g:NERDTreeShowHidden=1
@@ -78,7 +78,7 @@ let g:NERDTreeShowHidden=1
 "set background=dark
 "colorscheme solarized
 
-"FZF 
+"FZF
 set rtp+=~/.fzf
 
 "Minibufexplorer
