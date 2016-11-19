@@ -2,11 +2,12 @@
 
 ## Unsolved
 
-HDMI external monitor output (worrying)
+### HDMI external monitor output (worrying)
+* https://bugs.freedesktop.org/show_bug.cgi?id=93578
 
 ## Untested
 
-DP Output
+* DP Output
 
 
 ### Shink windows partition
