@@ -42,9 +42,10 @@ I went through at least 4 kernels... all with little glitches here or there. 4.8
 * you want the amd64 'all' and the two 'generic' debs. download to a folder
 * in folder run
 
-	sudo dpkg -i *.deb
-	sudo update-grub
-	sudo reboot
+
+  sudo dpkg -i *.deb
+  sudo update-grub
+  sudo reboot
 
 
 ### Enable Scaling for the HiDPI screen:
