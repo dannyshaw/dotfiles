@@ -1,0 +1,28 @@
+export EDITOR='vim'
+export PATH=$PATH:/home/danny/bin
+
+#disable insert key
+xmodmap -e "keycode 118 ="
+
+#handy tools
+alias sagi='sudo apt-get install'
+alias cc='xclip -sel clip'
+alias pp='xclip -sel clip -o'
+alias n='notify-send "Script Completed"'
+alias npi='npm install --cache-min 999999 '
+
+# Setup NVM
+export NVM_DIR="/home/danny/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+export NODE_PATH=/usr/lib/nodejs:/usr/lib/node_modules:/usr/share/javascript:/home/danny/.nvm/versions/node/v5.6.0/lib/node_modules
+
+# Android SDK
+# export ANDROID_HOME=~/Android/Sdk
+# export PATH=${PATH}:${ANDROID_HOME}/tools
+
+# The Fuck!?
+eval $(thefuck --alias)
+
+# autoenv
+source `which activate.sh`
+
