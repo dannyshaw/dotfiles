@@ -38,7 +38,13 @@
     "keepassx",
     "unetbootin",
     "sublime-text-installer",
-    "powertop"
+    "powertop",
+
+    "mercurial",
+    "postgresql",
+    "postgresql-contrib",
+    "libgeoip-dev",
+    "libpq-dev"
   ],
   "gitCredentials": {
     "name": "Danny Shaw",

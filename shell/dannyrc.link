@@ -23,6 +23,8 @@ export NODE_PATH=/usr/lib/nodejs:/usr/lib/node_modules:/usr/share/javascript:/ho
 # The Fuck!?
 eval $(thefuck --alias)
 
+
 # autoenv
 source `which activate.sh`
 
+source $HOME/.edrolorc
