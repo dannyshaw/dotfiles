@@ -14,12 +14,14 @@ Plugin 'fholgado/minibufexpl.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'altercation/vim-colors-solarized.git'
 Plugin 'editorconfig/editorconfig-vim'
-Plugin 'jelera/vim-javascript-syntax'
 Plugin 'scrooloose/nerdcommenter.git'
 Plugin 'rking/ag.vim'
-Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'mileszs/ack.vim'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
+Plugin 'vim-syntastic/syntastic.git'
+Plugin 'ternjs/tern_for_vim.git'
 
 " All of your Plugins must be added before the following line
 call vundle#end()
@@ -90,3 +92,16 @@ let g:ackprg = 'ag --nogroup --nocolor --column'
 
 "Search only from current directory
 let g:ctrlp_working_path_mode=0
+
+"Syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_javascript_checkers = ['eslint']
+
+

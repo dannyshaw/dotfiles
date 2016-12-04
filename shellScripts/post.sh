@@ -30,6 +30,11 @@ fi
 
 ln -sf ${HOME}/.dotfiles/sublime/User ${HOME}/.config/sublime-text-3/Packages/User
 
+if grep -Fxq "fs.inotify.max_user_watches=524288" /etc/sysctl.conf
+then
+	echo "fs.inotify.max_user_watches=524288" | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+fi
+
 source ~/.bashrc
 
 echo "Post Installation Script Complete"

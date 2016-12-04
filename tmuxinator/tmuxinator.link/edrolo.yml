@@ -47,7 +47,7 @@ windows:
         - edrolo:
           - ed
           - workon edrolo
-          - ./manage.py runserver 57181
+          - ./manage.py runserver_plus 57181
         - htop:
           - htop
         - term:
