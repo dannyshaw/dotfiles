@@ -4,10 +4,11 @@
 
 #### HDMI external monitor output (worrying)
 * https://bugs.freedesktop.org/show_bug.cgi?id=93578
+* DP Output working
 
-### Untested
+#### Accelerometer trigger?
 
-* DP Output
+* external output flickers when device is tilted a certain way.. quirky but not an issue for me
 
 
 ## Installation
