@@ -66,5 +66,7 @@ I went through at least 4 kernels... all with little glitches here or there. 4.8
 ## Miscelaneous Tips
 
 * `chrome://flags` -> `Touch Events` enabled. makes touchscreen work like a tablet in chrome
+* run electron apps (slack, atom, gitkrakken, etc) with the following parameters to avoid hiDPI repaint issues
+	`slack --ignore-gpu-blacklist --disable-gpu-sandbox`
 
 
