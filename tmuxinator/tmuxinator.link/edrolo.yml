@@ -1,7 +1,7 @@
 # ~/.tmuxinator/edrolo.yml
 
 name: edrolo
-root: ~/dev/edrolo/tod/tod_project
+root: ~/dev/edrolo
 
 # Optional tmux socket
 # socket_name: foo

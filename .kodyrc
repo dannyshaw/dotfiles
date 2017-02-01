@@ -41,6 +41,7 @@
     "powertop",
     "silversearcher-ag",
 
+    "awscli",
     "mercurial",
     "postgresql",
     "postgresql-contrib",

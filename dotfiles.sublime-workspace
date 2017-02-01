@@ -520,19 +520,20 @@
 	"buffers":
 	[
 		{
-			"file": "shellScripts/post.sh",
+			"file": ".kodyrc",
 			"settings":
 			{
-				"buffer_size": 1084,
+				"buffer_size": 1179,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "shellScripts/pre.sh",
+			"file": "shell/dannyrc.link",
 			"settings":
 			{
-				"buffer_size": 284,
+				"buffer_size": 803,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -727,10 +728,20 @@
 	"expanded_folders":
 	[
 		"/home/danny/.dotfiles",
-		"/home/danny/.dotfiles/shellScripts"
+		"/home/danny/.dotfiles/bin",
+		"/home/danny/.dotfiles/docs",
+		"/home/danny/.dotfiles/shell",
+		"/home/danny/.dotfiles/shellScripts",
+		"/home/danny/.dotfiles/sublime",
+		"/home/danny/.dotfiles/tmux",
+		"/home/danny/.dotfiles/tmux/tmux.link",
+		"/home/danny/.dotfiles/tmuxinator",
+		"/home/danny/.dotfiles/tmuxinator/tmuxinator.link"
 	],
 	"file_history":
 	[
+		"/home/danny/.dotfiles/shellScripts/post.sh",
+		"/home/danny/.dotfiles/docs/dell-xps-6360.md",
 		"/etc/sysctl.conf",
 		"/home/danny/.dotfiles/dotfiles.sublime-project",
 		"/home/danny/dev/edrolo/tod/tod_project/classysettings/dev.py",
@@ -856,9 +867,7 @@
 		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/reducers/edrolo.js",
 		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/app/components/AppContainer/index.js",
 		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/app/components/AppContainer/AppContainer.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/templates/schools/school_dashboard.html",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/student-progress/components/StickyHeader.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/student-progress/components/ClassStudentLessonProgress/ClassStudentLessonProgress.scss"
+		"/home/danny/dev/edrolo/tod/tod_project/tod_django/templates/schools/school_dashboard.html"
 	],
 	"find":
 	{
@@ -1282,27 +1291,29 @@
 			[
 				{
 					"buffer": 0,
-					"file": "shellScripts/post.sh",
+					"file": ".kodyrc",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1084,
+						"buffer_size": 1179,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								923,
-								923
+								680,
+								680
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 864.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1310,19 +1321,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "shellScripts/pre.sh",
-					"semi_transient": true,
+					"file": "shell/dannyrc.link",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 284,
+						"buffer_size": 803,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								357,
+								357
 							]
 						],
 						"settings":
@@ -1399,6 +1410,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"danny",
+				"shell/dannyrc.link"
+			],
 			[
 				"package",
 				"react/package.json"
@@ -1906,10 +1921,6 @@
 			[
 				".eslin",
 				"react/.eslintrc.js"
-			],
-			[
-				"util",
-				"static/js/utils.js"
 			]
 		],
 		"width": 0.0
