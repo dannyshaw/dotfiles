@@ -4,6 +4,7 @@
 
 #### HDMI external monitor output (worrying)
 * https://bugs.freedesktop.org/show_bug.cgi?id=93578
+* http://ewen.mcneill.gen.nz/blog/entry/2016-12-22-dell-xps-9360-hdmi-output/
 * DP Output working
 
 #### Accelerometer trigger?
