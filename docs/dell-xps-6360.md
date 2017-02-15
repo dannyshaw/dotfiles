@@ -63,6 +63,11 @@ I went through at least 4 kernels... all with little glitches here or there. 4.8
 	cd ~/.dotfiles
 	./bin/setup
 
+## Solved Issues
+
+* Trackpad sporadically not working
+ * run through these instructions: http://www.dell.com/support/article/au/en/audhs1/SLN304721
+
 
 ## Miscelaneous Tips
 
