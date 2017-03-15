@@ -13,6 +13,11 @@ alias pp='xclip -sel clip -o'
 alias n='notify-send "Script Completed"'
 alias npi='npm install --cache-min 999999 '
 
+
+#docker
+alias dkillall='docker kill $(docker ps -a -q)'
+alias drmall='docker rm $(docker ps -a -q)'
+
 exp () {
 	google-chrome http://explainshell.com/explain?cmd="$@";
 }

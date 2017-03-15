@@ -17,6 +17,7 @@
 		"Gitignored File Excluder",
 		"greybeard theme",
 		"HTML-CSS-JS Prettify",
+		"Jade",
 		"JSONLint",
 		"Markdown Extended",
 		"Material Theme",
@@ -24,12 +25,14 @@
 		"Package Control",
 		"Pretty JSON",
 		"Pug",
+		"Python Improved",
 		"React and React Router Snippets",
 		"Sass",
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-contrib-eslint_d",
+		"SublimeLinter-contrib-pug-lint",
 		"Vintageous"
 	]
 }

@@ -30,6 +30,17 @@
 				"excludes":
 				[
 				]
+			},
+			"puglint":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				],
+				"reporter": "inline"
 			}
 		},
 		"mark_style": "outline",
