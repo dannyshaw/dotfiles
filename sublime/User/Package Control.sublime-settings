@@ -5,8 +5,10 @@
 	],
 	"installed_packages":
 	[
+		"Anaconda",
 		"Babel",
 		"CSSTidy",
+		"Djaneiro",
 		"Django",
 		"Django Manage Commands",
 		"EditorConfig",
@@ -22,17 +24,21 @@
 		"Markdown Extended",
 		"Material Theme",
 		"Material Theme - Appbar",
+		"MultiEditUtils",
 		"Package Control",
 		"Pretty JSON",
 		"Pug",
 		"Python Improved",
 		"React and React Router Snippets",
 		"Sass",
+		"Search in Project",
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-contrib-eslint_d",
 		"SublimeLinter-contrib-pug-lint",
+		"SublimeLinter-flake8",
+		"TodoReview",
 		"Vintageous"
 	]
 }

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Monokai</string>
+	<string>Monokai Bright</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -20,13 +20,17 @@
 				<key>lineHighlight</key>
 				<string>#3E3D32</string>
 				<key>selection</key>
-				<string>#49483E</string>
+				<string>#9D550F</string>
+				<key>selectionForeground</key>
+				<string>#fffff8</string>
+				<key>inactiveSelection</key>
+				<string>#bbbbbb</string>
+				<key>inactiveSelectionForeground</key>
+				<string>#222222</string>
 				<key>findHighlight</key>
 				<string>#FFE792</string>
 				<key>findHighlightForeground</key>
 				<string>#000000</string>
-				<key>selectionBorder</key>
-				<string>#222218</string>
 				<key>activeGuide</key>
 				<string>#9D550FB0</string>
 
@@ -77,7 +81,6 @@
 				<string>#AE81FF</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Built-in constant</string>
@@ -115,18 +118,7 @@
 			<key>name</key>
 			<string>Keyword</string>
 			<key>scope</key>
-			<string>keyword - (source.c keyword.operator | source.c++ keyword.operator | source.objc keyword.operator | source.objc++ keyword.operator), keyword.operator.word</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#F92672</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>JavaScript Dollar</string>
-			<key>scope</key>
-			<string>variable.other.dollar.only.js</string>
+			<string>keyword, variable.other.dollar.only.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -161,13 +153,13 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Entity name</string>
+			<string>Class name</string>
 			<key>scope</key>
-			<string>entity.name - (entity.name.filename | entity.name.section | entity.name.tag | entity.name.label)</string>
+			<string>entity.name.class</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string />
+				<string>underline</string>
 				<key>foreground</key>
 				<string>#A6E22E</string>
 			</dict>
@@ -187,22 +179,22 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Function argument</string>
+			<string>Function name</string>
 			<key>scope</key>
-			<string>variable.parameter - (source.c | source.c++ | source.objc | source.objc++)</string>
+			<string>entity.name.function</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string />
 				<key>foreground</key>
-				<string>#FD971F</string>
+				<string>#A6E22E</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Language variable</string>
+			<string>Function argument</string>
 			<key>scope</key>
-			<string>variable.language</string>
+			<string>variable.parameter</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -235,19 +227,6 @@
 				<string />
 				<key>foreground</key>
 				<string>#A6E22E</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Function call</string>
-			<key>scope</key>
-			<string>variable.function</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string />
-				<key>foreground</key>
-				<string>#66D9EF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -339,17 +318,6 @@
 				<string>#CFCFC2</string>
 			</dict>
 		</dict>
-		<dict>
-			<key>name</key>
-			<string>YAML String</string>
-			<key>scope</key>
-			<string>string.unquoted.yaml</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#F8F8F2</string>
-			</dict>
-		</dict>
 
 		<dict>
 			<key>name</key>
@@ -407,21 +375,11 @@
 		</dict>
 		<dict>
 			<key>scope</key>
-			<string>entity.name.filename</string>
+			<string>entity.name.filename.find-in-files</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#E6DB74</string>
-			</dict>
-		</dict>
-
-		<dict>
-			<key>scope</key>
-			<string>message.error</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#F83333</string>
 			</dict>
 		</dict>
 
@@ -457,6 +415,6 @@
             </dict>
         </dict></array>
 	<key>uuid</key>
-	<string>D8D5E82E-3D5B-46B5-B38E-8C841C21347D</string>
+	<string>D8D5E82E-3D5B-46B5-B38E-8C841C21347E</string>
 </dict>
 </plist>
