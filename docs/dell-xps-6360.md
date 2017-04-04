@@ -3,7 +3,11 @@
 ### Unsolved
 
 #### HDMI external monitor output (worrying)
+
+Worth keeping an eye on
+
 * https://bugs.freedesktop.org/show_bug.cgi?id=93578
+* https://bugs.freedesktop.org/attachment.cgi?id=121569
 
 ### Untested
 
