@@ -8,10 +8,12 @@ Worth keeping an eye on
 
 * https://bugs.freedesktop.org/show_bug.cgi?id=93578
 * https://bugs.freedesktop.org/attachment.cgi?id=121569
+* http://ewen.mcneill.gen.nz/blog/entry/2016-12-22-dell-xps-9360-hdmi-output/
+* DP Output working
 
-### Untested
+#### Accelerometer trigger?
 
-* DP Output
+* external output flickers when device is tilted a certain way.. quirky but not an issue for me
 
 
 ## Installation
@@ -65,9 +67,16 @@ I went through at least 4 kernels... all with little glitches here or there. 4.8
 	cd ~/.dotfiles
 	./bin/setup
 
+## Solved Issues
+
+* Trackpad sporadically not working
+ * run through these instructions: http://www.dell.com/support/article/au/en/audhs1/SLN304721
+
 
 ## Miscelaneous Tips
 
 * `chrome://flags` -> `Touch Events` enabled. makes touchscreen work like a tablet in chrome
+* run electron apps (slack, atom, gitkrakken, etc) with the following parameters to avoid hiDPI repaint issues
+	`slack --ignore-gpu-blacklist --disable-gpu-sandbox`
 
 

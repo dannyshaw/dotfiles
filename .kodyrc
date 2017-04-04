@@ -39,7 +39,9 @@
     "unetbootin",
     "sublime-text-installer",
     "powertop",
+    "silversearcher-ag",
 
+    "awscli",
     "mercurial",
     "postgresql",
     "postgresql-contrib",

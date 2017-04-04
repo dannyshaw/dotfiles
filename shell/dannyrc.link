@@ -1,5 +1,7 @@
 export EDITOR='vim'
 export PATH=$PATH:/home/danny/bin
+export QT_DEVICE_PIXEL_RATIO=auto
+
 
 #disable insert key
 xmodmap -e "keycode 118 ="
@@ -10,6 +12,16 @@ alias cc='xclip -sel clip'
 alias pp='xclip -sel clip -o'
 alias n='notify-send "Script Completed"'
 alias npi='npm install --cache-min 999999 '
+
+
+#docker
+alias dkillall='docker kill $(docker ps -a -q)'
+alias drmall='docker rm $(docker ps -a -q)'
+
+exp () {
+	google-chrome http://explainshell.com/explain?cmd="$@";
+}
+
 
 # Setup NVM
 export NVM_DIR="/home/danny/.nvm"

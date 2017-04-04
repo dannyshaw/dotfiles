@@ -1,7 +1,7 @@
 # ~/.tmuxinator/edrolo.yml
 
 name: edrolo
-root: ~/dev/edrolo/tod/tod_project
+root: ~/dev/edrolo
 
 # Optional tmux socket
 # socket_name: foo
@@ -47,7 +47,7 @@ windows:
         - edrolo:
           - ed
           - workon edrolo
-          - ./manage.py runserver 57181
+          - ./manage.py runserver_plus 57181
         - htop:
           - htop
         - term:
