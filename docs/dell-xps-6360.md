@@ -11,6 +11,9 @@ Worth keeping an eye on
 * http://ewen.mcneill.gen.nz/blog/entry/2016-12-22-dell-xps-9360-hdmi-output/
 * DP Output working
 
+[solved] hardware - this works:
+ * https://www.officeworks.com.au/shop/officeworks/p/comsol-usb-type-c-to-hdmi-4k2k-adaptor-cocmhfad?cm_mmc=google-_-pla-_-USB%20$26%20Firewire%20Cables%20and%20Adapters-_-COCMHFAD&cm_mmca1=NULL&cm_mmca3=conversion&cm_mmca9=columbus&CAWELAID=620015440001492182&CAGPSPN=pla&CAAGID=34435309358&CATCI=pla-55733401733&catargetid=620015440002665561&cadevice=c&gclid=CjwKEAjwlpbIBRCx4eT8l9W26igSJAAuQ_HG7vA0kdq2ypEuLO8-yDR7w6rRLhQOflcbXuiyjwfrTxoCFvfw_wcB
+
 #### Accelerometer trigger?
 
 * external output flickers when device is tilted a certain way.. quirky but not an issue for me
