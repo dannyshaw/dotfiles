@@ -71,6 +71,9 @@ I went through at least 4 kernels... all with little glitches here or there. 4.8
 
 * Trackpad sporadically not working
  * run through these instructions: http://www.dell.com/support/article/au/en/audhs1/SLN304721
+ * this finally solved the trackpad issues:
+ 	https://medium.com/@patrickmmartin/dell-xps-13-9360-journey-to-linux-trackpad-fix-a2d9b551d291
+	
 
 
 ## Miscelaneous Tips
