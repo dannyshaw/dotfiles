@@ -5,7 +5,6 @@
 	],
 	"installed_packages":
 	[
-		"Anaconda",
 		"Babel",
 		"CSSTidy",
 		"Djaneiro",
@@ -14,6 +13,7 @@
 		"EditorConfig",
 		"ESLint-Formatter",
 		"Flow",
+		"FlowIDE",
 		"Git",
 		"GitGutter",
 		"Gitignored File Excluder",
@@ -33,6 +33,7 @@
 		"Sass",
 		"Search in Project",
 		"SideBarEnhancements",
+		"Sublime Bookmarks",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-contrib-eslint_d",
