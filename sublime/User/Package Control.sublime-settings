@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"Babel",
 		"CSSTidy",
 		"Djaneiro",
@@ -30,6 +31,8 @@
 		"Pug",
 		"Python Improved",
 		"React and React Router Snippets",
+		"Restructured Text (RST) Snippets",
+		"RestructuredText Improved",
 		"Sass",
 		"Search in Project",
 		"SideBarEnhancements",

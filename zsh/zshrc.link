@@ -64,3 +64,4 @@ source $HOME/.antigen.zsh
 source $HOME/.antigen_bundles.zsh
 source $HOME/.dannyrc
 
+source virtualenvwrapper.sh
