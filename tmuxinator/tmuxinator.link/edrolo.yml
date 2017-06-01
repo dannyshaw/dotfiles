@@ -52,6 +52,4 @@ windows:
           - htop
         - term:
           - ed
-        - neofetch:
-          - watch -n10 neofetch
 
