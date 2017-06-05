@@ -1,11 +1,40 @@
 # Simple gitconfig
-#
 [user]
 	name = Danny Shaw
 	email = code@dannyshaw.io
+[diff]
+	    tool = meld
+[difftool]
+	    prompt = false
+[difftool "meld"]
+	    cmd = meld "$LOCAL" "$REMOTE"
+
 [credential]
 	helper = cache
 [push]
 	default = simple
 [core]
 	excludesfile = ~/.gitignore
+	pager = diff-so-fancy | less --tabs=4 -RFX
+[alias]
+	co = checkout
+	ci = commit
+	br = branch
+	st = status
+	# show last 10 recently modified branches
+	recent = for-each-ref --count=10 --sort=-committerdate refs/heads/ --format=\"%(refname:short)\"
+ 	# remove file after adding 'git unstage file.js'
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	today = log --since=00:00:00 --all --no-merges --decorate --oneline --author=code@dannyshaw.io
+	upstream = log --pretty=short --no-merges HEAD..origin
+	local = log --pretty=short --no-merges origin..HEAD
+	graph = log --graph --all --decorate --stat --date=iso
+	
+	
+
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
