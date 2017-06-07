@@ -15,23 +15,37 @@
 	default = simple
 [core]
 	excludesfile = ~/.gitignore
+
+	#fancy diffs. `npm install -g diff-so-fancy`
 	pager = diff-so-fancy | less --tabs=4 -RFX
+
 [alias]
 	co = checkout
 	ci = commit
 	br = branch
 	st = status
+
 	# show last 10 recently modified branches
 	recent = for-each-ref --count=10 --sort=-committerdate refs/heads/ --format=\"%(refname:short)\"
+
  	# remove file after adding 'git unstage file.js'
 	unstage = reset HEAD --
+
+	# my last commit
 	last = log -1 HEAD
+
+	# what have i done today?
 	today = log --since=00:00:00 --all --no-merges --decorate --oneline --author=code@dannyshaw.io
+
+	# what would this git pull bring down for this branch?
 	upstream = log --pretty=short --no-merges HEAD..origin
+
+	# what would this git push push up for this branch?
 	local = log --pretty=short --no-merges origin..HEAD
+
+	# fancy graph of all the recent commits and merges
 	graph = log --graph --all --decorate --stat --date=iso
-	
-	
+
 
 [color "diff-highlight"]
 	oldNormal = red bold
