@@ -1,3 +1,7 @@
 {
-    "python_interpreter": "$VIRTUAL_ENV/bin/python"
+    "python_interpreter": "$VIRTUAL_ENV/bin/python",
+    "extra_paths":
+    [
+        "/home/danny/edrolo/edrolo"
+    ]
 }
