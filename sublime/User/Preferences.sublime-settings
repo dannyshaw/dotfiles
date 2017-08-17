@@ -6,9 +6,9 @@
 	"caret_extra_top": 5,
 	"caret_extra_width": 3,
 	"caret_style": "phase",
-	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
 	"copy_with_empty_selection": false,
-	"dpi_scale": 1.8,
+	"dpi_scale": 1.6,
 	"draw_minimap_border": true,
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
@@ -16,14 +16,18 @@
 	[
 		"node_modules",
 		"webpack-dist",
-		"scratch"
+		"scratch",
+		".git",
+		".idea",
+		"docs/build"
 	],
-	"font_face": "Inconsolata",
+	"font_face": "Operator Mono",
 	"font_options":
 	[
-		"gray_antialias"
+		"gray_antialias",
+		"subpixel_antialias"
 	],
-	"font_size": 14,
+	"font_size": 9,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -40,7 +44,7 @@
 	"line_padding_bottom": 3,
 	"line_padding_top": 3,
 	"material_theme_accent_lime": true,
-	"material_theme_bright_scrollbars": true,
+	"material_theme_bright_scrollbars": false,
 	"material_theme_bullet_tree_indicator": true,
 	"material_theme_compact_sidebar": true,
 	"material_theme_contrast_mode": true,
@@ -50,6 +54,7 @@
 	"material_theme_tabs_autowidth": true,
 	"material_theme_tabs_separator": true,
 	"material_theme_tree_headings": true,
+	"overlay_scroll_bars": "enabled",
 	"rulers":
 	[
 		100
@@ -57,6 +62,7 @@
 	"shift_tab_unindent": true,
 	"show_line_endings": true,
 	"show_tab_close_buttons": false,
-	"theme": "Material-Theme.sublime-theme",
-	"trim_trailing_white_space_on_save": true
+	"theme": "Spacegray Eighties.sublime-theme",
+	"trim_trailing_white_space_on_save": true,
+	"file_exclude_patterns": ["*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj","*.o", "*.a", "*.lib", "*.so", "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", ".DS_Store", "*.class", "*.psd", "*.db", "*.sublime-workspace", "*.css.map", "*.js.map"]
 }

@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"A File Icon",
+		"Advanced CSV",
 		"Anaconda",
 		"Babel",
 		"CSSTidy",
@@ -13,6 +14,7 @@
 		"Django",
 		"Django Manage Commands",
 		"EditorConfig",
+		"Elm Language Support",
 		"ESLint-Formatter",
 		"Flow",
 		"FlowIDE",
@@ -27,7 +29,9 @@
 		"Material Theme",
 		"Material Theme - Appbar",
 		"MultiEditUtils",
+		"Oceanic Next Color Scheme",
 		"Package Control",
+		"PackageResourceViewer",
 		"Pretty JSON",
 		"Pug",
 		"Python Improved",
@@ -44,7 +48,9 @@
 		"SublimeLinter-contrib-eslint_d",
 		"SublimeLinter-contrib-pug-lint",
 		"SublimeLinter-flake8",
+		"Theme - Spacegray",
 		"TodoReview",
+		"VintageLines",
 		"Vintageous"
 	]
 }
