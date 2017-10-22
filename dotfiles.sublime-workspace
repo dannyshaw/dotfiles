@@ -3,538 +3,30 @@
 	{
 		"selected_items":
 		[
-			[
-				"err",
-				"errorMsg"
-			],
-			[
-				"is",
-				"isValid"
-			],
-			[
-				"valda",
-				"validationState"
-			],
-			[
-				"note",
-				"noteClasses"
-			],
-			[
-				"link",
-				"linkTitle"
-			],
-			[
-				"clas",
-				"classNotes"
-			],
-			[
-				"notes",
-				"notesPath"
-			],
-			[
-				"teach",
-				"teacher_notes_for_students"
-			],
-			[
-				"new",
-				"newState"
-			],
-			[
-				"PR",
-				"PRIVILEGED_CONTENT"
-			],
-			[
-				"user",
-				"userProfileId"
-			],
-			[
-				"all",
-				"allClasses"
-			],
-			[
-				"string",
-				"stringify"
-			],
-			[
-				"delete",
-				"deletePromptOpen"
-			],
-			[
-				"menu",
-				"menuOpen"
-			],
-			[
-				"TeacherNote",
-				"TeacherNoteCard"
-			],
-			[
-				"render",
-				"renderLink"
-			],
-			[
-				"onc",
-				"onClick"
-			],
-			[
-				"Teach",
-				"TeacherNoteEditor"
-			],
-			[
-				"l",
-				"linkUrl"
-			],
-			[
-				"enrol",
-				"enrolmentIds"
-			],
-			[
-				"class",
-				"classId"
-			],
-			[
-				"priv",
-				"privilegedContent"
-			],
-			[
-				"privl",
-				"privilegedContent"
-			],
-			[
-				"exam",
-				"EXAM"
-			],
-			[
-				"topic",
-				"topicSlug"
-			],
-			[
-				"curren",
-				"currentTopicSlug"
-			],
-			[
-				"curr",
-				"currentExamId"
-			],
-			[
-				"top",
-				"topicSlug"
-			],
-			[
-				"get",
-				"getCurrentExam"
-			],
-			[
-				"curre",
-				"currentExamId"
-			],
-			[
-				"selected",
-				"selectedTopic"
-			],
-			[
-				"slec",
-				"selectedTopic"
-			],
-			[
-				"current",
-				"currentTopic"
-			],
-			[
-				"course",
-				"courseContentSelectors"
-			],
-			[
-				"mul",
-				"multiLessonExams"
-			],
-			[
-				"getTopic",
-				"getTopicExams"
-			],
-			[
-				"create",
-				"createCourseContentSelectors"
-			],
-			[
-				"les",
-				"lessonQuestionExams"
-			],
-			[
-				"createLes",
-				"createLessonContentSelectors"
-			],
-			[
-				"classSelec",
-				"classSelectorsFromRoute"
-			],
-			[
-				"creat",
-				"createUserCourseSelectors"
-			],
-			[
-				"cours",
-				"courseProgress"
-			],
-			[
-				"getAll",
-				"getAllStudentLessonProgress"
-			],
-			[
-				"getAl",
-				"getAllClassLessonProgress"
-			],
-			[
-				"pr",
-				"privilegedContent"
-			],
-			[
-				"pri",
-				"privilegedContentByCourseId"
-			],
-			[
-				"getCLa",
-				"getClassPrivilegedContent"
-			],
-			[
-				"getClassEnrol",
-				"getClassEnrolmentProfiles"
-			],
-			[
-				"getCla",
-				"getClassDetail"
-			],
-			[
-				"dif",
-				"difficultyIndicator"
-			],
-			[
-				"grokked",
-				"grokkedOverride"
-			],
-			[
-				"not",
-				"notGrokOverride"
-			],
-			[
-				"grok",
-				"grokOverride"
-			],
-			[
-				"light",
-				"lightGreen"
-			],
-			[
-				"Exa",
-				"ExamGridResultSquare"
-			],
-			[
-				"but",
-				"buttonStyles"
-			],
-			[
-				"show",
-				"showVCAA"
-			],
-			[
-				"Exam",
-				"ExamGrid"
-			],
-			[
-				"sitt",
-				"sittingData"
-			],
-			[
-				"tot",
-				"totalMarksObtained"
-			],
-			[
-				"sub",
-				"submittedSittings"
-			],
-			[
-				"resp",
-				"responseCount"
-			],
-			[
-				"margin",
-				"margin-top"
-			],
-			[
-				"bread",
-				"breadcrumbsPortal"
-			],
-			[
-				"map",
-				"mapDispatchToProps"
-			],
-			[
-				"lesson",
-				"lessonId"
-			],
-			[
-				"nav",
-				"navigateToClassLessonProgress"
-			],
-			[
-				"state",
-				"stateProps"
-			],
-			[
-				"goup",
-				"groupedChunks"
-			],
-			[
-				"D",
-				"DjangoBreadcrumbs"
-			],
-			[
-				"header",
-				"headerCell"
-			],
-			[
-				"CSS",
-				"CSSTransitionGroup"
-			],
-			[
-				"question",
-				"questionAverage"
-			],
-			[
-				"round",
-				"roundedAverage"
-			],
-			[
-				"tin",
-				"tinyTextOnSmallScreen"
-			],
-			[
-				"Les",
-				"LessonQuestionsResultsGrid"
-			],
-			[
-				"sitting",
-				"sittingId"
-			],
-			[
-				"ensr",
-				"ensureSittingLoaded"
-			],
-			[
-				"divSt",
-				"divStyles"
-			],
-			[
-				"quest",
-				"questionResults"
-			],
-			[
-				"quiz",
-				"quizeResults"
-			],
-			[
-				"qu",
-				"questionMarks"
-			],
-			[
-				"chunk",
-				"chunkQuestion"
-			],
-			[
-				"span",
-				"spanClass"
-			],
-			[
-				"sort",
-				"sortDescending"
-			],
-			[
-				"ques",
-				"questionClassTally"
-			],
-			[
-				"makr",
-				"marks_obtained"
-			],
-			[
-				"sor",
-				"sortColumn"
-			],
-			[
-				"value",
-				"valueMapper"
-			],
-			[
-				"self",
-				"selfRating"
-			],
-			[
-				"Stude",
-				"StudentClassLessonProgress"
-			],
-			[
-				"student",
-				"studentPogressSummary"
-			],
-			[
-				"marks",
-				"marks_available"
-			],
-			[
-				"mark",
-				"markSpan"
-			],
-			[
-				"que",
-				"hasQuestion"
-			],
-			[
-				"chunkQ",
-				"chunkQuizResults"
-			],
-			[
-				"DOM",
-				"DomComponent"
-			],
-			[
-				"Progres",
-				"ProgressBar"
-			],
-			[
-				"pro",
-				"ProgressBarHOC"
-			],
-			[
-				"PRO",
-				"ProgressBarHOC"
-			],
-			[
-				"profile",
-				"profileRows"
-			],
-			[
-				"Loadin",
-				"LoadingIndicator"
-			],
-			[
-				"progress",
-				"progressSelectors"
-			],
-			[
-				"has",
-				"hasTeacherAccess"
-			],
-			[
-				"getCourse",
-				"getCourseId"
-			],
-			[
-				"makeget",
-				"makeGetClassAveragesByLesson"
-			],
-			[
-				"getCLas",
-				"getClassCourseProgress"
-			],
-			[
-				"getCLass",
-				"getClassStudentLessonProgressByProfile"
-			],
-			[
-				"courseC",
-				"courseClassSelectors"
-			],
-			[
-				"makeCour",
-				"makeCourseClassSelectors"
-			],
-			[
-				"make",
-				"makeStudyplannerSelectors"
-			],
-			[
-				"content",
-				"contentSelectors"
-			],
-			[
-				"progres",
-				"progressSelectors"
-			],
-			[
-				"routeSelect",
-				"routeSelectors"
-			],
-			[
-				"red",
-				"reducers"
-			],
-			[
-				"testLes",
-				"testLessonId"
-			],
-			[
-				"test",
-				"testClassId"
-			],
-			[
-				"enti",
-				"entityKey"
-			],
-			[
-				"testLess",
-				"testLessonProgressKey"
-			],
-			[
-				"lessonprogre",
-				"lessonProgressKey"
-			],
-			[
-				"qui",
-				"quizResults"
-			],
-			[
-				"reducer",
-				"reducerKeys"
-			],
-			[
-				"CLAS",
-				"CLASS_LESSON_AVERAGE"
-			],
-			[
-				"studen",
-				"studentLessonProgress"
-			],
-			[
-				"CL",
-				"CLASS_LESSON_PROGRESS"
-			],
-			[
-				"school",
-				"school_class_id"
-			],
-			[
-				"allS",
-				"allStudentLessonProgress"
-			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": ".kodyrc",
+			"contents": "\n/**\n  * install google signing key for chrome\n  * @license MIT\n  * @author dannyshaw\n*/\nconst options = {\n    name: 'chrome google key',\n    description: 'install google signing key for chrome',\n    exec: function(resolve, reject, shell, log, config) {\n      shell.exec(`wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -`);\n      shell.exec(`sudo sh -c 'echo \"deb http://dl.google.com/linux/chrome/deb/ stable main\" >> /etc/apt/sources.list.d/google.list'`);\n      log.success('Google Chrome Signing Key Installed');\n      resolve();\n    }\n  };\n\nexports.options = options;\n",
+			"file": "kody.tasks/googleKey.js",
+			"file_size": 612,
+			"file_write_time": 131526610459657874,
 			"settings":
 			{
-				"buffer_size": 1179,
-				"encoding": "UTF-8",
+				"buffer_size": 612,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "shell/dannyrc.link",
+			"contents": "Package Control Messages\n========================\n\nSublimeLinter-flake8\n--------------------\n\n  SublimeLinter-flake8\n  -------------------------------\n  This linter plugin for SublimeLinter provides an interface to flake8.\n  \n  ** IMPORTANT! **\n  \n  Before this plugin will activate, you *must*\n  follow the installation instructions here:\n  \n  https://github.com/SublimeLinter/SublimeLinter-flake8\n\n\nElm Language Support\n--------------------\n\n  ![Elm Language Support logo](images/logo.png)\n  # The Sublime Elm Language Package\n  \n  ## Installation\n  \n  1. Install [Package Control][]\n  2. Run `Package Control: Install Package` in the Command Palette (<kbd>Super+Shift+P</kbd>)\n  3. Install [Elm][] or use [NPM][] (`npm i -g elm`)\n  \n  ## Features\n  \n  - Compatible with [Sublime Text 2] and [Sublime Text 3]\n  - Syntax highlighting\n  - Snippets for common Elm syntax (function, `case` … `of`, `let` … `in`, etc.)\n  \n  | Tab Trigger    | Description                                      |\n  |----------------|--------------------------------------------------|\n  | cof            | ``case … of``                                    |\n  | cofm           | ``case … of (Maybe)``                            |\n  | cofr           | ``case … of (Result)``                           |\n  | fn             | ``Function (a -> b)``                            |\n  | fn2            | ``Function (a -> b -> c)``                       |\n  | fn3            | ``Function (a -> b -> c -> d)``                  |\n  | fn4            | ``Function (a -> b -> c -> d -> e)``             |\n  | imp            | ``import``                                       |\n  | impas          | ``import … as``                                  |\n  | let            | ``let … in …``                                   |\n  | mod            | ``module``                                       |\n  | type           | ``type``                                         |\n  | typea          | ``type alias (Record)``                          |\n  \n  - Autocompletions plus type signature and documentation display for all functions inside packages in your `elm-package.json` file (requires [elm-oracle](https://www.npmjs.com/package/elm-oracle), which you can install with `npm install -g elm-oracle`)\n      1. Bring up the type panel with `alt+up` or through the right-click context menu\n      2. Close the type panel with `alt+down`\n      3. If you don't like these keybindings, rebind them in your User packages directory\n  ![autocompletions screenshot](images/completions.png)![type signature screenshot](images/elm_types.png)![type panel screenshot](images/type_panel.png)\n  - Four standard build commands (<kbd>Super+[Shift]+B</kbd> or <kbd>Super+[Shift]+F7</kbd>)\n      1. `Build` just checks errors. Kudos to this [tweet][]!\n      2. `Run` additionally outputs your compiled program to an inferred path.\n      3. The same as the above two, but ignoring warnings\n      4. Output path is configurable in `elm-package.json` or `Elm Build System: …` in the Command Palette. Elm build system only requires a valid config in any ancestor directory of the active file. ![compile messages screenshot](images/elm_project.jpg)\n  - Compile messages\n      1. Navigate errors and warnings (<kbd>Super+[Shift]+F4</kbd>).\n      2. Formatted for build output panel.\n      3. Compile message highlighting, embedded code highlighting, and color scheme for output panel. ![compile messages screenshot](images/elm_make.jpg)\n  - Integration with popular plugins (installed separately)\n      1. [SublimeREPL][] — Run `elm-repl` in an editor tab with syntax highlighting. ![SublimeREPL screenshot](images/elm_repl.jpg)\n      2. [Highlight Build Errors][] — Does what it says on the box … usually.\n  - Integration with [elm format](https://github.com/avh4/elm-format)\n      1. Make sure `elm-format` is in your PATH\n      2. Run the \"Elm Language Support: Run elm-format\" command from the Command Palette to run elm-format on the current file\n      3. To enable automatic formatting on every save, Go to Preferences -> Package Settings -> Elm Language Support -> User and add this setting:\n          `\"elm_format_on_save\": true`\n      4. If there are certain Elm source files you don't want to automatically run `elm-format` on, for example elm-css based files, you can set a regex filter which will search the full filename (including the path to the file). If the regex matches, then it will not automatically run `elm-format` on the file when you save. For example, the following filter would prevent automatic `elm-format` on a file named `elm-css/src/Css/TopBar.elm`:\n          `\"elm_format_filename_filter\": \"elm-css/src/Css/.*\\\\.elm$\"`![elm-format screenshot](images/elm_format.png)\n  \n  ## Troubleshooting\n  \n  - I have `elm-oracle` installed, but completions, type signature display, and the type panel don't work\n      1. Make sure `elm-oracle` is on your PATH, or\n      2. Add the absolute path of the directory containing `elm-oracle` to the `elm_paths` setting in your Elm Language Support User settings\n  - I have `elm-format` installed, but it's not working\n      1. Make sure `elm-format` is on your PATH, or\n      2. If using an alternate name for the binary (`elm-format-0.17` or `elm-format-0.18`) add it to the `elm_format_binary` setting in your Elm Language Support User settings; an example might be `\"elm_format_binary\": \"elm-format-0.18\",`, or\n      3. Add the absolute path of the directory containing `elm-format` to the `elm_paths` setting in your Elm Language Support User settings. Note that you can combine paths with the above, so an example might be `\"elm_paths\": \"/users/alex/elm-format:/users/alex/elm-oracle\"`\n  - Elm format automatically runs every time I save a file, but there are some files I don't want it to run on\n      1. If there are certain Elm source files you don't want to automatically run `elm-format` on, for example elm-css based files, you can set a regex filter which will search the full filename (including the path to the file). If the regex matches, then it will not automatically run `elm-format` on the file when you save. For example, the following filter would prevent automatic `elm-format` on a file named `elm-css/src/Css/TopBar.elm`:\n          `\"elm_format_filename_filter\": \"elm-css/src/Css/.*\\\\.elm$\"`\n  \n  ## Learning\n  \n  Don't know Elm? Great first step!\n  \n  - [Elm Website][]\n  - [elm-discuss group][]\n  - [Pragmatic Studio: Building Web Apps with Elm][pragmatic]\n  - [Elm Town Podcast][]\n  \n  [elm-discuss group]: https://groups.google.com/d/forum/elm-discuss\n  [Elm]: http://elm-lang.org/install\n  [Elm Town Podcast]: https://elmtown.github.io\n  [Elm Website]: http://elm-lang.org\n  [Highlight Build Errors]: https://packagecontrol.io/packages/Highlight%20Build%20Errors\n  [NPM]: https://nodejs.org\n  [Package Control]: https://packagecontrol.io/installation\n  [pragmatic]: https://pragmaticstudio.com/elm\n  [SublimeREPL]: https://packagecontrol.io/packages/SublimeREPL\n  [Sublime Text 2]: http://www.sublimetext.com/2\n  [Sublime Text 3]: http://www.sublimetext.com/3\n  [tweet]: https://twitter.com/rtfeldman/status/624026168652660740\n\n\nSublime Bookmarks\n-----------------\n\n  Thanks for installing *SublimeBookmarks*. I hope this plugin helps you :)\n  \n  To Use\n  ======\n  \n  Visit the github page for a quick intro. [https://github.com/bollu/sublimeBookmark]\n  \n  Press Ctrl+P (or) Cmd+P depending on your OS.\n  Use _Add Bookmark_ to add a bookmark.\n  Use _Goto Bookmark_ to goto a bookmark\n  Use _Remove Bookmark_ to remove a bookmark\n  Use _Remove All Bookmarks_ to clear the list of bookmarks\n  \n  There are three modes to the plugin:\n  1) All bookmarks will be shown all the time - bookmarks will not be filtered based on the current project. For this mode, use the __Show All Bookmarks__ option.\n  \n  2)Only bookmarks of the current project will be shown - bookmarks belonging to other projects are *NOT* shown in this mode. Use the Use the __Show Bookmarks In Current Project__ for this mode.\n  \n  3) Only bookmarks in the current file is shown - irrespective of project. Use the __Show Bookmarks In Current File__ option for this mode.\n  \n  I hope you enjoy using the plugin as much as I enjoyed writing it :)\n  \n  Thanks again!\n  ~(bollu)[https://github.com/bollu/]\n\n\nGitGutter\n---------\n\n  Thanks for installing Git Gutter!!!\n  \n  👣 Follow me: @jisaacks\n  \n  \n  💛 Git Gutter? Want to support development?\n  \n  I've teamed up with Wes Bos to offer the following discounts:\n  \n  +------------------------------------------------+\n  |                                                |\n  |   Use the coupon code GITGUTTER for $10 off    |\n  |                                                |\n  +------------------------------------------------+\n  \n  🏅 ⭐ ES6 ⭐\n  \n  👉 ES6.io/friend/GITGUTTER\n  \n  🏅 ⭐ Sublime Text Book ⭐\n  \n  👉 SublimeTextBook.com/friend/GITGUTTER\n  \n  🏅 ⭐ React For Beginners ⭐\n  \n  👉 ReactForBeginners.com/friend/GITGUTTER\n  \n  \n  Join 15,000 other developers already learning with Wes Bos.\n  \n  These are fantastic resources - 100% money back guarantee! 🌟\n\n\nAdvanced CSV\n------------\n\n  CSV by Wade Brainerd (wadetb@gmail.com / www.wadeb.com)\n  Forked from CSV by Eric Martel (emartel@gmail.com / www.ericmartel.com)\n  \n  Thank you for installing Advanced CSV. All commands are available through keyboard shortcuts, menus, context menus and the command palette.\n  \n  Please direct any feedback to wadetb@gmail.com or through GitHub at https://github.com/wadetb/Sublime-Text-Advanced-CSV.\n\n\nVintageous\n----------\n\n  //////////////////////////////////////////////////////////////////////////////\n  //////////////////////////////////////////////////////////////////////////////\n  //////////////////////////////////////////////////////////////////////////////\n  //////////////////////////////////////////////////////////////////////////////\n  \n  __     ___       _\n  \\ \\   / (_)_ __ | |_ __ _  __ _  ___  ___  _   _ ___\n   \\ \\ / /| | '_ \\| __/ _` |/ _` |/ _ \\/ _ \\| | | / __|\n    \\ V / | | | | | || (_| | (_| |  __/ (_) | |_| \\__ \\\n     \\_/  |_|_| |_|\\__\\__,_|\\__, |\\___|\\___/ \\__,_|___/\n                            |___/\n  \n  //////////////////////////////////////////////////////////////////////////////\n  \n  \n  \n  Thank you for installing Vintageous! Hope you find it useful :)\n  \n  If you use it often to get actual work done, please consider donating:\n  \n  \tPayPal: http://www.pledgie.com/campaigns/19122\n  \tGittip: https://www.gittip.com/guillermooo/\n  \n  Cheers,\n  Guillermo\n\n\nPython Improved\n---------------\n\n  Python Improved\n  ===============\n  \n  Thank you for installing Python Improved, the best Python language definition\n  for Sublime Text! To make this your default Python, open a `.py` Python file.\n  Select `View -> Syntax -> Open all with current extension as... -> PythonImproved`\n  and you should be all set.\n  \n  To take full advantage of the extra scopes included in Python Improved, check\n  out the Neon Color Scheme at https://sublime.wbond.net/packages/Neon%20Color%20Scheme\n  If you'd rather modify your own color scheme, a list of scopes is included in\n  the README.md in the `Packages/Python Improved` directory. You can also find\n  them on GitHub at https://github.com/MattDMo/PythonImproved\n  \n  If you have any questions, comments, concerns, bugs, or patches, please open an\n  issue or pull request on GitHub and I'll do what I can to help out. You can also\n  email me directly at <mattdmo@pigimal.com> or find me on Twitter @MattDMo. This\n  is definitely a work in progress, so if you'd like to contribute I'd love to\n  hear from you!\n\n\nDjango Manage Commands\n----------------------\n\n       ____  _                           __  __                                           \n      |  _ \\(_) __ _ _ __   __ _  ___   |  \\/  | __ _ _ __   __ _  __ _  ___              \n      | | | | |/ _` | '_ \\ / _` |/ _ \\  | |\\/| |/ _` | '_ \\ / _` |/ _` |/ _ \\             \n      | |_| | | (_| | | | | (_| | (_) | | |  | | (_| | | | | (_| | (_| |  __/             \n      |____// |\\__,_|_| |_|\\__, |\\___/  |_|  |_|\\__,_|_| |_|\\__,_|\\__, |\\___|             \n          |__/             |___/                                  |___/                   \n        ____                                          _                                   \n       / ___|___  _ __ ___  _ __ ___   __ _ _ __   __| |___                               \n      | |   / _ \\| '_ ` _ \\| '_ ` _ \\ / _` | '_ \\ / _` / __|                              \n      | |__| (_) | | | | | | | | | | | (_| | | | | (_| \\__ \\                              \n       \\____\\___/|_| |_| |_|_| |_| |_|\\__,_|_| |_|\\__,_|___/                              \n                                                                                          \n  #########################################################################################\n  \n  \n  - Ctrl + Shift + A: opens a menu with all Django commands.\n  \n  - Remember to set the path to the directory where your virtual environments are installed in \"python_virtualenv_paths\" for the plugin to work correclty, as many directories as you need can be added.\n  \n  - Enjoy and please let us know if you run into any issue.\n  \n     :smile:\n\n\nAnaconda\n--------\n\n  \n  \n                                                            |\n                _` |  __ \\    _` |   __|   _ \\   __ \\    _` |   _` |\n               (   |  |   |  (   |  (     (   |  |   |  (   |  (   |\n              \\__,_| _|  _| \\__,_| \\___| \\___/  _|  _| \\__,_| \\__,_|\n  \n                                       The Sublime Text 3 Python IDE\n  \n  \n  Welcome to anaconda, the Sublime Text 3 Python IDE. We hope you enjoy it :)\n  \n  Anaconda works fine out of the box but you can configure it to totally adapt\n  it to your needs or style.\n  \n  For a complete guide of use and configuration take a look at:\n  \n  \thttp://damnwidget.github.io/anaconda/\n  \n  Please, consider donating to maintain this project alive:\n  \n  \thttps://pledgie.com/campaigns/32230\n\n\nA File Icon\n-----------\n\n  ```\n  \n      $$$$$$\\        $$$$$$$$\\ $$\\ $$\\                 $$$$$$\\                              \n     $$  __$$\\       $$  _____|\\__|$$ |                \\_$$  _|                             \n     $$ /  $$ |      $$ |      $$\\ $$ | $$$$$$\\          $$ |  $$$$$$$\\  $$$$$$\\  $$$$$$$\\  \n     $$$$$$$$ |      $$$$$\\    $$ |$$ |$$  __$$\\         $$ | $$  _____|$$  __$$\\ $$  __$$\\ \n     $$  __$$ |      $$  __|   $$ |$$ |$$$$$$$$ |        $$ | $$ /      $$ /  $$ |$$ |  $$ |\n     $$ |  $$ |      $$ |      $$ |$$ |$$   ____|        $$ | $$ |      $$ |  $$ |$$ |  $$ |\n     $$ |  $$ |      $$ |      $$ |$$ |\\$$$$$$$\\       $$$$$$\\\\$$$$$$$\\ \\$$$$$$  |$$ |  $$ |\n     \\__|  \\__|      \\__|      \\__|\\__| \\_______|      \\______|\\_______| \\______/ \\__|  \\__|\n  \n  ```\n  \n  This package adds file specific icons to Sublime Text for improved visual grepping. \n  It's heavily inspired by Atom File Icons.\n  \n  ***\n  \n  1. Please restart Sublime Text for the applied icons to take effect.\n  2. The icons for packages provided by the community require to be installed. \n     E.g. if you want to see SCSS icon you should install one of the SCSS syntax packages.\n  \n  ***\n  \n  I've put a lot of time and effort into making `A File Icon` awesome. If you love \n  it, you can [buy me a coffee](https://www.patreon.com/ihodev) ☕.\n\n\nSublimeLinter-contrib-eslint_d\n------------------------------\n\n  SublimeLinter-contrib-eslint_d\n  -------------------------------\n  This linter plugin for SublimeLinter provides an interface to eslint_d.\n  \n  ** IMPORTANT! **\n  \n  Before this plugin will activate, you *must*\n  follow the installation instructions here:\n  \n  https://github.com/roadhump/SublimeLinter-contrib-eslint_d\n\n\nSearch in Project\n-----------------\n\n  Thanks for installing Search in Project!\n  ----------------------------------------\n  \n  Please make sure you open the configuration file ( `Preferences - Search in Project Settings - User` in the Command Palette) and configure the engine you want to use:\n  \n      {\n        \"search_in_project_engine\": \"<your_search_engine>\"\n      }\n  \n  where <your_search_engine> is one of:\n  \n    the_platinum_searcher, the_silver_searcher, ack, grep, git_grep, grep, or find_str\n  \n  depending on your preference.\n  \n  * * *\n  \n  You can find detailed instructions in the readme at\n  \n  https://github.com/leonid-shevtsov/SearchInProject_SublimeText#search-in-project\n\n\nMaterial Theme - Appbar\n-----------------------\n\n  ___  ___      _            _       _       _____ _\n  |  \\/  |     | |          (_)     | |     |_   _| |\n  | .  . | __ _| |_ ___ _ __ _  __ _| |       | | | |__   ___ _ __ ___   ___\n  | |\\/| |/ _` | __/ _ \\ '__| |/ _` | |       | | | '_ \\ / _ \\ '_ ` _ \\ / _ \\\n  | |  | | (_| | ||  __/ |  | | (_| | |       | | | | | |  __/ | | | | |  __/\n  \\_|  |_/\\__,_|\\__\\___|_|  |_|\\__,_|_|       \\_/ |_| |_|\\___|_| |_| |_|\\___|\n  \n  Material Theme - White Panels Addon\n  https://github.com/equinusocio/material-theme-appbar\n  \n  ******************************************************************************\n  \n  With this addon you can add a tinted app bar to your Material Theme installation.\n  This addon auto fits with material theme accent colors!\n  \n  NOTE: If you've intalled 1.0.0 through Package Control please unistall and reinstall\n  \n  ## Addon options\n  \n  ```json\n  \"material_theme_tree_headings\": true , // Show siderbar headings\n  ```\n\n\nFlowType\n--------\n\n  \n          ______ _       _    _ _\n          |  ___| |     | |  | | |\n          | |_  | | ___ | |  | | |_ _   _ _ __   ___\n          |  _| | |/ _ \\| |/\\| | __| | | | '_ \\ / _ \\\n          | |   | | (_) \\  /\\  / |_| |_| | |_) |  __/\n          \\_|   |_|\\___/ \\/  \\/ \\__|\\__, | .__/ \\___|\n                                     __/ | |\n                                    |___/|_|\n  \n  \n  Welcome fellow Flow user,\n  \n  This plugin was made due to the fact that the few existing\n  plugins weren't maintained much, and as an everyday user I needed\n  something that simply works.\n  \n  So let's keep this plugin up to date together!\n  \n  For a complete guide of the plugin's usage and configuration:\n  \n          https://github.com/Pegase745/sublime-flowtype\n\n\nTheme - Spacegray\n-----------------\n\n  Thanks for installing Spacegray!\n  \n  \n  How to activate\n  ===============\n  \n  Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Sublime Text -> Preferences -> Settings - User` (⌘+, on Mac).\n  \n  Spacegray comes in different flavors, based on Base16 color schemes. You can choose whichever flavor you like, but don't forget to change *both* color scheme and UI theme so they match.\n  \n  *Note: Don't forget to restart Sublime Text after activating the theme.*\n  \n  \n  Spacegray\n  ---------\n  \n  Default flavor based on Base16 Ocean Dark color scheme.\n  \n  *Example settings*\n  \n      {\n        \"theme\": \"Spacegray.sublime-theme\",\n        \"color_scheme\": \"Packages/Theme - Spacegray/base16-ocean.dark.tmTheme\"\n      }\n  \n  \n  Spacegray Light\n  ---------------\n  \n  Light variation based on Base16 Ocean Light color scheme.\n  \n  *Example settings*\n  \n      {\n        \"theme\": \"Spacegray Light.sublime-theme\",\n        \"color_scheme\": \"Packages/Theme - Spacegray/base16-ocean.light.tmTheme\"\n      }\n  \n  \n  Spacegray Eighties\n  ------------------\n  \n  A variation based on Base16 Eighties Dark color scheme.\n  \n  *Example settings*\n  \n      {\n        \"theme\": \"Spacegray Eighties.sublime-theme\",\n        \"color_scheme\": \"Packages/Theme - Spacegray/base16-eighties.dark.tmTheme\"\n      }\n  \n  \n  *Note: Don't forget to restart Sublime Text after activating the theme.*\n\n\nSublimeLinter-contrib-pug-lint\n------------------------------\n\n  SublimeLinter-contrib-pug-lint\n  -------------------------------\n  This linter plugin for SublimeLinter provides an interface to pug-lint.\n  \n  ** IMPORTANT! **\n  \n  Before this plugin will activate, you *must*\n  follow the installation instructions here:\n  \n  https://github.com/benedfit/SublimeLinter-contrib-pug-lint\n\n\nMaterial Theme\n--------------\n\n  ## Material Theme for Sublime Text 3\n  \n  For more information on the Material Theme: https://github.com/equinusocio/material-theme\n  \n  **********************************************************************************************\n  \n  # Activate the theme\n  \n  You can active this theme from:\n  - Command palette `Tools > Command Palette` (or <kbd>cmd/ctrl</kbd>+ <kbd>↑</kbd>+<kbd>p</\n  kbd>) by typing `Material Theme: Activate theme`. \n  - Context menu (Right click on the editor) and choose `Material Theme > Activate Material Theme`\n  - `Preferences > Packages Settings` and choose `Material Theme > Activate Material Theme`\n  \n  You can also manually activate this theme by adding these lines to your user settings (**Preferences > Settings - User**):\n  \n  ```json\n  \"color_scheme\": \"Packages/Material Theme/schemes/Material-Theme.tmTheme\",\n  \"theme\": \"Material-Theme.sublime-theme\",\n  ```\n  \n  ## File icons\n  To enable file type icons you have to install an additional package, search for `zz File Icons` on Package Control, after install restart Sublime Text.\n  \n  **********************************************************************************************\n  \n  ### Other available theme options:\n  \n  ```\n  \"material_theme_accent_acid-lime\"         : true , // Set acid-lime accent color\n  \"material_theme_accent_blue\"              : true , // Set blue accent color\n  \"material_theme_accent_brba\"              : true , // Set Breaking Bad green accent color\n  \"material_theme_accent_bright-teal\"       : true , // Set bright-teal accent color\n  \"material_theme_accent_cyan\"              : true , // Set cyan accent color\n  \"material_theme_accent_graphite\"          : true , // Set graphite accent color\n  \"material_theme_accent_indigo\"            : true , // Set indigo accent color\n  \"material_theme_accent_lime\"              : true , // Set lime green accent color\n  \"material_theme_accent_orange\"            : true , // Set orange accent color\n  \"material_theme_accent_pink\"              : true , // Set pink accent color\n  \"material_theme_accent_purple\"            : true , // Set purple accent color\n  \"material_theme_accent_red\"               : true , // Set pale red accent color\n  \"material_theme_accent_sky\"               : true , // Set bright-cyan accent color\n  \"material_theme_accent_tomato\"            : true , // Set tomato red accent color\n  \"material_theme_accent_yellow\"            : true , // Set yellow accent color\n  \"material_theme_bold_tab\"                 : true , // Make the tab labels bolder\n  \"material_theme_compact_panel\"            : true , // Set minimal padding for the search panel\n  \"material_theme_compact_sidebar\"          : true , // Set compact side bar\n  \"material_theme_contrast_mode\"            : true , // Enable sidebar and panels contrast mode\n  \"material_theme_disable_fileicons\"        : true , // Hide sidebar file type icons\n  \"material_theme_arrow_folders\"            : true , // Replace folder icons with arrows\n  \"material_theme_big_fileicons\"            : true , // Show bigger file type icons\n  \"material_theme_disable_folder_animation\" : true , // Disable folder animation\n  \"material_theme_disable_tree_indicator\"   : true , // Disable sidebar file indicator\n  \"material_theme_bullet_tree_indicator\"    : true , // Set a bullet as active tree indicator\n  \"material_theme_panel_separator\"          : true , // Show bottom panel separator\n  \"material_theme_small_statusbar\"          : true , // Set small status bar\n  \"material_theme_small_tab\"                : true , // Set small tabs\n  \"material_theme_bright_scrollbars\"        : true , // Bright scrollbars puck color\n  \"material_theme_accent_scrollbars\"        : true , // Enable accent color for scrollbars\n  \"material_theme_tabs_autowidth\"           : true , // Enable autowidth for tabs\n  \"material_theme_tabs_separator\"           : true , // Show tabs separator, this disables tab hover \n  \n  // If you use Material Theme - Appbar addon you can use additional settings:\n  \"material_theme_tree_headings\"            : true , // Show sidebar headings\n  ```\n  \n  **********************************************************************************************\n  \n  ### Recommended UI and font settings for a better experience:\n  \n  ```\n  {\n    \"overlay_scroll_bars\": \"enabled\",\n    \"line_padding_top\": 3,\n    \"line_padding_bottom\": 3,\n    \"always_show_minimap_viewport\": true,\n    \"bold_folder_labels\": true,\n    \"indent_guide_options\": [ \"draw_normal\", \"draw_active\" ],   // Highlight active indent\n    \"font_options\": [ \"gray_antialias\" ],                       // For retina Mac\n  }\n  ```\n\n\nSublimeLinter-contrib-eslint\n----------------------------\n\n  SublimeLinter-eslint\n  -------------------------------\n  This linter plugin for SublimeLinter provides an interface to ESLint.\n  \n  ** IMPORTANT! **\n  \n  Before this plugin will activate, you *must*\n  follow the installation instructions here:\n  \n  https://github.com/roadhump/SublimeLinter-eslint\n\n\nSublimeLinter\n-------------\n\n  \n    ____        _     _ _                _     _       _\n   / ___| _   _| |__ | (_)_ __ ___   ___| |   (_)_ __ | |_ ___ _ __\n   \\___ \\| | | | '_ \\| | | '_ ` _ \\ / _ \\ |   | | '_ \\| __/ _ \\ '__|\n    ___) | |_| | |_) | | | | | | | |  __/ |___| | | | | ||  __/ |\n   |____/ \\__,_|_.__/|_|_|_| |_| |_|\\___|_____|_|_| |_|\\__\\___|_|\n  \n  \n  Welcome to SublimeLinter, a linter framework for Sublime Text 3.\n  \n                   * * * IMPORTANT! * * *\n  \n          Linters *NOT* included with SublimeLinter 3,\n          they must be installed separately.\n  \n                  * * * READ THE DOCS! * * *\n  \n  Otherwise you will never know how to install linters, nor will\n  you know about all of the great new features in SublimeLinter 3.\n  \n  For complete documentation on how to install and use SublimeLinter,\n  please see:\n  \n  http://www.sublimelinter.com\n  \n  \n                   _   _      _       _\n                  | | | | ___| |_ __ | |\n                  | |_| |/ _ \\ | '_ \\| |\n                  |  _  |  __/ | |_) |_|\n                  |_| |_|\\___|_| .__/(_)\n                               |_|\n  \n  \n  Hundreds of hours have been spent writing and documenting SublimeLinter\n  to make it the best it can be — easy to use, easy to configure,\n  easy to update, easy to extend. If you use SublimeLinter and feel\n  it is making your coding life better and easier, please consider\n  making a donation to help fund development and support.\n  \n  To donate: https://github.com/SublimeLinter/SublimeLinter3#share-the-love\n  \n  Thank you!\n",
 			"settings":
 			{
-				"buffer_size": 803,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"buffer_size": 26589,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
 			}
 		}
 	],
@@ -545,175 +37,26 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 708.0,
-		"last_filter": "",
+		"height": 79.0,
+		"last_filter": "instal",
 		"selected_items":
 		[
 			[
-				"lint t",
-				"SublimeLinter: Lint This View"
-			],
-			[
-				"lint th",
-				"SublimeLinter: Lint This View"
-			],
-			[
-				"l",
-				"SublimeLinter: Lint This View"
-			],
-			[
-				"lin",
-				"SublimeLinter: Lint This View"
-			],
-			[
-				"lint",
-				"SublimeLinter: Toggle Linter"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
-				"lin tog",
-				"SublimeLinter: Toggle Linter"
-			],
-			[
-				"diff",
-				"Git: Diff Current File"
-			],
-			[
-				"hist",
-				"Git: Commit history"
-			],
-			[
-				"bla",
-				"Git: Blame"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
-				"disabl",
-				"Package Control: Disable Package"
-			],
-			[
 				"instal",
-				"Package Control: Install Package"
+				"Install Package Control"
 			],
 			[
-				"inst",
-				"Package Control: Install Package"
-			],
-			[
-				"bl",
-				"Git: Blame"
-			],
-			[
-				"git",
-				"Git: Blame"
-			],
-			[
-				"git hi",
-				"Git: Commit history"
-			],
-			[
-				"git bl",
-				"Git: Blame"
-			],
-			[
-				"git diff",
-				"Git: Diff Current File"
-			],
-			[
-				"gitbl",
-				"Git: Blame"
-			],
-			[
-				"pret",
-				"HTMLPrettify"
-			],
-			[
-				"prety",
-				"HTMLPrettify"
-			],
-			[
-				"prett",
-				"HTMLPrettify"
-			],
-			[
-				"togg",
-				"SublimeLinter: Toggle Linter"
-			],
-			[
-				"tog",
-				"SublimeLinter: Toggle Linter"
-			],
-			[
-				"toggle lint",
-				"SublimeLinter: Toggle Linter"
-			],
-			[
-				"to",
-				"SublimeLinter: Toggle Linter"
-			],
-			[
-				"remove",
-				"Package Control: Remove Package"
-			],
-			[
-				"remo",
-				"Package Control: Remove Channel"
-			],
-			[
-				"install ",
-				"Package Control: Install Package"
-			],
-			[
-				"ins",
-				"Package Control: Install Package"
-			],
-			[
-				"json",
-				"Pretty JSON: Format (Pretty Print) JSON"
-			],
-			[
-				"set babel",
-				"Set Syntax: JavaScript (Babel)"
-			],
-			[
-				"jso",
-				"Set Syntax: JSON"
-			],
-			[
-				"in",
-				"Package Control: Install Package"
-			],
-			[
-				"babel",
-				"Set Syntax: JavaScript (Babel)"
-			],
-			[
-				"isnt",
-				"Package Control: Install Package"
-			],
-			[
-				"css",
-				"Tidy CSS"
-			],
-			[
-				"remov",
-				"Package Control: Remove Channel"
+				"",
+				"About"
 			]
 		],
-		"width": 898.0
+		"width": 729.0
 	},
 	"console":
 	{
-		"height": 523.0,
+		"height": 448.0,
 		"history":
 		[
-			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
 	},
 	"distraction_free":
@@ -728,284 +71,21 @@
 	"expanded_folders":
 	[
 		"/home/danny/.dotfiles",
-		"/home/danny/.dotfiles/bin",
-		"/home/danny/.dotfiles/docs",
-		"/home/danny/.dotfiles/shell",
-		"/home/danny/.dotfiles/shellScripts",
-		"/home/danny/.dotfiles/sublime",
-		"/home/danny/.dotfiles/tmux",
-		"/home/danny/.dotfiles/tmux/tmux.link",
-		"/home/danny/.dotfiles/tmuxinator",
-		"/home/danny/.dotfiles/tmuxinator/tmuxinator.link"
+		"/home/danny/.dotfiles/kody.tasks"
 	],
 	"file_history":
 	[
-		"/home/danny/.dotfiles/shellScripts/post.sh",
-		"/home/danny/.dotfiles/docs/dell-xps-6360.md",
-		"/etc/sysctl.conf",
-		"/home/danny/.dotfiles/dotfiles.sublime-project",
-		"/home/danny/dev/edrolo/tod/tod_project/classysettings/dev.py",
-		"/home/danny/dev/edrolo/tod/tod_project/classysettings/local.py",
-		"/home/danny/dev/edrolo/tod/tod_project/update_dev_db.sh",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/package.json",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/studyplanner/components/TeacherNotes/TeacherNoteDisplay.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/studyplanner/components/TeacherNotes/TeacherNote.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/studyplanner/tests/sagas.spec.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/studyplanner/sagas.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/studyplanner/components/TeacherNotes/index.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/selectors/bound/createCourseContentSelectors.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/selectors/bound/createLessonContentSelectors.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/reducers/class.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/selectors/bound/createClassSelectors.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/sagas/class.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/api.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/core/apiRoutes.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/studyplanner/components/TeacherNotes/TeacherNotes.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/studyplanner/components/TeacherNotes/TeacherNoteEditor.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/schemas.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/selectors/bound/createUserCourseSelectors.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/reducers/user.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/.eslintrc.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/docs/scratch/jsfiddles.md",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/notes/serializers.py",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/selectors/bound/createClassCourseSelectors.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/student-progress/components/ClassStudentLessonProgress/selectors.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/studyplanner/components/TeacherNotes/TeacherNotes.scss",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/core/api/Request.js",
-		"/home/danny/dev/edrolo/dell-recovery",
-		"/home/danny/apps/dell-recovery/README.md",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/reducers/content.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/reducers/utils.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/reducers/progress.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/studyplanner/components/StudyPlanner/index.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/sagas/class.spec.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/studyplanner/components/TeacherNotes/stories.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/studyplanner/components/TeacherNotes/TeacherNoteForm.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/studyplanner/components/Lesson/Lesson.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/studyplanner/components/Lesson/index.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/components/account/PendingUsersLink.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/exams/components/lessonquestions/LessonQuestion/StudentGroked.jsx",
-		"/home/danny/Dropbox/personal/projects/edrolo/TODO",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/exams/components/lessonquestions/LessonQuestion/LessonQuestion.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/studyplanner/components/Lesson/stories.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/studyplanner/components/Lesson/TeacherNote.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/sharedstyle/colors.scss",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/sharedstyle/buttons.scss",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/sharedstyle/fonts.scss",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/sharedstyle/helpers.scss",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/studyplanner/components/Lesson/TeacherNotes.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/exams/components/lessonquestions/LessonQuestion/StudentGrokked.spec.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/sharedstyle/breakpoints.scss",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/.setup-tests.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/core/components/layout/ComponentGrouper.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/components/dashboard/CourseExamSelector/ExamTabs.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/components/dashboard/CourseExamSelector/TopicSelect.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/components/dashboard/CourseExamSelector/CourseExamSelector.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/components/dashboard/SchoolClassDashboard.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/components/dashboard/entry.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/components/dashboard/CourseExamSelector/index.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/components/dashboard/CourseExamSelector/ExamTabs.jsx.old",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/entry.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/components/dashboard/CourseExamSelector/ExamTabs.scss",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/components/dashboard/CourseExamSelector/CourseExamSelector.jsx.old",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/studyplanner/selectors.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/templates/schools/teacher_dashboard.html",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/webpack.config.base.babel.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/legacyEntry.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/studyplanner/components/Topic/selectors.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/studyplanner/components/Topic/index.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/studyplanner/components/Topic/Topic.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/higher-order-components/lessonLoader.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/student-progress/components/ClassStudentLessonProgress/index.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/higher-order-components/classDetailLoader.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/studyplanner/components/Lesson/createSelectors.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/studyplanner/components/Exam/index.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/studyplanner/components/StudyPlanner/StudyPlanner.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/studyplanner/components/CourseHeader/CourseHeader.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/studyplanner/tests/studyPlanner.spec.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/exams/test/sagas.spec.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/admin/components/courses/edit/CourseEdit.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/components/exams/grid/ExamGrid/ExamGridContainer.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/components/dashboard/SchoolClassDashboard/index.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/exams/selectors.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/higher-order-components/classLessonProgressLoader.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/exams/components/lessonquestions/LessonQuestionsIndex/index.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/exams/components/lessonquestions/LessonQuestionsIndex/LessonQuestionsIndex.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/exams/components/common/DifficultyIndicator/index.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/components/exams/grid/ExamGridSection.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/components/exams/grid/SectionHeader.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/components/ap_dashboard/ResultGrid/SectionHeader.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/exams/components/common/DifficultyIndicator/DifficultyIndicator.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/exams/components/lessonquestions/LessonQuestionsIndex/style.scss",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/exams/components/common/DifficultyIndicator/style.scss",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/static/scss/screen.scss",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/admin/components/courses/create/CourseCreate.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/components/dashboard/SchoolClassTopicProgressDataFetcher.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/student-progress/components/ChunkProgressIndicator/ChunkProgressIndicator.scss",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/components/exams/grid/ExamGridResultSquare/index.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/components/exams/grid/ExamGridResultSquare/PopoverContent.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/components/exams/grid/ExamGridResultSquare/ExamGridResultSquare.scss",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/components/exams/grid/ExamGrid/ExamGrid.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/exams/components/lessonquestions/LessonQuestionsResultsGrid/LessonQuestionsResultsGrid.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/components/exams/grid/ExamGridHeader.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/components/exams/grid/ClassTotalAverageCell.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/components/exams/grid/ClassAverageRow.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/components/exams/grid/QuestionAverageCell.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/components/exams/grid/ExamGridResultSquare/ExamGridResultSquare.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/components/dashboard/SchoolClassDashboard/CourseNav.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/components/exams/ExamQuestion.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/static/scss/sections/exam-master/_marking.scss",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/static/scss/sections/exam-master/_exam.scss",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/static/scss/sections/_teacher-grid.scss",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/components/exams/grid/ExamGrid/index.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/components/exams/SchoolClassExamSittingDataFetcher.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/components/exams/grid/StudentResultRow.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/components/exams/SchoolClassDataFetcher.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/exams/components/lessonquestions/LessonQuestionsResultsGrid/index.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/higher-order-components/examLoader.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/app/side-effects/BreadcrumbPortal.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/reducers/edrolo.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/app/components/AppContainer/index.js",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/app/components/AppContainer/AppContainer.jsx",
-		"/home/danny/dev/edrolo/tod/tod_project/tod_django/templates/schools/school_dashboard.html"
+		"/home/danny/.dotfiles/kody.tasks/dropboxKey.js"
 	],
 	"find":
 	{
-		"height": 132.0
+		"height": 0.0
 	},
 	"find_in_files":
 	{
-		"height": 317.0,
+		"height": 0.0,
 		"where_history":
 		[
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/node_modules/webpack",
-			"/home/danny/dev/edrolo/tod/tod_project/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/studyplanner/components/TeacherNotes",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/",
-			"/home/danny/dev/edrolo/tod/tod_project/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains/studyplanner/components/TeacherNotes",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/",
-			"/home/danny/dev/edrolo/tod/tod_project/",
-			"/home/danny/dev/edrolo/tod/",
-			"/home/danny/dev/edrolo/tod/tod_project/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/admin",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/static",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/sagas",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/reducers",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src",
-			"/home/danny/dev/edrolo/tod/tod_project/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/admin",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/src/admin",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django",
-			"/home/danny/dev/edrolo/tod/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains",
-			"/home/danny/dev/edrolo/tod/tod_project/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src",
-			"/home/danny/dev/edrolo/tod/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/node_modules",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/admin",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/,-/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/**",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/,-/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/**",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/,-/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/**",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/,-/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/**",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/,-/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/**",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/,-/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/**",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/",
-			"/home/danny/dev/edrolo/tod/tod_project/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/,-/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/**",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/,-/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/**",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/,-/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/**",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/,-/home/danny/dev/edrolo/tod/tod_project/tod_django/react/**",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/,!/home/danny/dev/edrolo/tod/tod_project/tod_django/react",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/,-/home/danny/dev/edrolo/tod/tod_project/tod_django/react",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/, -/home/danny/dev/edrolo/tod/tod_project/tod_django/react",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react",
-			"/home/danny/dev/edrolo/tod/tod_project/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react",
-			"",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/templates",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/templates",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/templates",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/templates",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/templates",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/templates",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/core",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react",
-			"/home/danny/dev/edrolo/tod/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/domains",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/",
-			"/home/danny/dev/edrolo/tod/tod_project/tod_django/react/src/edrolo/domains"
 		]
 	},
 	"find_state":
@@ -1013,272 +93,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"validateSchema",
-			"STATICFILES_STORAGE",
-			"\"",
-			"valid",
-			"sharedWithAllClasses",
-			"allClasses",
-			"getPrivilegedCourseContent",
-			"classId",
-			"schoolclasses",
-			"delete.signal",
-			"lessonId,",
-			"delete.success",
-			"deleteNote",
-			"object_id",
-			"save.signal",
-			"getTeacherNotesGroupedByLessonId",
-			"classCourseSelectors",
-			"getTeacherNotesGroupedByLessonId",
-			"getPrivilegedCourseContent",
-			"courseId",
-			"hasTeacherAccessToClass",
-			"getPrivilegedCourseContent",
-			"getAllPrivilegedContent",
-			"object_id",
-			"props.",
-			"save.signal",
-			"teacherNotes.save",
-			"classId",
-			"id",
-			"id)",
-			"Id",
-			"id",
-			"classId, ",
-			"deleteNote",
-			"saveNote",
-			"deleteNote",
-			"teacherClasses",
-			"getNonExpiredRolesForCourse",
-			"saveNote",
-			"LOAD_CLASS_DETAIL_SIGNAL",
-			"NoteForStudentsSerializer",
-			"Notes.*?Serializer",
-			"NotesForStudentsSerializer",
-			"NotesForStudentSerializer",
-			"NoteForStudentSerializer",
-			"debugger",
-			"teacherNotesIds",
-			"teacherNoteIds",
-			"getClassLessonGridData",
-			"api:teacher-notes",
-			"FormControl",
-			"Editor",
-			"TeacherNoteCard",
-			"TeacherNote",
-			"handleSave",
-			"onSave",
-			"TeacherNoteEditor",
-			"onDelete",
-			"onDeleteClick",
-			"editing",
-			"FormControl",
-			"input",
-			"default",
-			"dvd",
-			" }",
-			"note.",
-			"state",
-			"this.state",
-			"deleteClicked",
-			"{ ",
-			"TeacherNoteForm",
-			"{ ",
-			"debugger",
-			"TEACHER_NOTE",
-			"comingSoon",
-			"getClassEnrolmentProfiles",
-			"edrolo/reducer/clas",
-			"classId",
-			"save",
-			"SAVE_TEACHER",
-			"SIGNAL",
-			"SAVE_TEACHER_NOTE",
-			"LOAD_PRIVILEGED_CONTENT",
-			"courseId",
-			"TeacherNotes",
-			"lesson",
-			"Lesson",
-			"createClassCourseSelectors",
-			"action.",
-			"normalized",
-			"MERGE_CONTENT",
-			"mergeContent",
-			"teacherNotes",
-			"keyGenerators",
-			"debugger",
-			"TEACHER_LESSON_NOTES",
-			"teacherLessonNote",
-			"teacher_notes_for_students",
-			"teacher_notes_to_students",
-			"courseResource",
-			"\"",
-			"onNotGroked",
-			"onGroked",
-			"style.",
-			"grokYesActive",
-			"styleIdentifier",
-			"styleName",
-			":",
-			"@value blue:",
-			"nav",
-			"nav-tabs",
-			"h3",
-			"topic",
-			"classNames",
-			"props.currentExamId",
-			"topic",
-			"value",
-			"currentTopicSlug",
-			"selectedTopic",
-			"examGridUrl",
-			".pk",
-			"renderExamTabs",
-			"TOPIC",
-			"COURSE",
-			"intersect",
-			"selectedTopic",
-			"examTab",
-			"selectedTopic"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": true,
+		"regex": false,
 		"replace_history":
 		[
-			"shareWithAllClasses",
-			"sharedWithAllClasses",
-			"onNotGrokked",
-			"onGrokked",
-			"getCourseIdForRouteSlug",
-			"createClassCourseSelectors",
-			"getPortalBreadcrumbsToTemplate",
-			"submitQuestionGrokked",
-			"ProgressBar",
-			"calculateStudentLessonProgressSummary",
-			"import * as contentSelectors from 'edrolo/selectors/content';",
-			"getClassIdRouteParam",
-			"getLessonIdRouteParam",
-			"routeSelectors.getClassIdFromRoute",
-			"'id'",
-			"keyGenerators.studentLessonProgress",
-			"getAllStudentSittingProgress",
-			"getAllStudentLessonProgress",
-			"makeGetLessonClassProgressAverages",
-			"STUDENT_SITTING_PROGRESS",
-			"STUDENT_LESSON_PROGRESS",
-			"getAllLessonProgress",
-			"SUBMIT_LESSON_SELF_RATING_FAILURE",
-			"POPOVER_CONTROL_SET_SIGNAL",
-			"POPOVER_CONTROL_REGISTER_SIGNAL",
-			"POPOVER_CONTROL_CLOSE_SIGNAL",
-			"hasClassAccess",
-			"makeGetTopicExams",
-			"$1defaultValue$2",
-			"global.__static__",
-			"global.getSafely(",
-			"</$1$2",
-			"<$1$2",
-			"$2",
-			"$1",
-			"",
-			"$2",
-			"",
-			"url(\"img",
-			"url\\(\"~img",
-			"hasTeacherAccessToClass",
-			"hasTeacherAccess",
-			"navigateToLessonQuestion",
-			"routing.params",
-			"import * as studyPlannerActions from 'edrolo/domains/studyplanner/actions'",
-			"getClassRolesForCourse",
-			"$1 { $2: $3 })",
-			"somedayDoSomethingBetterThanThisHack",
-			"from 'lazylib/mathquill",
-			"selectors",
-			"reducer",
-			"WistiaPlayer",
-			"SafeHTML",
-			"$1({value}) => $2(value)$3",
-			"</FormControl>",
-			"$1FormControl$3",
-			"<FormControl",
-			"GROKKED",
-			"grokked",
-			"SUBMIT_MULTI_CHOICE_RESPONSE",
-			"edrolo/domains/exams/reducer",
-			"'edrolo/domains/app/components/LoadingIndicator'",
-			"from 'edrolo/domains/app/components/LoadingIndicator'",
-			"getFlatQuestionsForExam",
-			"ForRoute",
-			"edrolo/propTypes",
-			"userHasClassTeacherAccess",
-			"render_bundle 'edrOLDo'",
-			"state.userProgress",
-			"edrolo/reducers/userProgress",
-			"CalendarYearRouteLinks",
-			"setAndLoadClass",
-			"setClass",
-			"setCurrentClassId",
-			"REMOVE_CURRENT_CLASS_ID",
-			"SET_CURRENT_CLASS_ID",
-			"enrolment",
-			"core/utils/initRefluxPromise",
-			"core/apiRoutes",
-			"import $1 from 'edrolo/constants/$2';",
-			"import PaymentsHelper from 'edrolo/utils/PaymentsHelper';",
-			"courseProgress",
-			"selectors/studyPlanner",
-			"reducers/userProgress",
-			"reducers/studyPlanner",
-			"state.studyPlanner",
-			"state.studyplanner",
-			"studyPlannerActions",
-			"edrolo/domains/studyplanner/selectors/lesson",
-			"edrolo/domains/studyplanner/selectors/course",
-			"browserHistory.push",
-			"browserHistory",
-			"$1",
-			"default withRouter",
-			"$1 withRouter($2);",
-			"this.props.router.push(",
-			"history={browserHistory}",
-			"import { withRouter } from 'react-router';",
-			"this.props.router.push($1",
-			"studyPlannerSelectors",
-			"enableLessonGroupings",
-			"lessonExams",
-			"userProgressLoading",
-			"'edrolo/schemas'",
-			"./reducers",
-			"edrolo/reducers",
-			"'edrolo/selectors/",
-			"'edrolo/reducers'",
-			"ChunkBookmarkPopover",
-			"getChunksFromLesson",
-			"getExamsFromTopic",
-			"getLessonsFromTopic",
-			"getTopicsFromCourse",
-			"$1.get('$2')",
-			"new Map({})",
-			"new Map()",
-			".$1",
-			"ContentLink",
-			"LessonLoadingIndicator",
-			"Chunk",
-			"Lesson",
-			"Exam",
-			"edrolo/components/",
-			"edrolo/components/common",
-			".find($1, { $2: $3 })",
-			"_.toPairs(",
-			"_.includes(",
-			".map("
 		],
 		"reverse": false,
-		"show_context": false,
+		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
 		"wrap": true
@@ -1291,24 +115,24 @@
 			[
 				{
 					"buffer": 0,
-					"file": ".kodyrc",
+					"file": "kody.tasks/googleKey.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1179,
+						"buffer_size": 612,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								680,
-								680
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -1321,24 +145,31 @@
 				},
 				{
 					"buffer": 1,
-					"file": "shell/dannyrc.link",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 803,
+						"buffer_size": 26589,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								357,
-								357
+								26589,
+								26589
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+							"auto_indent": false,
+							"git_gutter_is_enabled": false,
+							"line_numbers": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"vintage_lines.line": -1,
+							"vintage_lines.lines": 642,
+							"vintage_lines.mode": false,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1352,11 +183,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 0.0
 	},
 	"input":
 	{
-		"height": 72.0
+		"height": 0.0
 	},
 	"layout":
 	{
@@ -1381,27 +212,15 @@
 		]
 	},
 	"menu_visible": true,
-	"output.exec":
-	{
-		"height": 150.0
-	},
 	"output.find_results":
 	{
-		"height": 388.0
-	},
-	"output.git":
-	{
-		"height": 124.0
-	},
-	"output.unsaved_changes":
-	{
-		"height": 142.0
+		"height": 0.0
 	},
 	"pinned_build_system": "",
 	"project": "dotfiles.sublime-project",
 	"replace":
 	{
-		"height": 368.0
+		"height": 0.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1410,565 +229,36 @@
 		"last_filter": "",
 		"selected_items":
 		[
-			[
-				"danny",
-				"shell/dannyrc.link"
-			],
-			[
-				"package",
-				"react/package.json"
-			],
-			[
-				"dev.py",
-				"classysettings/dev.py"
-			],
-			[
-				"local",
-				"classysettings/local.py"
-			],
-			[
-				"reducerclas",
-				"react/src/edrolo/reducers/class.js"
-			],
-			[
-				"sagascla",
-				"react/src/edrolo/sagas/class.js"
-			],
-			[
-				"teachernotes",
-				"react/src/edrolo/domains/studyplanner/components/TeacherNotes/TeacherNotes.jsx"
-			],
-			[
-				"apiroute",
-				"react/src/core/apiRoutes.js"
-			],
-			[
-				"usercou",
-				"react/src/edrolo/selectors/bound/createUserCourseSelectors.js"
-			],
-			[
-				"classsele",
-				"react/src/edrolo/selectors/bound/createClassSelectors.js"
-			],
-			[
-				"schem",
-				"react/src/edrolo/schemas.js"
-			],
-			[
-				"sagasclas",
-				"react/src/edrolo/sagas/class.js"
-			],
-			[
-				"api",
-				"react/src/edrolo/api.js"
-			],
-			[
-				"reducerus",
-				"react/src/edrolo/reducers/user.js"
-			],
-			[
-				"reducercla",
-				"react/src/edrolo/reducers/class.js"
-			],
-			[
-				"eslin",
-				"react/.eslintrc.js"
-			],
-			[
-				"jsdi",
-				"react/docs/scratch/jsfiddles.md"
-			],
-			[
-				"usercl",
-				"react/src/edrolo/selectors/bound/createUserCourseSelectors.js"
-			],
-			[
-				"reducerclass",
-				"react/src/edrolo/reducers/class.js"
-			],
-			[
-				"sagaclas",
-				"react/src/edrolo/sagas/class.js"
-			],
-			[
-				"noted",
-				"react/src/edrolo/domains/studyplanner/components/TeacherNotes/TeacherNoteEditor.jsx"
-			],
-			[
-				"schema",
-				"react/src/edrolo/schemas.js"
-			],
-			[
-				"request",
-				"react/src/core/api/Request.js"
-			],
-			[
-				"apirout",
-				"react/src/core/apiRoutes.js"
-			],
-			[
-				"create",
-				"react/src/edrolo/selectors/bound/createClassCourseSelectors.js"
-			],
-			[
-				"class",
-				"react/src/edrolo/sagas/class.js"
-			],
-			[
-				"class.",
-				"react/src/edrolo/reducers/class.js"
-			],
-			[
-				"classcours",
-				"react/src/edrolo/selectors/bound/createClassCourseSelectors.js"
-			],
-			[
-				"redclass",
-				"react/src/edrolo/reducers/class.js"
-			],
-			[
-				"lessonindex",
-				"react/src/edrolo/domains/studyplanner/components/Lesson/index.js"
-			],
-			[
-				"schemas",
-				"react/src/edrolo/schemas.js"
-			],
-			[
-				"sagasclass",
-				"react/src/edrolo/sagas/class.js"
-			],
-			[
-				"apiurl",
-				"react/src/edrolo/components/account/PendingUsersLink.jsx"
-			],
-			[
-				"component",
-				"react/src/core/components/layout/ComponentGrouper.jsx"
-			],
-			[
-				"componen",
-				"react/src/core/components/layout/ComponentGrouper.jsx"
-			],
-			[
-				"courseex",
-				"react/src/edrolo/components/dashboard/CourseExamSelector/CourseExamSelector.jsx"
-			],
-			[
-				"topic",
-				"react/src/edrolo/components/dashboard/CourseExamSelector/TopicSelect.jsx"
-			],
-			[
-				"examt",
-				"react/src/edrolo/components/dashboard/CourseExamSelector/ExamTabs.jsx"
-			],
-			[
-				"coursecontent",
-				"react/src/edrolo/selectors/bound/createCourseContentSelectors.js"
-			],
-			[
-				"entry",
-				"react/src/edrolo/components/dashboard/entry.js"
-			],
-			[
-				"teacher",
-				"templates/schools/teacher_dashboard.html"
-			],
-			[
-				"schoolclassdashboard",
-				"react/src/edrolo/components/dashboard/SchoolClassDashboard.jsx"
-			],
-			[
-				"createlesson",
-				"react/src/edrolo/selectors/bound/createLessonContentSelectors.js"
-			],
-			[
-				"createcour",
-				"react/src/edrolo/selectors/bound/createCourseContentSelectors.js"
-			],
-			[
-				"createcours",
-				"react/src/edrolo/selectors/bound/createCourseContentSelectors.js"
-			],
-			[
-				"content",
-				"react/src/edrolo/reducers/content.js"
-			],
-			[
-				"studyplannerinde",
-				"react/src/edrolo/domains/studyplanner/components/StudyPlanner/index.js"
-			],
-			[
-				"studyplannsaga.sp",
-				"react/src/edrolo/domains/studyplanner/tests/sagas.spec.js"
-			],
-			[
-				"studyplannspec",
-				"react/src/edrolo/domains/studyplanner/tests/studyPlanner.spec.js"
-			],
-			[
-				"sagas",
-				"react/src/edrolo/domains/exams/test/sagas.spec.js"
-			],
-			[
-				"studyplannersaga",
-				"react/src/edrolo/domains/studyplanner/sagas.js"
-			],
-			[
-				"reducercontent",
-				"react/src/edrolo/reducers/content.js"
-			],
-			[
-				"topicind",
-				"react/src/edrolo/domains/studyplanner/components/Topic/index.js"
-			],
-			[
-				"studyindex",
-				"react/src/edrolo/domains/studyplanner/components/StudyPlanner/index.js"
-			],
-			[
-				"reducclass",
-				"react/src/edrolo/reducers/class.js"
-			],
-			[
-				"topicsele",
-				"react/src/edrolo/domains/studyplanner/components/Topic/selectors.js"
-			],
-			[
-				"studyplansaga",
-				"react/src/edrolo/domains/studyplanner/sagas.js"
-			],
-			[
-				"courseexam",
-				"react/src/edrolo/components/dashboard/CourseExamSelector/CourseExamSelector.jsx"
-			],
-			[
-				"studyplannersele",
-				"react/src/edrolo/domains/studyplanner/selectors.js"
-			],
-			[
-				"reducercont",
-				"react/src/edrolo/reducers/content.js"
-			],
-			[
-				"schoolclassdas",
-				"react/src/edrolo/components/dashboard/SchoolClassDashboard/SchoolClassDashboard.jsx"
-			],
-			[
-				"classlesson",
-				"react/src/edrolo/higher-order-components/classLessonProgressLoader.js"
-			],
-			[
-				"classdetailloader",
-				"react/src/edrolo/higher-order-components/classDetailLoader.js"
-			],
-			[
-				"examgridcon",
-				"react/src/edrolo/components/exams/grid/ExamGrid/ExamGridContainer.jsx"
-			],
-			[
-				"classlessonp",
-				"react/src/edrolo/higher-order-components/classLessonProgressLoader.js"
-			],
-			[
-				"examselectors",
-				"react/src/edrolo/domains/exams/selectors.js"
-			],
-			[
-				"section",
-				"react/src/edrolo/components/ap_dashboard/ResultGrid/SectionHeader.jsx"
-			],
-			[
-				"examresultg",
-				"react/src/edrolo/domains/exams/components/lessonquestions/LessonQuestionsResultsGrid/LessonQuestionsResultsGrid.jsx"
-			],
-			[
-				"studyplannerlesson",
-				"react/src/edrolo/domains/studyplanner/components/Lesson/Lesson.jsx"
-			],
-			[
-				"examgrid",
-				"react/src/edrolo/components/exams/grid/ExamGrid/ExamGridContainer.jsx"
-			],
-			[
-				"lessonq",
-				"react/src/edrolo/domains/exams/components/lessonquestions/LessonQuestionsResultsGrid/LessonQuestionsResultsGrid.jsx"
-			],
-			[
-				"dashb",
-				"templates/schools/teacher_dashboard.html"
-			],
-			[
-				"coursenav",
-				"react/src/edrolo/components/dashboard/SchoolClassDashboard/CourseNav.jsx"
-			],
-			[
-				"examgridsec",
-				"react/src/edrolo/components/exams/grid/ExamGridSection.jsx"
-			],
-			[
-				"lessonquestionres",
-				"react/src/edrolo/domains/exams/components/lessonquestions/LessonQuestionsResultsGrid/LessonQuestionsResultsGrid.jsx"
-			],
-			[
-				"examgridres",
-				"react/src/edrolo/components/exams/grid/ExamGridResultSquare.jsx"
-			],
-			[
-				"breadcr",
-				"react/src/edrolo/domains/app/side-effects/BreadcrumbPortal.jsx"
-			],
-			[
-				"lesson.jsx",
-				"react/src/edrolo/domains/studyplanner/components/Lesson/Lesson.jsx"
-			],
-			[
-				"lessonques",
-				"react/src/edrolo/domains/exams/components/lessonquestions/LessonQuestionsResultsGrid/LessonQuestionsResultsGrid.jsx"
-			],
-			[
-				"stick",
-				"react/src/edrolo/components/dashboard/StickyTable.jsx"
-			],
-			[
-				"scree",
-				"static/scss/screen.scss"
-			],
-			[
-				"cl",
-				"react/src/edrolo/domains/student-progress/components/ClassStudentLessonProgress/ClassStudentLessonProgress.jsx"
-			],
-			[
-				"sticky",
-				"react/src/edrolo/components/dashboard/StickyTable.jsx"
-			],
-			[
-				"lesson",
-				"react/src/edrolo/domains/studyplanner/components/Lesson/Lesson.jsx"
-			],
-			[
-				"reducersedrol",
-				"react/src/edrolo/reducers/edrolo.js"
-			],
-			[
-				"appcont",
-				"react/src/edrolo/domains/app/components/AppContainer/AppContainer.jsx"
-			],
-			[
-				"screen",
-				"static/scss/screen.scss"
-			],
-			[
-				"lessonprogselector",
-				"react/src/edrolo/domains/student-progress/components/ClassStudentLessonProgress/selectors.js"
-			],
-			[
-				"reduedrolo",
-				"react/src/edrolo/reducers/edrolo.js"
-			],
-			[
-				"seleroute",
-				"react/src/edrolo/selectors/route.js"
-			],
-			[
-				"studentle",
-				"react/src/edrolo/domains/student-progress/components/StudentLessonProgress/StudentLessonProgress.jsx"
-			],
-			[
-				"student-prsele",
-				"react/src/edrolo/domains/student-progress/components/ClassStudentLessonProgress/selectors.js"
-			],
-			[
-				"reduceredro",
-				"react/src/edrolo/reducers/edrolo.js"
-			],
-			[
-				"urlrou",
-				"react/src/edrolo/urlRoutes.js"
-			],
-			[
-				"examsele",
-				"react/src/edrolo/domains/exams/selectors.js"
-			],
-			[
-				"student-prosel",
-				"react/src/edrolo/domains/student-progress/components/ClassStudentLessonProgress/selectors.js"
-			],
-			[
-				"studentprogresstodo",
-				"react/src/edrolo/domains/student-progress/components/TODO"
-			],
-			[
-				"reduceredrolo",
-				"react/src/edrolo/reducers/edrolo.js"
-			],
-			[
-				"examselecto",
-				"react/src/edrolo/domains/exams/selectors.js"
-			],
-			[
-				"chunkpr",
-				"react/src/edrolo/domains/student-progress/components/ChunkProgressIndicator/ChunkProgressIndicator.jsx"
-			],
-			[
-				"corelayout",
-				"react/src/core/components/layout/utils.js"
-			],
-			[
-				"sitenavbread",
-				"react/src/edrolo/components/sitenav/Breadcrumbs.jsx"
-			],
-			[
-				"edroloreded",
-				"react/src/edrolo/reducers/edrolo.js"
-			],
-			[
-				"routes",
-				"react/src/edrolo/routes.js"
-			],
-			[
-				"progresba",
-				"react/src/edrolo/domains/studyplanner/components/ProgressBar/ProgressBar.jsx"
-			],
-			[
-				"progressbar",
-				"react/src/edrolo/domains/studyplanner/components/ProgressBar/ProgressBar.jsx"
-			],
-			[
-				"lessonprog",
-				"react/src/edrolo/domains/studyplanner/components/Lesson/LessonProgressBars.jsx"
-			],
-			[
-				"examprogre",
-				"react/src/edrolo/domains/studyplanner/components/Exam/ExamProgressBars.jsx"
-			],
-			[
-				"lessonprogr",
-				"react/src/edrolo/domains/studyplanner/components/Lesson/LessonProgressBars.jsx"
-			],
-			[
-				"progress",
-				"react/src/edrolo/domains/studyplanner/components/ProgressBar/ProgressBar.jsx"
-			],
-			[
-				"progresstories",
-				"react/src/edrolo/domains/studyplanner/components/ProgressBar/stories.js"
-			],
-			[
-				"studetodo",
-				"react/src/edrolo/domains/student-progress/components/TODO"
-			],
-			[
-				"studentless",
-				"react/src/edrolo/domains/student-progress/components/StudentLessonProgress/StudentLessonProgress.jsx"
-			],
-			[
-				"studentprogrtodo",
-				"react/src/edrolo/domains/student-progress/components/TODO"
-			],
-			[
-				"teachermark",
-				"react/src/edrolo/components/exams/grid/TeacherMarkingSummary.jsx"
-			],
-			[
-				"edrolosp",
-				"templates/edrolo_spa.html"
-			],
-			[
-				"boots",
-				"react/src/core/bootstrap.js"
-			],
-			[
-				"urlroute",
-				"react/src/edrolo/urlRoutes.js"
-			],
-			[
-				"teacherdas",
-				"react/src/edrolo/components/dashboard/TeacherDashboard.jsx"
-			],
-			[
-				"legacy",
-				"react/src/edrolo/legacyEntry.jsx"
-			],
-			[
-				"examentry",
-				"react/src/edrolo/components/exams/entry.js"
-			],
-			[
-				"componentgr",
-				"react/src/core/components/layout/ComponentGrouper.jsx"
-			],
-			[
-				".esl",
-				"react/.eslintrc.js"
-			],
-			[
-				"studentl",
-				"react/src/edrolo/domains/student-progress/components/StudentLessonProgress/StudentLessonProgress.jsx"
-			],
-			[
-				"stickheader",
-				"react/src/edrolo/components/dashboard/StickyHeaderRow.jsx"
-			],
-			[
-				"courselesson",
-				"react/src/edrolo/actions/CourseLessonActions.js"
-			],
-			[
-				"topic.",
-				"react/src/edrolo/domains/studyplanner/components/Topic/Topic.jsx"
-			],
-			[
-				".eslin",
-				"react/.eslintrc.js"
-			]
 		],
 		"width": 0.0
 	},
 	"select_project":
 	{
-		"height": 1000.0,
+		"height": 0.0,
 		"last_filter": "",
 		"selected_items":
 		[
-			[
-				"",
-				"~/dev/edrolo/react.sublime-project"
-			],
-			[
-				"tod",
-				"~/dev/edrolo/tod.sublime-project"
-			]
 		],
-		"width": 760.0
+		"width": 0.0
 	},
 	"select_symbol":
 	{
-		"height": 392.0,
+		"height": 0.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 1272.0
+		"width": 0.0
 	},
 	"selected_group": 0,
 	"settings":
 	{
-		"_vintageous_last_buffer_search": "/",
-		"_vintageous_last_buffer_search_command": "vi_slash",
-		"_vintageous_last_char_search_command": "vi_t",
-		"_vintageous_last_character_search": " ",
-		"_vintageous_reset_during_init": true,
-		"vintage":
-		{
-			"_cmdline_cd": "/opt/sublime_text"
-		}
 	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 510.0,
+	"side_bar_width": 719.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -1,5 +1,5 @@
 {
-    "python_interpreter": "$VIRTUAL_ENV/bin/python",
+    "python_interpreter": "/home/danny/.virtualenvs/edrolo/bin/python",
     "extra_paths":
     [
         "/home/danny/edrolo/edrolo"
