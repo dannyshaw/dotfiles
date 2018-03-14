@@ -98,3 +98,8 @@ set -g @colors-solarized '256'
 #
 # # Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
 # run '~/.tmux/plugins/tpm/tpm'
+
+bind C-y run "tmux save-buffer - | xclip -i"
+bind C-p run "tmux set-buffer \"$(xclip -o)\"; tmux paste-buffer"
+
+source "/usr/local/lib/python3.6/dist-packages/powerline/bindings/tmux/powerline.conf"

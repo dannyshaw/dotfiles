@@ -8,7 +8,7 @@
 	"caret_style": "phase",
 	"color_scheme": "Packages/User/SublimeLinter/1337 (SL).tmTheme",
 	"copy_with_empty_selection": false,
-	"dpi_scale": 1.6,
+	"dpi_scale": 1.5,
 	"draw_minimap_border": true,
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
@@ -35,21 +35,26 @@
 		"*.db",
 		"*.sublime-workspace",
 		"/home/danny/.dotfiles/sublime/User/Package Control.last-run",
-		"app.debug"
+		"app_debug.log",
+		"*.prof",
+		"app_test.log",
+		"*.min.js"
 	],
 	"folder_exclude_patterns":
 	[
 		"/home/danny/.dotfiles/sublime/User/Package Control.cache",
 		"node_modules",
-		".git"
+		".git",
+		"build",
+		"webpack-dist"
 	],
-	"font_face": "Operator Mono Light",
+	"font_face": "Operator Mono Lig",
 	"font_options":
 	[
 		"gray_antialias",
 		"subpixel_antialias"
 	],
-	"font_size": 13,
+	"font_size": 10,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -84,6 +89,6 @@
 	"shift_tab_unindent": true,
 	"show_line_endings": true,
 	"show_tab_close_buttons": false,
-	"theme": "greybeard.sublime-theme",
+	"theme": "Spacegray Eighties.sublime-theme",
 	"trim_trailing_white_space_on_save": true
 }

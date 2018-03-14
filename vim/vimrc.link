@@ -23,6 +23,7 @@ Plugin 'mxw/vim-jsx'
 Plugin 'vim-syntastic/syntastic.git'
 Plugin 'ternjs/tern_for_vim.git'
 
+
 " All of your Plugins must be added before the following line
 call vundle#end()
 filetype plugin indent on
@@ -106,3 +107,7 @@ let g:syntastic_javascript_checkers = ['eslint']
 
 "Allow JSX in normal JS file
 let g:jsx_ext_required = 0 
+
+python3 from powerline.vim import setup as powerline_setup
+python3 powerline_setup()
+python3 del powerline_setup

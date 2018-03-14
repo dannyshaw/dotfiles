@@ -10,6 +10,7 @@
 		"Advanced CSV",
 		"Anaconda",
 		"Babel",
+		"CForm",
 		"CSSTidy",
 		"Djaneiro",
 		"Django",
@@ -31,6 +32,7 @@
 		"Material Theme",
 		"Material Theme - Appbar",
 		"MultiEditUtils",
+		"nginx",
 		"Oceanic Next Color Scheme",
 		"Package Control",
 		"PackageResourceViewer",
@@ -46,13 +48,15 @@
 		"SqlBeautifier",
 		"Sublime Bookmarks",
 		"SublimeLinter",
-		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-contrib-eslint_d",
 		"SublimeLinter-contrib-pug-lint",
+		"SublimeLinter-eslint",
 		"SublimeLinter-flake8",
+		"SublimeLinter-pyyaml",
 		"Theme - Spacegray",
 		"TodoReview",
 		"VintageLines",
-		"Vintageous"
+		"Vintageous",
+		"x86 and x86_64 Assembly"
 	]
 }

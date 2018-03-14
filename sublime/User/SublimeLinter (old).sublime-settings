@@ -13,7 +13,7 @@
                 "excludes": []
             }, 
             "eslint_d": {
-                "@disable": false, 
+                "@disable": true, 
                 "args": [], 
                 "excludes": []
             }, 
@@ -31,10 +31,15 @@
                 "show-code": false
             }, 
             "puglint": {
-                "@disable": false, 
+                "@disable": true, 
                 "args": [], 
                 "excludes": [], 
                 "reporter": "inline"
+            }, 
+            "pyyaml": {
+                "@disable": true, 
+                "args": [], 
+                "excludes": []
             }
         }, 
         "mark_style": "outline", 
@@ -66,6 +71,7 @@
             "javascript (gruntfile)": "javascript", 
             "javascript (gulpfile)": "javascript", 
             "javascript (postcss)": "javascript", 
+            "javascript (puglint)": "javascript", 
             "javascript (stylelint)": "javascript", 
             "javascript (webpack)": "javascript", 
             "json (babel)": "json", 
@@ -74,6 +80,7 @@
             "json (eslint)": "json", 
             "json (npm)": "json", 
             "json (postcss)": "json", 
+            "json (puglint)": "json", 
             "json (settings)": "json", 
             "json (stylelint)": "json", 
             "json (sublime)": "json", 
@@ -92,6 +99,11 @@
             "yaml (stylelint)": "yaml", 
             "yaml (yarn)": "yaml"
         }, 
+        "tooltip_fontsize": "1rem", 
+        "tooltip_theme": "Packages/SublimeLinter/tooltip-themes/Default/Default.tooltip-theme", 
+        "tooltip_theme_excludes": [], 
+        "tooltips": false, 
+        "use_current_shell_path": false, 
         "warning_color": "DDB700", 
         "wrap_find": true
     }
