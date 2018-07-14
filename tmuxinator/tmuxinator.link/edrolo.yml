@@ -32,24 +32,23 @@ windows:
       layout: 5404,317x92,0,0{77x92,0,0,0,82x92,78,0,2,156x92,161,0[156x46,161,0,3,156x45,161,47,16]}
       panes:
         - webpack:
-            - edr && npm run dev
+            - er && npm run dev
         - test:
-            - edr && npm test -- --watch
+            - er && npm test -- --watch
         - term:
-            - workon edrolo3
-            - edr
+            - dev
+            - er
         - term2:
-            - workon edrolo3
-            - edr
+            - dev
+            - er
   - server:
       layout: main-vertical
       panes:
         - edrolo:
-          - ed
-          - workon edrolo3
+          - dev
           - ./manage.py runserver_plus 57181
         - htop:
           - htop
         - term:
-          - workon edrolo3
+          - dev
 

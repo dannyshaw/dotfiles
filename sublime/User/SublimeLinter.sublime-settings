@@ -1,0 +1,9 @@
+// SublimeLinter Settings - User
+{
+    "paths": {
+	    "linux": [
+	    	"/home/danny/.virtualenvs/edrolo3/bin/"
+	    ],
+	},
+	"gutter_theme": "Circle",
+}

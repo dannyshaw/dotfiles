@@ -1,3 +1,3 @@
 {
-	"last_test_run": "source $HOME/.virtualenvs/edrolo/bin/python ; DJANGO_CONFIGURATION=TestSettings ./manage.py test --noinput  ...edrolo.tod_project.tod_django.tod.tests.test_lessons ; deactivate"
+	"last_test_run": "source ~/.virtualenvs/edrolo3/bin/activate;DJANGO_CONFIGURATION=TestSettings tod_project/manage.py test --noinput  tod_project.tod_django.exams.tests.test_api.ExamViewAttachmentsCoreAPITestCase.test_exam_attachments_return_with_exams_attached_to_branches;deactivate"
 }

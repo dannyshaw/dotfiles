@@ -89,3 +89,12 @@ source virtualenvwrapper.sh
 capture() {
   tail -f /proc/$1/fd/1
 }
+
+# tabtab source for serverless package
+# uninstall by removing these lines or running `tabtab uninstall serverless`
+[[ -f /home/danny/dev/edrolo/edrolo/lambdas/node_modules/tabtab/.completions/serverless.zsh ]] && . /home/danny/dev/edrolo/edrolo/lambdas/node_modules/tabtab/.completions/serverless.zsh
+# tabtab source for sls package
+# uninstall by removing these lines or running `tabtab uninstall sls`
+[[ -f /home/danny/dev/edrolo/edrolo/lambdas/node_modules/tabtab/.completions/sls.zsh ]] && . /home/danny/dev/edrolo/edrolo/lambdas/node_modules/tabtab/.completions/sls.zsh
+
+export PATH="$HOME/.yarn/bin:/usr/local/bin/:$PATH:$HOME/.config/yarn/global/node_modules/.bin/"

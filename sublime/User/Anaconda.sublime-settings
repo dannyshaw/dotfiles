@@ -1,7 +1,10 @@
 {
-    "python_interpreter": "/home/danny/.virtualenvs/edrolo/bin/python",
+    "python_interpreter": "/home/danny/.virtualenvs/edrolo3/bin/python",
     "extra_paths":
     [
-        "/home/danny/edrolo/edrolo"
-    ]
+        "/home/danny/edrolo/edrolo",
+        "/home/danny/.virtualenvs/edrolo3/lib/python3.6/site-packages"
+
+    ],
+    "anaconda_linting": false
 }

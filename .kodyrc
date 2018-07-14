@@ -20,7 +20,8 @@
     "autoenv"
   ],
   "pip3": [
-    "thefuck"
+    "thefuck",
+    "powerline-status"
   ],
 
   "aptInstalls": [
