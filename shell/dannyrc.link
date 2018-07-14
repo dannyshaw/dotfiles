@@ -1,3 +1,4 @@
+#!/bin/bash
 export EDITOR='vim'
 export PATH=$PATH:/home/danny/bin
 export QT_DEVICE_PIXEL_RATIO=auto
@@ -24,15 +25,20 @@ exp () {
 
 
 # Setup NVM
-export NVM_DIR="/home/danny/.nvm"
+export NVM_DIR="$HOME/.nvm"
+# shellcheck source=/dev/null
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 export NODE_PATH=/usr/lib/nodejs:/usr/lib/node_modules:/usr/share/javascript:/home/danny/.nvm/versions/node/v5.6.0/lib/node_modules
 
 
+set +u   # there's a shitty bug that throws on safe bash scripts
 # autoenv
+# shellcheck source=/dev/null
 source `which activate.sh`
+set -u
 
+# shellcheck source=/dev/null
 source $HOME/.edrolorc
 
 # The Fuck
-eval $(SHELL=bash thefuck --alias)
+eval "$(SHELL=zsh thefuck --alias)"

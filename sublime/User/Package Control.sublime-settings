@@ -57,6 +57,7 @@
 		"SublimeLinter-pycodestyle",
 		"SublimeLinter-pyflakes",
 		"SublimeLinter-pyyaml",
+		"SublimeLinter-shellcheck",
 		"Theme - Spacegray",
 		"TodoReview",
 		"VintageLines",

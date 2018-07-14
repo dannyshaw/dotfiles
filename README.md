@@ -2,17 +2,17 @@
 
 My dotfiles.
 
-Makes use of [kody](https://github.com/jh3y/kody) as an installation tool to handle symlinking and some basic node powered scripting.  Kody was mainly used on OSX so I've added some linux specific install options.
+Uses a schema of anything ending in '.link' will have a symlink created in $HOME
+ie, `./vim/vim.link` will get a symlink pointing to it at `~/.vim`
 
-## Installation and Usage
+borrowed from kody.js
 
-Download to ~/.dotfiles:
-`git clone https://github.com/dannyshaw/dotfiles.git ~/.dotfiles`
+## installation
 
-run `bin/setup` will install Node Version Manager and Node 6.2.1.
+`./bin/install.sh`
 
-Now just run `kody` in the root and you will be presented with options.
+or individually run setup scripts in `./bin`
 
 ## Fork and Modify
 
-Tweak away! See docs at [kody](https://github.com/jh3y/kody)
+Tweak away!

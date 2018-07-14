@@ -1,0 +1,4 @@
+autoenv==1.0.0
+powerline-status===2.6.dev9999-git.b-119c709bf2032814b3dca5fc3c683bc13b4e57eb-
+thefuck==3.24
+virtualenv==15.1.0

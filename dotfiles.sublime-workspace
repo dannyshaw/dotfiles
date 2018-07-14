@@ -3,30 +3,239 @@
 	{
 		"selected_items":
 		[
+			[
+				"Li",
+				"LINK"
+			],
+			[
+				"LINK",
+				"LINK_NAME"
+			],
+			[
+				"link",
+				"link_name"
+			],
+			[
+				"L",
+				"LINK_TARGET"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"contents": "\n/**\n  * install google signing key for chrome\n  * @license MIT\n  * @author dannyshaw\n*/\nconst options = {\n    name: 'chrome google key',\n    description: 'install google signing key for chrome',\n    exec: function(resolve, reject, shell, log, config) {\n      shell.exec(`wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -`);\n      shell.exec(`sudo sh -c 'echo \"deb http://dl.google.com/linux/chrome/deb/ stable main\" >> /etc/apt/sources.list.d/google.list'`);\n      log.success('Google Chrome Signing Key Installed');\n      resolve();\n    }\n  };\n\nexports.options = options;\n",
+			"contents": "symlinks\n\tgit\n\tzsh\n\nkeys\n\n\tgoogle\n\t\t\n\nnvm\n\n\nruby gem\n\ttmuxinator\n\nglobal npm\n\t\"diff-so-fancy\"\n",
+			"file": "TODO",
+			"file_size": 1002,
+			"file_write_time": 131760118221917395,
+			"settings":
+			{
+				"buffer_size": 94,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bootstrap/setup_05_gems.sh",
+			"settings":
+			{
+				"buffer_size": 86,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bootstrap/setup_03_apt_packages.sh",
+			"settings":
+			{
+				"buffer_size": 828,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bootstrap/setup_02_keys.sh",
+			"settings":
+			{
+				"buffer_size": 928,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "{\n  \"scripts\": {\n    \"pre\": \"shellScripts/pre.sh\",\n    \"post\": \"shellScripts/post.sh\"\n  },\n\n}\n",
+			"file": ".kodyrc",
+			"file_size": 94,
+			"file_write_time": 131760195921698593,
+			"settings":
+			{
+				"buffer_size": 94,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "# dotfiles\n\nMy dotfiles.\n\n\n\n## Fork and Modify\n\nTweak away! See docs at [kody](https://github.com/jh3y/kody)\n",
+			"file": "README.md",
+			"file_size": 581,
+			"file_write_time": 131526610459617913,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bootstrap/setup_99_source_env.sh",
+			"settings":
+			{
+				"buffer_size": 58,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "docs/dell-xps-6360.md",
+			"settings":
+			{
+				"buffer_size": 2986,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "https://vaneyckt.io/posts/safer_bash_scripts_with_set_euxo_pipefail/\nhttps://ryanstutorials.net/bash-scripting-tutorial/bash-functions.php\nhttps://www.ibm.com/developerworks/library/l-bash-test/index.html\nhttps://www.shellcheck.net/",
+			"file": "docs/bash.md",
+			"file_size": 70,
+			"file_write_time": 131760481807871822,
+			"settings":
+			{
+				"buffer_size": 232,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bootstrap/setup_30_config_filewatch_tweak.sh",
+			"settings":
+			{
+				"buffer_size": 242,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bootstrap/setup_12_sublime_text.sh",
+			"settings":
+			{
+				"buffer_size": 1240,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nSublimeLinter-shellcheck\n------------------------\n\n  SublimeLinter-shellcheck\n  -------------------------------\n  This linter plugin for SublimeLinter provides an interface to shellcheck.\n  \n  Please read the installation instructions at:\n  \n  https://github.com/SublimeLinter/SublimeLinter-shellcheck\n  \n  Follow install instructions of shellcheck at https://github.com/koalaman/shellcheck\n  There is no Windows installer.\n",
+			"settings":
+			{
+				"buffer_size": 475,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"file": "bootstrap/setup_11_zsh.sh",
+			"settings":
+			{
+				"buffer_size": 233,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bootstrap/setup_04_pip.sh",
+			"settings":
+			{
+				"buffer_size": 105,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bootstrap/setup_05_node.sh",
+			"settings":
+			{
+				"buffer_size": 170,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bootstrap/setup_01_symlinks.sh",
+			"settings":
+			{
+				"buffer_size": 2115,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bootstrap/setup_00_init.sh",
+			"settings":
+			{
+				"buffer_size": 110,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pip/requirements.txt",
+			"settings":
+			{
+				"buffer_size": 127,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bootstrap/setup_10_fzf.sh",
+			"settings":
+			{
+				"buffer_size": 194,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 629 files for \"gitCredentials\"\n\n/home/danny/.dotfiles/.kodyrc:\n   51      \"libpq-dev\"\n   52    ],\n   53:   \"gitCredentials\": {\n   54      \"name\": \"Danny Shaw\",\n   55      \"email\": \"code@dannyshaw.io\"\n\n/home/danny/.dotfiles/kody.tasks/gitconfig.js:\n   20      exec       : function(resolve, reject, shell, log, config) {\n   21        const gitCredential = 'cache',\n   22:         gitEmail = config.gitCredentials.email,\n   23:         gitName = config.gitCredentials.name,\n   24          nameCmd = `-e 's/AUTHORNAME/${gitName}/g'`,\n   25          emailCmd = `-e 's/AUTHOREMAIL/${gitEmail}/g'`,\n\n3 matches across 2 files\n",
+			"settings":
+			{
+				"buffer_size": 629,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"contents": "/**\n  * GitConfig - Sets up global Git configuration pre symlink\n  *\n  * user git/gitconfig.starter as a starting point to create a system\n  * wide gitconfig.\n  *\n  * NOTE: This task could be made obsolete if you commit the author name\n  *       and email as a gitconfig.link file.\n  *\n  * @license MIT\n  * @author jh3y\n*/\nconst PROPS = {\n    STARTER: 'git/gitconfig.starter',\n    OUTPUT : 'git/gitconfig.link'\n  },\n  options = {\n    name       : 'GitConfig',\n    description: 'sets up global git configuration for symlinking',\n    exec       : function(resolve, reject, shell, log, config) {\n      const gitCredential = 'cache',\n        gitEmail = config.gitCredentials.email,\n        gitName = config.gitCredentials.name,\n        nameCmd = `-e 's/AUTHORNAME/${gitName}/g'`,\n        emailCmd = `-e 's/AUTHOREMAIL/${gitEmail}/g'`,\n        credentialCmd = `-e 's/GIT_CREDENTIAL_HELPER/${gitCredential}/g'`,\n        cG = `sed ${nameCmd} ${emailCmd} ${credentialCmd} ${PROPS.STARTER}`;\nsed -e 's/AUTHORNAME/Danny Shaw/g' -e 's/AUTHOREMAIL/code@dannyshaw.io/g'\n      shell.exec(cG, {silent: true})\n        .stdout.to(PROPS.OUTPUT);\n      log.info(`git config set for \"${gitName}\" with email \"${gitEmail}\"`);\n      resolve();\n    }\n  };\n\nexports.options = options;\n",
+			"file": "kody.tasks/gitconfig.js",
+			"file_size": 1187,
+			"file_write_time": 131526610459657874,
+			"settings":
+			{
+				"buffer_size": 1260,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\n/**\n  * install google signing key for chrome\n  * @license MIT\n  * @author dannyshaw\n*/\nconst options = {\n    name: 'chrome google key',\n    description: 'install google signing key for chrome',\n    exec: function(resolve, reject, shell, log, config) {\n      shell.exec(``);\n      shell.exec(``);\n      log.success('Google Chrome Signing Key Installed');\n      resolve();\n    }\n  };\n\nexports.options = options;\n",
 			"file": "kody.tasks/googleKey.js",
 			"file_size": 612,
 			"file_write_time": 131526610459657874,
 			"settings":
 			{
-				"buffer_size": 612,
+				"buffer_size": 412,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "Package Control Messages\n========================\n\nSublimeLinter-flake8\n--------------------\n\n  SublimeLinter-flake8\n  -------------------------------\n  This linter plugin for SublimeLinter provides an interface to flake8.\n  \n  ** IMPORTANT! **\n  \n  Before this plugin will activate, you *must*\n  follow the installation instructions here:\n  \n  https://github.com/SublimeLinter/SublimeLinter-flake8\n\n\nElm Language Support\n--------------------\n\n  ![Elm Language Support logo](images/logo.png)\n  # The Sublime Elm Language Package\n  \n  ## Installation\n  \n  1. Install [Package Control][]\n  2. Run `Package Control: Install Package` in the Command Palette (<kbd>Super+Shift+P</kbd>)\n  3. Install [Elm][] or use [NPM][] (`npm i -g elm`)\n  \n  ## Features\n  \n  - Compatible with [Sublime Text 2] and [Sublime Text 3]\n  - Syntax highlighting\n  - Snippets for common Elm syntax (function, `case` … `of`, `let` … `in`, etc.)\n  \n  | Tab Trigger    | Description                                      |\n  |----------------|--------------------------------------------------|\n  | cof            | ``case … of``                                    |\n  | cofm           | ``case … of (Maybe)``                            |\n  | cofr           | ``case … of (Result)``                           |\n  | fn             | ``Function (a -> b)``                            |\n  | fn2            | ``Function (a -> b -> c)``                       |\n  | fn3            | ``Function (a -> b -> c -> d)``                  |\n  | fn4            | ``Function (a -> b -> c -> d -> e)``             |\n  | imp            | ``import``                                       |\n  | impas          | ``import … as``                                  |\n  | let            | ``let … in …``                                   |\n  | mod            | ``module``                                       |\n  | type           | ``type``                                         |\n  | typea          | ``type alias (Record)``                          |\n  \n  - Autocompletions plus type signature and documentation display for all functions inside packages in your `elm-package.json` file (requires [elm-oracle](https://www.npmjs.com/package/elm-oracle), which you can install with `npm install -g elm-oracle`)\n      1. Bring up the type panel with `alt+up` or through the right-click context menu\n      2. Close the type panel with `alt+down`\n      3. If you don't like these keybindings, rebind them in your User packages directory\n  ![autocompletions screenshot](images/completions.png)![type signature screenshot](images/elm_types.png)![type panel screenshot](images/type_panel.png)\n  - Four standard build commands (<kbd>Super+[Shift]+B</kbd> or <kbd>Super+[Shift]+F7</kbd>)\n      1. `Build` just checks errors. Kudos to this [tweet][]!\n      2. `Run` additionally outputs your compiled program to an inferred path.\n      3. The same as the above two, but ignoring warnings\n      4. Output path is configurable in `elm-package.json` or `Elm Build System: …` in the Command Palette. Elm build system only requires a valid config in any ancestor directory of the active file. ![compile messages screenshot](images/elm_project.jpg)\n  - Compile messages\n      1. Navigate errors and warnings (<kbd>Super+[Shift]+F4</kbd>).\n      2. Formatted for build output panel.\n      3. Compile message highlighting, embedded code highlighting, and color scheme for output panel. ![compile messages screenshot](images/elm_make.jpg)\n  - Integration with popular plugins (installed separately)\n      1. [SublimeREPL][] — Run `elm-repl` in an editor tab with syntax highlighting. ![SublimeREPL screenshot](images/elm_repl.jpg)\n      2. [Highlight Build Errors][] — Does what it says on the box … usually.\n  - Integration with [elm format](https://github.com/avh4/elm-format)\n      1. Make sure `elm-format` is in your PATH\n      2. Run the \"Elm Language Support: Run elm-format\" command from the Command Palette to run elm-format on the current file\n      3. To enable automatic formatting on every save, Go to Preferences -> Package Settings -> Elm Language Support -> User and add this setting:\n          `\"elm_format_on_save\": true`\n      4. If there are certain Elm source files you don't want to automatically run `elm-format` on, for example elm-css based files, you can set a regex filter which will search the full filename (including the path to the file). If the regex matches, then it will not automatically run `elm-format` on the file when you save. For example, the following filter would prevent automatic `elm-format` on a file named `elm-css/src/Css/TopBar.elm`:\n          `\"elm_format_filename_filter\": \"elm-css/src/Css/.*\\\\.elm$\"`![elm-format screenshot](images/elm_format.png)\n  \n  ## Troubleshooting\n  \n  - I have `elm-oracle` installed, but completions, type signature display, and the type panel don't work\n      1. Make sure `elm-oracle` is on your PATH, or\n      2. Add the absolute path of the directory containing `elm-oracle` to the `elm_paths` setting in your Elm Language Support User settings\n  - I have `elm-format` installed, but it's not working\n      1. Make sure `elm-format` is on your PATH, or\n      2. If using an alternate name for the binary (`elm-format-0.17` or `elm-format-0.18`) add it to the `elm_format_binary` setting in your Elm Language Support User settings; an example might be `\"elm_format_binary\": \"elm-format-0.18\",`, or\n      3. Add the absolute path of the directory containing `elm-format` to the `elm_paths` setting in your Elm Language Support User settings. Note that you can combine paths with the above, so an example might be `\"elm_paths\": \"/users/alex/elm-format:/users/alex/elm-oracle\"`\n  - Elm format automatically runs every time I save a file, but there are some files I don't want it to run on\n      1. If there are certain Elm source files you don't want to automatically run `elm-format` on, for example elm-css based files, you can set a regex filter which will search the full filename (including the path to the file). If the regex matches, then it will not automatically run `elm-format` on the file when you save. For example, the following filter would prevent automatic `elm-format` on a file named `elm-css/src/Css/TopBar.elm`:\n          `\"elm_format_filename_filter\": \"elm-css/src/Css/.*\\\\.elm$\"`\n  \n  ## Learning\n  \n  Don't know Elm? Great first step!\n  \n  - [Elm Website][]\n  - [elm-discuss group][]\n  - [Pragmatic Studio: Building Web Apps with Elm][pragmatic]\n  - [Elm Town Podcast][]\n  \n  [elm-discuss group]: https://groups.google.com/d/forum/elm-discuss\n  [Elm]: http://elm-lang.org/install\n  [Elm Town Podcast]: https://elmtown.github.io\n  [Elm Website]: http://elm-lang.org\n  [Highlight Build Errors]: https://packagecontrol.io/packages/Highlight%20Build%20Errors\n  [NPM]: https://nodejs.org\n  [Package Control]: https://packagecontrol.io/installation\n  [pragmatic]: https://pragmaticstudio.com/elm\n  [SublimeREPL]: https://packagecontrol.io/packages/SublimeREPL\n  [Sublime Text 2]: http://www.sublimetext.com/2\n  [Sublime Text 3]: http://www.sublimetext.com/3\n  [tweet]: https://twitter.com/rtfeldman/status/624026168652660740\n\n\nSublime Bookmarks\n-----------------\n\n  Thanks for installing *SublimeBookmarks*. I hope this plugin helps you :)\n  \n  To Use\n  ======\n  \n  Visit the github page for a quick intro. [https://github.com/bollu/sublimeBookmark]\n  \n  Press Ctrl+P (or) Cmd+P depending on your OS.\n  Use _Add Bookmark_ to add a bookmark.\n  Use _Goto Bookmark_ to goto a bookmark\n  Use _Remove Bookmark_ to remove a bookmark\n  Use _Remove All Bookmarks_ to clear the list of bookmarks\n  \n  There are three modes to the plugin:\n  1) All bookmarks will be shown all the time - bookmarks will not be filtered based on the current project. For this mode, use the __Show All Bookmarks__ option.\n  \n  2)Only bookmarks of the current project will be shown - bookmarks belonging to other projects are *NOT* shown in this mode. Use the Use the __Show Bookmarks In Current Project__ for this mode.\n  \n  3) Only bookmarks in the current file is shown - irrespective of project. Use the __Show Bookmarks In Current File__ option for this mode.\n  \n  I hope you enjoy using the plugin as much as I enjoyed writing it :)\n  \n  Thanks again!\n  ~(bollu)[https://github.com/bollu/]\n\n\nGitGutter\n---------\n\n  Thanks for installing Git Gutter!!!\n  \n  👣 Follow me: @jisaacks\n  \n  \n  💛 Git Gutter? Want to support development?\n  \n  I've teamed up with Wes Bos to offer the following discounts:\n  \n  +------------------------------------------------+\n  |                                                |\n  |   Use the coupon code GITGUTTER for $10 off    |\n  |                                                |\n  +------------------------------------------------+\n  \n  🏅 ⭐ ES6 ⭐\n  \n  👉 ES6.io/friend/GITGUTTER\n  \n  🏅 ⭐ Sublime Text Book ⭐\n  \n  👉 SublimeTextBook.com/friend/GITGUTTER\n  \n  🏅 ⭐ React For Beginners ⭐\n  \n  👉 ReactForBeginners.com/friend/GITGUTTER\n  \n  \n  Join 15,000 other developers already learning with Wes Bos.\n  \n  These are fantastic resources - 100% money back guarantee! 🌟\n\n\nAdvanced CSV\n------------\n\n  CSV by Wade Brainerd (wadetb@gmail.com / www.wadeb.com)\n  Forked from CSV by Eric Martel (emartel@gmail.com / www.ericmartel.com)\n  \n  Thank you for installing Advanced CSV. All commands are available through keyboard shortcuts, menus, context menus and the command palette.\n  \n  Please direct any feedback to wadetb@gmail.com or through GitHub at https://github.com/wadetb/Sublime-Text-Advanced-CSV.\n\n\nVintageous\n----------\n\n  //////////////////////////////////////////////////////////////////////////////\n  //////////////////////////////////////////////////////////////////////////////\n  //////////////////////////////////////////////////////////////////////////////\n  //////////////////////////////////////////////////////////////////////////////\n  \n  __     ___       _\n  \\ \\   / (_)_ __ | |_ __ _  __ _  ___  ___  _   _ ___\n   \\ \\ / /| | '_ \\| __/ _` |/ _` |/ _ \\/ _ \\| | | / __|\n    \\ V / | | | | | || (_| | (_| |  __/ (_) | |_| \\__ \\\n     \\_/  |_|_| |_|\\__\\__,_|\\__, |\\___|\\___/ \\__,_|___/\n                            |___/\n  \n  //////////////////////////////////////////////////////////////////////////////\n  \n  \n  \n  Thank you for installing Vintageous! Hope you find it useful :)\n  \n  If you use it often to get actual work done, please consider donating:\n  \n  \tPayPal: http://www.pledgie.com/campaigns/19122\n  \tGittip: https://www.gittip.com/guillermooo/\n  \n  Cheers,\n  Guillermo\n\n\nPython Improved\n---------------\n\n  Python Improved\n  ===============\n  \n  Thank you for installing Python Improved, the best Python language definition\n  for Sublime Text! To make this your default Python, open a `.py` Python file.\n  Select `View -> Syntax -> Open all with current extension as... -> PythonImproved`\n  and you should be all set.\n  \n  To take full advantage of the extra scopes included in Python Improved, check\n  out the Neon Color Scheme at https://sublime.wbond.net/packages/Neon%20Color%20Scheme\n  If you'd rather modify your own color scheme, a list of scopes is included in\n  the README.md in the `Packages/Python Improved` directory. You can also find\n  them on GitHub at https://github.com/MattDMo/PythonImproved\n  \n  If you have any questions, comments, concerns, bugs, or patches, please open an\n  issue or pull request on GitHub and I'll do what I can to help out. You can also\n  email me directly at <mattdmo@pigimal.com> or find me on Twitter @MattDMo. This\n  is definitely a work in progress, so if you'd like to contribute I'd love to\n  hear from you!\n\n\nDjango Manage Commands\n----------------------\n\n       ____  _                           __  __                                           \n      |  _ \\(_) __ _ _ __   __ _  ___   |  \\/  | __ _ _ __   __ _  __ _  ___              \n      | | | | |/ _` | '_ \\ / _` |/ _ \\  | |\\/| |/ _` | '_ \\ / _` |/ _` |/ _ \\             \n      | |_| | | (_| | | | | (_| | (_) | | |  | | (_| | | | | (_| | (_| |  __/             \n      |____// |\\__,_|_| |_|\\__, |\\___/  |_|  |_|\\__,_|_| |_|\\__,_|\\__, |\\___|             \n          |__/             |___/                                  |___/                   \n        ____                                          _                                   \n       / ___|___  _ __ ___  _ __ ___   __ _ _ __   __| |___                               \n      | |   / _ \\| '_ ` _ \\| '_ ` _ \\ / _` | '_ \\ / _` / __|                              \n      | |__| (_) | | | | | | | | | | | (_| | | | | (_| \\__ \\                              \n       \\____\\___/|_| |_| |_|_| |_| |_|\\__,_|_| |_|\\__,_|___/                              \n                                                                                          \n  #########################################################################################\n  \n  \n  - Ctrl + Shift + A: opens a menu with all Django commands.\n  \n  - Remember to set the path to the directory where your virtual environments are installed in \"python_virtualenv_paths\" for the plugin to work correclty, as many directories as you need can be added.\n  \n  - Enjoy and please let us know if you run into any issue.\n  \n     :smile:\n\n\nAnaconda\n--------\n\n  \n  \n                                                            |\n                _` |  __ \\    _` |   __|   _ \\   __ \\    _` |   _` |\n               (   |  |   |  (   |  (     (   |  |   |  (   |  (   |\n              \\__,_| _|  _| \\__,_| \\___| \\___/  _|  _| \\__,_| \\__,_|\n  \n                                       The Sublime Text 3 Python IDE\n  \n  \n  Welcome to anaconda, the Sublime Text 3 Python IDE. We hope you enjoy it :)\n  \n  Anaconda works fine out of the box but you can configure it to totally adapt\n  it to your needs or style.\n  \n  For a complete guide of use and configuration take a look at:\n  \n  \thttp://damnwidget.github.io/anaconda/\n  \n  Please, consider donating to maintain this project alive:\n  \n  \thttps://pledgie.com/campaigns/32230\n\n\nA File Icon\n-----------\n\n  ```\n  \n      $$$$$$\\        $$$$$$$$\\ $$\\ $$\\                 $$$$$$\\                              \n     $$  __$$\\       $$  _____|\\__|$$ |                \\_$$  _|                             \n     $$ /  $$ |      $$ |      $$\\ $$ | $$$$$$\\          $$ |  $$$$$$$\\  $$$$$$\\  $$$$$$$\\  \n     $$$$$$$$ |      $$$$$\\    $$ |$$ |$$  __$$\\         $$ | $$  _____|$$  __$$\\ $$  __$$\\ \n     $$  __$$ |      $$  __|   $$ |$$ |$$$$$$$$ |        $$ | $$ /      $$ /  $$ |$$ |  $$ |\n     $$ |  $$ |      $$ |      $$ |$$ |$$   ____|        $$ | $$ |      $$ |  $$ |$$ |  $$ |\n     $$ |  $$ |      $$ |      $$ |$$ |\\$$$$$$$\\       $$$$$$\\\\$$$$$$$\\ \\$$$$$$  |$$ |  $$ |\n     \\__|  \\__|      \\__|      \\__|\\__| \\_______|      \\______|\\_______| \\______/ \\__|  \\__|\n  \n  ```\n  \n  This package adds file specific icons to Sublime Text for improved visual grepping. \n  It's heavily inspired by Atom File Icons.\n  \n  ***\n  \n  1. Please restart Sublime Text for the applied icons to take effect.\n  2. The icons for packages provided by the community require to be installed. \n     E.g. if you want to see SCSS icon you should install one of the SCSS syntax packages.\n  \n  ***\n  \n  I've put a lot of time and effort into making `A File Icon` awesome. If you love \n  it, you can [buy me a coffee](https://www.patreon.com/ihodev) ☕.\n\n\nSublimeLinter-contrib-eslint_d\n------------------------------\n\n  SublimeLinter-contrib-eslint_d\n  -------------------------------\n  This linter plugin for SublimeLinter provides an interface to eslint_d.\n  \n  ** IMPORTANT! **\n  \n  Before this plugin will activate, you *must*\n  follow the installation instructions here:\n  \n  https://github.com/roadhump/SublimeLinter-contrib-eslint_d\n\n\nSearch in Project\n-----------------\n\n  Thanks for installing Search in Project!\n  ----------------------------------------\n  \n  Please make sure you open the configuration file ( `Preferences - Search in Project Settings - User` in the Command Palette) and configure the engine you want to use:\n  \n      {\n        \"search_in_project_engine\": \"<your_search_engine>\"\n      }\n  \n  where <your_search_engine> is one of:\n  \n    the_platinum_searcher, the_silver_searcher, ack, grep, git_grep, grep, or find_str\n  \n  depending on your preference.\n  \n  * * *\n  \n  You can find detailed instructions in the readme at\n  \n  https://github.com/leonid-shevtsov/SearchInProject_SublimeText#search-in-project\n\n\nMaterial Theme - Appbar\n-----------------------\n\n  ___  ___      _            _       _       _____ _\n  |  \\/  |     | |          (_)     | |     |_   _| |\n  | .  . | __ _| |_ ___ _ __ _  __ _| |       | | | |__   ___ _ __ ___   ___\n  | |\\/| |/ _` | __/ _ \\ '__| |/ _` | |       | | | '_ \\ / _ \\ '_ ` _ \\ / _ \\\n  | |  | | (_| | ||  __/ |  | | (_| | |       | | | | | |  __/ | | | | |  __/\n  \\_|  |_/\\__,_|\\__\\___|_|  |_|\\__,_|_|       \\_/ |_| |_|\\___|_| |_| |_|\\___|\n  \n  Material Theme - White Panels Addon\n  https://github.com/equinusocio/material-theme-appbar\n  \n  ******************************************************************************\n  \n  With this addon you can add a tinted app bar to your Material Theme installation.\n  This addon auto fits with material theme accent colors!\n  \n  NOTE: If you've intalled 1.0.0 through Package Control please unistall and reinstall\n  \n  ## Addon options\n  \n  ```json\n  \"material_theme_tree_headings\": true , // Show siderbar headings\n  ```\n\n\nFlowType\n--------\n\n  \n          ______ _       _    _ _\n          |  ___| |     | |  | | |\n          | |_  | | ___ | |  | | |_ _   _ _ __   ___\n          |  _| | |/ _ \\| |/\\| | __| | | | '_ \\ / _ \\\n          | |   | | (_) \\  /\\  / |_| |_| | |_) |  __/\n          \\_|   |_|\\___/ \\/  \\/ \\__|\\__, | .__/ \\___|\n                                     __/ | |\n                                    |___/|_|\n  \n  \n  Welcome fellow Flow user,\n  \n  This plugin was made due to the fact that the few existing\n  plugins weren't maintained much, and as an everyday user I needed\n  something that simply works.\n  \n  So let's keep this plugin up to date together!\n  \n  For a complete guide of the plugin's usage and configuration:\n  \n          https://github.com/Pegase745/sublime-flowtype\n\n\nTheme - Spacegray\n-----------------\n\n  Thanks for installing Spacegray!\n  \n  \n  How to activate\n  ===============\n  \n  Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Sublime Text -> Preferences -> Settings - User` (⌘+, on Mac).\n  \n  Spacegray comes in different flavors, based on Base16 color schemes. You can choose whichever flavor you like, but don't forget to change *both* color scheme and UI theme so they match.\n  \n  *Note: Don't forget to restart Sublime Text after activating the theme.*\n  \n  \n  Spacegray\n  ---------\n  \n  Default flavor based on Base16 Ocean Dark color scheme.\n  \n  *Example settings*\n  \n      {\n        \"theme\": \"Spacegray.sublime-theme\",\n        \"color_scheme\": \"Packages/Theme - Spacegray/base16-ocean.dark.tmTheme\"\n      }\n  \n  \n  Spacegray Light\n  ---------------\n  \n  Light variation based on Base16 Ocean Light color scheme.\n  \n  *Example settings*\n  \n      {\n        \"theme\": \"Spacegray Light.sublime-theme\",\n        \"color_scheme\": \"Packages/Theme - Spacegray/base16-ocean.light.tmTheme\"\n      }\n  \n  \n  Spacegray Eighties\n  ------------------\n  \n  A variation based on Base16 Eighties Dark color scheme.\n  \n  *Example settings*\n  \n      {\n        \"theme\": \"Spacegray Eighties.sublime-theme\",\n        \"color_scheme\": \"Packages/Theme - Spacegray/base16-eighties.dark.tmTheme\"\n      }\n  \n  \n  *Note: Don't forget to restart Sublime Text after activating the theme.*\n\n\nSublimeLinter-contrib-pug-lint\n------------------------------\n\n  SublimeLinter-contrib-pug-lint\n  -------------------------------\n  This linter plugin for SublimeLinter provides an interface to pug-lint.\n  \n  ** IMPORTANT! **\n  \n  Before this plugin will activate, you *must*\n  follow the installation instructions here:\n  \n  https://github.com/benedfit/SublimeLinter-contrib-pug-lint\n\n\nMaterial Theme\n--------------\n\n  ## Material Theme for Sublime Text 3\n  \n  For more information on the Material Theme: https://github.com/equinusocio/material-theme\n  \n  **********************************************************************************************\n  \n  # Activate the theme\n  \n  You can active this theme from:\n  - Command palette `Tools > Command Palette` (or <kbd>cmd/ctrl</kbd>+ <kbd>↑</kbd>+<kbd>p</\n  kbd>) by typing `Material Theme: Activate theme`. \n  - Context menu (Right click on the editor) and choose `Material Theme > Activate Material Theme`\n  - `Preferences > Packages Settings` and choose `Material Theme > Activate Material Theme`\n  \n  You can also manually activate this theme by adding these lines to your user settings (**Preferences > Settings - User**):\n  \n  ```json\n  \"color_scheme\": \"Packages/Material Theme/schemes/Material-Theme.tmTheme\",\n  \"theme\": \"Material-Theme.sublime-theme\",\n  ```\n  \n  ## File icons\n  To enable file type icons you have to install an additional package, search for `zz File Icons` on Package Control, after install restart Sublime Text.\n  \n  **********************************************************************************************\n  \n  ### Other available theme options:\n  \n  ```\n  \"material_theme_accent_acid-lime\"         : true , // Set acid-lime accent color\n  \"material_theme_accent_blue\"              : true , // Set blue accent color\n  \"material_theme_accent_brba\"              : true , // Set Breaking Bad green accent color\n  \"material_theme_accent_bright-teal\"       : true , // Set bright-teal accent color\n  \"material_theme_accent_cyan\"              : true , // Set cyan accent color\n  \"material_theme_accent_graphite\"          : true , // Set graphite accent color\n  \"material_theme_accent_indigo\"            : true , // Set indigo accent color\n  \"material_theme_accent_lime\"              : true , // Set lime green accent color\n  \"material_theme_accent_orange\"            : true , // Set orange accent color\n  \"material_theme_accent_pink\"              : true , // Set pink accent color\n  \"material_theme_accent_purple\"            : true , // Set purple accent color\n  \"material_theme_accent_red\"               : true , // Set pale red accent color\n  \"material_theme_accent_sky\"               : true , // Set bright-cyan accent color\n  \"material_theme_accent_tomato\"            : true , // Set tomato red accent color\n  \"material_theme_accent_yellow\"            : true , // Set yellow accent color\n  \"material_theme_bold_tab\"                 : true , // Make the tab labels bolder\n  \"material_theme_compact_panel\"            : true , // Set minimal padding for the search panel\n  \"material_theme_compact_sidebar\"          : true , // Set compact side bar\n  \"material_theme_contrast_mode\"            : true , // Enable sidebar and panels contrast mode\n  \"material_theme_disable_fileicons\"        : true , // Hide sidebar file type icons\n  \"material_theme_arrow_folders\"            : true , // Replace folder icons with arrows\n  \"material_theme_big_fileicons\"            : true , // Show bigger file type icons\n  \"material_theme_disable_folder_animation\" : true , // Disable folder animation\n  \"material_theme_disable_tree_indicator\"   : true , // Disable sidebar file indicator\n  \"material_theme_bullet_tree_indicator\"    : true , // Set a bullet as active tree indicator\n  \"material_theme_panel_separator\"          : true , // Show bottom panel separator\n  \"material_theme_small_statusbar\"          : true , // Set small status bar\n  \"material_theme_small_tab\"                : true , // Set small tabs\n  \"material_theme_bright_scrollbars\"        : true , // Bright scrollbars puck color\n  \"material_theme_accent_scrollbars\"        : true , // Enable accent color for scrollbars\n  \"material_theme_tabs_autowidth\"           : true , // Enable autowidth for tabs\n  \"material_theme_tabs_separator\"           : true , // Show tabs separator, this disables tab hover \n  \n  // If you use Material Theme - Appbar addon you can use additional settings:\n  \"material_theme_tree_headings\"            : true , // Show sidebar headings\n  ```\n  \n  **********************************************************************************************\n  \n  ### Recommended UI and font settings for a better experience:\n  \n  ```\n  {\n    \"overlay_scroll_bars\": \"enabled\",\n    \"line_padding_top\": 3,\n    \"line_padding_bottom\": 3,\n    \"always_show_minimap_viewport\": true,\n    \"bold_folder_labels\": true,\n    \"indent_guide_options\": [ \"draw_normal\", \"draw_active\" ],   // Highlight active indent\n    \"font_options\": [ \"gray_antialias\" ],                       // For retina Mac\n  }\n  ```\n\n\nSublimeLinter-contrib-eslint\n----------------------------\n\n  SublimeLinter-eslint\n  -------------------------------\n  This linter plugin for SublimeLinter provides an interface to ESLint.\n  \n  ** IMPORTANT! **\n  \n  Before this plugin will activate, you *must*\n  follow the installation instructions here:\n  \n  https://github.com/roadhump/SublimeLinter-eslint\n\n\nSublimeLinter\n-------------\n\n  \n    ____        _     _ _                _     _       _\n   / ___| _   _| |__ | (_)_ __ ___   ___| |   (_)_ __ | |_ ___ _ __\n   \\___ \\| | | | '_ \\| | | '_ ` _ \\ / _ \\ |   | | '_ \\| __/ _ \\ '__|\n    ___) | |_| | |_) | | | | | | | |  __/ |___| | | | | ||  __/ |\n   |____/ \\__,_|_.__/|_|_|_| |_| |_|\\___|_____|_|_| |_|\\__\\___|_|\n  \n  \n  Welcome to SublimeLinter, a linter framework for Sublime Text 3.\n  \n                   * * * IMPORTANT! * * *\n  \n          Linters *NOT* included with SublimeLinter 3,\n          they must be installed separately.\n  \n                  * * * READ THE DOCS! * * *\n  \n  Otherwise you will never know how to install linters, nor will\n  you know about all of the great new features in SublimeLinter 3.\n  \n  For complete documentation on how to install and use SublimeLinter,\n  please see:\n  \n  http://www.sublimelinter.com\n  \n  \n                   _   _      _       _\n                  | | | | ___| |_ __ | |\n                  | |_| |/ _ \\ | '_ \\| |\n                  |  _  |  __/ | |_) |_|\n                  |_| |_|\\___|_| .__/(_)\n                               |_|\n  \n  \n  Hundreds of hours have been spent writing and documenting SublimeLinter\n  to make it the best it can be — easy to use, easy to configure,\n  easy to update, easy to extend. If you use SublimeLinter and feel\n  it is making your coding life better and easier, please consider\n  making a donation to help fund development and support.\n  \n  To donate: https://github.com/SublimeLinter/SublimeLinter3#share-the-love\n  \n  Thank you!\n",
-			"settings":
-			{
-				"buffer_size": 26589,
-				"line_ending": "Unix",
-				"name": "Package Control Messages",
-				"read_only": true,
-				"scratch": true
 			}
 		}
 	],
@@ -38,9 +247,17 @@
 	"command_palette":
 	{
 		"height": 79.0,
-		"last_filter": "instal",
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"instal",
 				"Install Package Control"
@@ -71,28 +288,56 @@
 	"expanded_folders":
 	[
 		"/home/danny/.dotfiles",
-		"/home/danny/.dotfiles/kody.tasks"
+		"/home/danny/.dotfiles/bin",
+		"/home/danny/.dotfiles/bootstrap",
+		"/home/danny/.dotfiles/docs",
+		"/home/danny/.dotfiles/docs/fonts",
+		"/home/danny/.dotfiles/git",
+		"/home/danny/.dotfiles/pip",
+		"/home/danny/.dotfiles/shell",
+		"/home/danny/.dotfiles/sublime"
 	],
 	"file_history":
 	[
+		"/home/danny/.dotfiles/shellScripts/setup_01_python.sh",
+		"/home/danny/.dotfiles/kody.tasks/apm.js",
+		"/home/danny/.dotfiles/kody.tasks/googleKey.js",
 		"/home/danny/.dotfiles/kody.tasks/dropboxKey.js"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 60.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 189.333333333,
 		"where_history":
 		[
+			"/home/danny/.dotfiles"
 		]
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"SUBLIME_PACKAGES",
+			"echo",
+			"${HOME}/.dotfiles/",
+			"$1",
+			"$2",
+			"$1",
+			"LINK_NAME",
+			"$0",
+			"LINK_NAME",
+			"$LINK_NAME",
+			"match",
+			"link_name",
+			"MATCH",
+			"PACKAGES",
+			"    \"",
+			"GOOGLE_KEY_SOURCE",
+			"gitCredentials"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -110,16 +355,270 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 10,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "kody.tasks/googleKey.js",
+					"file": "TODO",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 612,
+						"buffer_size": 94,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								38,
+								38
+							]
+						],
+						"settings":
+						{
+							"SL.565.region_keys":
+							[
+							],
+							"git_gutter_is_enabled": true,
+							"line_numbers": true,
+							"open_with_edit": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"vintage_lines.line": -1,
+							"vintage_lines.lines": 17,
+							"vintage_lines.mode": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 174.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "bootstrap/setup_05_gems.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 86,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								85,
+								85
+							]
+						],
+						"settings":
+						{
+							"SL.636.region_keys":
+							[
+							],
+							"git_gutter_is_enabled": true,
+							"line_numbers": true,
+							"open_with_edit": true,
+							"syntax": "Packages/ShellScript/Bash.sublime-syntax",
+							"vintage_lines.line": -1,
+							"vintage_lines.lines": 5,
+							"vintage_lines.mode": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "bootstrap/setup_03_apt_packages.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 828,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								481,
+								481
+							]
+						],
+						"settings":
+						{
+							"SL.624.region_keys":
+							[
+							],
+							"git_gutter_is_enabled": true,
+							"line_numbers": true,
+							"open_with_edit": true,
+							"syntax": "Packages/ShellScript/Bash.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage_lines.line": -1,
+							"vintage_lines.lines": 45,
+							"vintage_lines.mode": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 32.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "bootstrap/setup_02_keys.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 928,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								926,
+								926
+							]
+						],
+						"settings":
+						{
+							"SL.620.region_keys":
+							[
+							],
+							"git_gutter_is_enabled": true,
+							"line_numbers": true,
+							"open_with_edit": true,
+							"syntax": "Packages/ShellScript/Bash.sublime-syntax",
+							"vintage_lines.line": -1,
+							"vintage_lines.lines": 24,
+							"vintage_lines.mode": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": ".kodyrc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 94,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2,
+								2
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": false,
+							"line_numbers": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage_lines.line": 1,
+							"vintage_lines.lines": 7,
+							"vintage_lines.mode": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								26,
+								26
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"line_numbers": true,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"vintage_lines.line": 4,
+							"vintage_lines.lines": 9,
+							"vintage_lines.mode": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "bootstrap/setup_99_source_env.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 58,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								56,
+								56
+							]
+						],
+						"settings":
+						{
+							"SL.612.region_keys":
+							[
+							],
+							"git_gutter_is_enabled": true,
+							"line_numbers": true,
+							"syntax": "Packages/ShellScript/Bash.sublime-syntax",
+							"vintage_lines.line": -1,
+							"vintage_lines.lines": 5,
+							"vintage_lines.mode": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "docs/dell-xps-6360.md",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2986,
 						"regions":
 						{
 						},
@@ -132,9 +631,159 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"git_gutter_is_enabled": true,
+							"line_numbers": true,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"vintage_lines.line": -1,
+							"vintage_lines.lines": 88,
+							"vintage_lines.mode": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "docs/bash.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 232,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								232,
+								232
+							]
+						],
+						"settings":
+						{
+							"SL.663.region_keys":
+							[
+							],
+							"git_gutter_is_enabled": true,
+							"line_numbers": true,
+							"open_with_edit": true,
+							"syntax": "Packages/ShellScript/Bash.sublime-syntax",
+							"vintage_lines.line": -1,
+							"vintage_lines.lines": 3,
+							"vintage_lines.mode": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "bootstrap/setup_30_config_filewatch_tweak.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 242,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								141,
+								141
+							]
+						],
+						"settings":
+						{
+							"SL.616.region_keys":
+							[
+							],
+							"git_gutter_is_enabled": true,
+							"line_numbers": true,
+							"open_with_edit": true,
+							"syntax": "Packages/ShellScript/Bash.sublime-syntax",
+							"vintage_lines.line": -1,
+							"vintage_lines.lines": 9,
+							"vintage_lines.mode": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "bootstrap/setup_12_sublime_text.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1240,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19,
+								19
+							]
+						],
+						"settings":
+						{
+							"SL.615.region_keys":
+							[
+							],
+							"git_gutter_is_enabled": true,
+							"line_numbers": true,
+							"open_with_edit": true,
+							"syntax": "Packages/ShellScript/Bash.sublime-syntax",
+							"vintage_lines.line": 1,
+							"vintage_lines.lines": 36,
+							"vintage_lines.mode": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 475,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								295,
+								352
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"default_dir": "/home/danny/.dotfiles/bootstrap",
+							"git_gutter_is_enabled": false,
+							"line_numbers": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"vintage_lines.line": -1,
+							"vintage_lines.lines": 16,
+							"vintage_lines.mode": false,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -144,38 +793,396 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 12,
+					"file": "bootstrap/setup_11_zsh.sh",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 26589,
+						"buffer_size": 233,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								26589,
-								26589
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"auto_indent": false,
-							"git_gutter_is_enabled": false,
+							"SL.614.region_keys":
+							[
+							],
+							"git_gutter_is_enabled": true,
 							"line_numbers": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_width": 2,
+							"open_with_edit": true,
+							"syntax": "Packages/ShellScript/Bash.sublime-syntax",
 							"vintage_lines.line": -1,
-							"vintage_lines.lines": 642,
-							"vintage_lines.mode": false,
-							"word_wrap": true
+							"vintage_lines.lines": 11,
+							"vintage_lines.mode": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "bootstrap/setup_04_pip.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 105,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.625.region_keys":
+							[
+							],
+							"git_gutter_is_enabled": true,
+							"line_numbers": true,
+							"open_with_edit": true,
+							"syntax": "Packages/ShellScript/Bash.sublime-syntax",
+							"vintage_lines.line": -1,
+							"vintage_lines.lines": 5,
+							"vintage_lines.mode": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "bootstrap/setup_05_node.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 170,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								170,
+								170
+							]
+						],
+						"settings":
+						{
+							"SL.632.region_keys":
+							[
+							],
+							"git_gutter_is_enabled": true,
+							"line_numbers": true,
+							"open_with_edit": true,
+							"syntax": "Packages/ShellScript/Bash.sublime-syntax",
+							"vintage_lines.line": -1,
+							"vintage_lines.lines": 7,
+							"vintage_lines.mode": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "bootstrap/setup_01_symlinks.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2115,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								443,
+								443
+							]
+						],
+						"settings":
+						{
+							"SL.633.region_keys":
+							[
+							],
+							"git_gutter_is_enabled": true,
+							"line_numbers": true,
+							"open_with_edit": true,
+							"syntax": "Packages/ShellScript/Bash.sublime-syntax",
+							"vintage_lines.line": -1,
+							"vintage_lines.lines": 84,
+							"vintage_lines.mode": false
+						},
+						"translation.x": 95.3333333333,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "bootstrap/setup_00_init.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 110,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								31,
+								31
+							]
+						],
+						"settings":
+						{
+							"SL.649.region_keys":
+							[
+							],
+							"git_gutter_is_enabled": true,
+							"line_numbers": true,
+							"syntax": "Packages/ShellScript/Bash.sublime-syntax",
+							"vintage_lines.line": 2,
+							"vintage_lines.lines": 7,
+							"vintage_lines.mode": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "pip/requirements.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 127,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								93,
+								93
+							]
+						],
+						"settings":
+						{
+							"SL.627.region_keys":
+							[
+							],
+							"git_gutter_is_enabled": true,
+							"line_numbers": true,
+							"open_with_edit": true,
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"vintage_lines.line": -1,
+							"vintage_lines.lines": 4,
+							"vintage_lines.mode": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "bootstrap/setup_10_fzf.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 194,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.613.region_keys":
+							[
+							],
+							"git_gutter_is_enabled": true,
+							"line_numbers": true,
+							"open_with_edit": true,
+							"syntax": "Packages/ShellScript/Bash.sublime-syntax",
+							"vintage_lines.line": -1,
+							"vintage_lines.lines": 10,
+							"vintage_lines.mode": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 629,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										118,
+										132
+									],
+									[
+										407,
+										421
+									],
+									[
+										461,
+										475
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								208,
+								208
+							]
+						],
+						"settings":
+						{
+							"default_dir": "/home/danny/.dotfiles",
+							"detect_indentation": false,
+							"git_gutter_is_enabled": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"vintage_lines.line": -1,
+							"vintage_lines.lines": 18,
+							"vintage_lines.mode": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "kody.tasks/gitconfig.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1260,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								353,
+								353
+							]
+						],
+						"settings":
+						{
+							"SL.571.region_keys":
+							[
+							],
+							"git_gutter_is_enabled": false,
+							"line_numbers": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage_lines.line": 13,
+							"vintage_lines.lines": 36,
+							"vintage_lines.mode": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "kody.tasks/googleKey.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 412,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								294,
+								294
+							]
+						],
+						"settings":
+						{
+							"SL.596.region_keys":
+							[
+							],
+							"git_gutter_is_enabled": false,
+							"line_numbers": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage_lines.line": -1,
+							"vintage_lines.lines": 18,
+							"vintage_lines.mode": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
 					"type": "text"
 				}
 			]
@@ -183,11 +1190,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 42.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 66.6666666667
 	},
 	"layout":
 	{
@@ -212,7 +1219,19 @@
 		]
 	},
 	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 1358.0
+	},
+	"output.exec":
+	{
+		"height": 222.0
+	},
 	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
 	{
 		"height": 0.0
 	},
@@ -220,7 +1239,7 @@
 	"project": "dotfiles.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 78.6666666667
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -258,7 +1277,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 719.0,
+	"side_bar_width": 445.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

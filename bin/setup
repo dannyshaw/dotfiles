@@ -1,6 +1,0 @@
-#! /bin/bash
-git submodule update --init
-wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.5/install.sh | bash
-source ~/.bashrc
-nvm install 8 
-npm install kody -g
