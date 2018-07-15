@@ -28,13 +28,15 @@ exp () {
 export NVM_DIR="$HOME/.nvm"
 # shellcheck source=/dev/null
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-export NODE_PATH=/usr/lib/nodejs:/usr/lib/node_modules:/usr/share/javascript:/home/danny/.nvm/versions/node/v5.6.0/lib/node_modules
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+#export NODE_PATH=/usr/lib/nodejs:/usr/lib/node_modules:/usr/share/javascript
 
 
 set +u   # there's a shitty bug that throws on safe bash scripts
 # autoenv
 # shellcheck source=/dev/null
-source `which activate.sh`
+#source `which activate.sh`
 set -u
 
 # shellcheck source=/dev/null

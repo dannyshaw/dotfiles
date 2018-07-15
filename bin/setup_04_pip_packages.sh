@@ -2,5 +2,5 @@
 set -euo pipefail
 
 echo "--- Installing pip packages"
-pip install -r ../pip/requirements.txt
+pip3 install -r ../pip/requirements.txt
 echo "--- OK"

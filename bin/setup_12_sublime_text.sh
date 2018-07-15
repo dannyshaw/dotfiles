@@ -1,6 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 
+echo "--- Linking Sublime Text User Packages"
 # export SUBLIME_PACKAGES="${HOME}/.test/sublime-text-3/Packages"
 export SUBLIME_PACKAGES="${HOME}/.config/sublime-text-3/Packages"
 export USER_PACKAGES="${SUBLIME_PACKAGES}/User"
@@ -33,3 +34,4 @@ if [[ ! -L "${USER_PACKAGES}" ]]; then
     echo "--- --- Symlinking to dotfiles user packages"
 	ln -sf "${DOTFILES_USER_PACKAGES}" "${USER_PACKAGES}"
 fi
+echo "--- OK"

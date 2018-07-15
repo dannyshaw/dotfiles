@@ -14,39 +14,9 @@
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
-		"*.pyc",
-		"*.pyo",
-		"*.exe",
-		"*.dll",
-		"*.obj",
-		"*.o",
-		"*.a",
-		"*.lib",
-		"*.so",
-		"*.dylib",
-		"*.ncb",
-		"*.sdf",
-		"*.suo",
-		"*.pdb",
-		"*.idb",
-		".DS_Store",
-		"*.class",
-		"*.psd",
-		"*.db",
-		"*.sublime-workspace",
-		"/home/danny/.dotfiles/sublime/User/Package Control.last-run",
-		"app_debug.log",
-		"*.prof",
-		"app_test.log",
-		"*.min.js"
 	],
 	"folder_exclude_patterns":
 	[
-		"/home/danny/.dotfiles/sublime/User/Package Control.cache",
-		"node_modules",
-		".git",
-		"build",
-		"webpack-dist"
 	],
 	"font_face": "Operator Mono Lig",
 	"font_options":

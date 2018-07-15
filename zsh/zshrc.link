@@ -79,9 +79,9 @@ source $ZSH/oh-my-zsh.sh
 
 source $HOME/.antigen.zsh
 source $HOME/.antigen_bundles.zsh
-source $HOME/.dannyrc
+#source $HOME/.dannyrc
 
-source virtualenvwrapper.sh
+#source virtualenvwrapper.sh
 
 
 

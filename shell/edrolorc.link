@@ -1,6 +1,5 @@
 export PYTHONDONTWRITEBYTECODE=1
 export PROJECT_HOME=$HOME/dev/edrolo
-. /usr/local/bin/virtualenvwrapper.sh
 
 export WORKON_HOME=$HOME/.virtualenvs
 alias er='cd $PROJECT_HOME/edrolo/tod_project/tod_django/react'
