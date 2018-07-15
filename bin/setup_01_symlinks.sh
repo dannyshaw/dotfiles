@@ -68,7 +68,7 @@ echo "--- Symlink all the things"
 # This will find all files and directories with the extension ".link"
 # .dotfiles/git/gitconfig.link will get a symlink at ~/.gitconfig
 # .dotfiles/vim/vim.link will get a symlink at ~/.vim
-find "${HOME}/.dotfiles/" -path "${HOME}/.dotfiles/.git" -prune -o -name "*.link" -type f -print0 | while IFS= read -r -d $'\0' TARGET; do
+find "${HOME}/.dotfiles/" -path "${HOME}/.dotfiles/.git" -prune -o -name "*.link" -print0 | while IFS= read -r -d $'\0' TARGET; do
 
 	# extract just the name of the file/dir to link (cant use basename bc we need dirs too)
 	# MATCH=$(echo "${TARGET}" | grep -oP "${HOME}/\.dotfiles/[\/\w+]*/\K(\w[\.\w]*)(?=\.link)")
