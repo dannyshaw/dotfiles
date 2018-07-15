@@ -2,6 +2,7 @@
 [user]
 	name = Danny Shaw
 	email = code@dannyshaw.io
+	signingkey = E08FC848AC8BA89B34A464C42A5D545D6C64F41F
 [diff]
 	    tool = meld
 [difftool]
