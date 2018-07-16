@@ -25,6 +25,7 @@ APT_PACKAGES="\
     python3-pip \
     python3-dev \
     redis-server \
+    rename \
     ruby \
     silversearcher-ag \
     shellcheck \

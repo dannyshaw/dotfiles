@@ -8,15 +8,14 @@
 	"caret_style": "phase",
 	"color_scheme": "Packages/User/SublimeLinter/1337 (SL).tmTheme",
 	"copy_with_empty_selection": false,
-	"dpi_scale": 1.5,
+	"dpi_scale": 1.7,
 	"draw_minimap_border": true,
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
-	"file_exclude_patterns":
-	[
-	],
 	"folder_exclude_patterns":
 	[
+		"node_modules",
+		"webpack-dist"
 	],
 	"font_face": "Operator Mono Lig",
 	"font_options":
@@ -24,7 +23,7 @@
 		"gray_antialias",
 		"subpixel_antialias"
 	],
-	"font_size": 16,
+	"font_size": 15,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -41,7 +40,7 @@
 	"line_padding_bottom": 3,
 	"line_padding_top": 3,
 	"material_theme_accent_lime": true,
-	"material_theme_bright_scrollbars": false,
+	"material_theme_bright_scrollbars": true,
 	"material_theme_bullet_tree_indicator": true,
 	"material_theme_compact_sidebar": true,
 	"material_theme_contrast_mode": true,
