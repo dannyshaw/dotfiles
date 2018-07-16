@@ -20,6 +20,7 @@ fi
 if [ ! -d "$HOME/.powerline" ]; then
 	echo "--- --- Installing powerline fonts"
 	git clone https://github.com/powerline/fonts.git ~/.powerline
+  echo "--- probably best close and reopen terminals"
 fi
 
 echo "--- OK"

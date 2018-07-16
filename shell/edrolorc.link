@@ -3,5 +3,8 @@ export PROJECT_HOME=$HOME/dev/edrolo
 export WORKON_HOME=$HOME/.virtualenvs
 alias er='cd $PROJECT_HOME/edrolo/tod_project/tod_django/react'
 alias startdev='tmuxinator start edrolo'
-alias dev='workon edrolo3'
+alias dev='workon edrolo && cd /home/danny/dev/edrolo/edrolo/tod_project/'
 alias tmp='cd /home/danny/dev/tmp'
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
+source ~/.local/bin/virtualenvwrapper.sh

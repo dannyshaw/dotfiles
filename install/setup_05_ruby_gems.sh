@@ -2,5 +2,5 @@
 set -euo pipefail
 
 echo "--- Installing ruby gems"
-gem install tmuxinator
+sudo gem install tmuxinator
 echo "--- OK"

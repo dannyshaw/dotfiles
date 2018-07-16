@@ -8,17 +8,17 @@ echo "--- Installing apt keys"
 # google chrome
 if ! grep -qir --include="*.list" "deb.*dl.google.com/linux/chrome/deb/ stable main" "$APT_SOURCES"
 then
-	echo "--- --- installing google-chrome key"
-	wget -qO - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-	echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee "${APT_SOURCES}/google-chrome.list"
+  echo "--- --- installing google-chrome key"
+  wget -qO - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+  echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee "${APT_SOURCES}/google-chrome.list"
 fi
 
 # sublime text
 if ! grep -qir --include="*.list" "deb https://download.sublimetext.com/ apt/dev/" $APT_SOURCES
 then
-	echo "--- --- installing sublime-text key"
-	wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
-	echo "deb https://download.sublimetext.com/ apt/dev/" | sudo tee "${APT_SOURCES}/sublime-text.list"
+  echo "--- --- installing sublime-text key"
+  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+  echo "deb https://download.sublimetext.com/ apt/dev/" | sudo tee "${APT_SOURCES}/sublime-text.list"
 fi
 
 echo "--- Adding yarn key"

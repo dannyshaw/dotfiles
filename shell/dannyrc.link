@@ -1,6 +1,6 @@
 #!/bin/bash
 export EDITOR='vim'
-export PATH=$PATH:/home/danny/bin
+export PATH="$(yarn global bin):/home/danny/.bin:$PATH"
 export QT_DEVICE_PIXEL_RATIO=auto
 
 
@@ -22,6 +22,11 @@ alias drmall='docker rm $(docker ps -a -q)'
 exp () {
 	google-chrome http://explainshell.com/explain?cmd="$@";
 }
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
 
 
 source $HOME/.edrolorc

@@ -32,9 +32,9 @@ windows:
       layout: 5404,317x92,0,0{77x92,0,0,0,82x92,78,0,2,156x92,161,0[156x46,161,0,3,156x45,161,47,16]}
       panes:
         - webpack:
-            - er && npm run dev
+            - er && yarn run dev
         - test:
-            - er && npm test -- --watch
+            - er && yarn test --watch
         - term:
             - dev
             - er

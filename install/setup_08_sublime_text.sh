@@ -21,17 +21,17 @@ fi
 
 # if link is there but it doesnt point to dotfiles - back it up
 if [[ -L "$USER_PACKAGES" ]]; then
-	LINK_TARGET="$(readlink -- "$USER_PACKAGES")"
-	if [ "$LINK_TARGET" != "$DOTFILES_USER_PACKAGES" ]; then
-		echo "--- --- !!! WARNING !!! Foreign User Package Points to '$LINK_TARGET'"
-		echo "--- --- !!! WARNING !!! Removing Symlink"
-		rm -f "$USER_PACKAGES"
-	fi
+  LINK_TARGET="$(readlink -- "$USER_PACKAGES")"
+  if [ "$LINK_TARGET" != "$DOTFILES_USER_PACKAGES" ]; then
+    echo "--- --- !!! WARNING !!! Foreign User Package Points to '$LINK_TARGET'"
+    echo "--- --- !!! WARNING !!! Removing Symlink"
+    rm -f "$USER_PACKAGES"
+  fi
 fi
 
 # ensure symlink dotfiles config  to sublime config
 if [[ ! -L "${USER_PACKAGES}" ]]; then
     echo "--- --- Symlinking to dotfiles user packages"
-	ln -sf "${DOTFILES_USER_PACKAGES}" "${USER_PACKAGES}"
+  ln -sf "${DOTFILES_USER_PACKAGES}" "${USER_PACKAGES}"
 fi
 echo "--- OK"
