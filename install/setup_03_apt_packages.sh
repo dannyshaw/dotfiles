@@ -6,6 +6,7 @@ APT_PACKAGES="\
     apt-file \
     awscli \
     build-essential \
+    dropbox \
     curl \
     git \
     google-chrome-stable \
@@ -21,6 +22,7 @@ APT_PACKAGES="\
     postgresql \
     powertop \
     python-dev \
+    python-gpg \
     python-pip \
     python3-pip \
     python3-dev \

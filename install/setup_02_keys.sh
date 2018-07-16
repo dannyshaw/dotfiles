@@ -21,6 +21,17 @@ then
   echo "deb https://download.sublimetext.com/ apt/dev/" | sudo tee "${APT_SOURCES}/sublime-text.list"
 fi
 
+# dropbox
+if ! grep -qir --include="*.list" "deb.*http://linux.dropbox.com/ubuntu xenial main" $APT_SOURCES
+then
+  echo "--- --- installing dropbox key"
+  echo "deb [arch=i386,amd64] http://linux.dropbox.com/ubuntu xenial main" | sudo tee "${APT_SOURCES}/dropbox.list"
+  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1C61A2656FB57B7E4DE0F4C1FC918B335044912E
+fi
+
+
+
+
 echo "--- Adding yarn key"
 wget -qO - https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add
 
