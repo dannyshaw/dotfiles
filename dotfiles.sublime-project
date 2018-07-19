@@ -3,6 +3,9 @@
 	[
 		{
 			"path": "."
+		},
+		{
+			"path": "/home/danny/dev/repos/chrome-ext"
 		}
 	]
 }

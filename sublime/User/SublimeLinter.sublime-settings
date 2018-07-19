@@ -2,7 +2,7 @@
 {
     "paths": {
 	    "linux": [
-	    	"/home/danny/.virtualenvs/edrolo3/bin/"
+	    	"/home/danny/.virtualenvs/edrolo/bin/"
 	    ],
 	},
 	"gutter_theme": "Circle",

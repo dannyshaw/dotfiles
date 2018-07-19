@@ -34,6 +34,7 @@ APT_PACKAGES="\
     sublime-text \
     tmux \
     vim \
+    vlc \
     xclip \
     yarn \
     zsh \

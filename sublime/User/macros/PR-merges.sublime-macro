@@ -1,0 +1,30 @@
+[
+	{
+		"args":
+		{
+			"extend": false,
+			"to": "eof"
+		},
+		"command": "move_to"
+	},
+	{
+		"args":
+		{
+			"extend": false,
+			"to": "bof"
+		},
+		"command": "move_to"
+	},
+	{
+		"args": null,
+		"command": "cut"
+	},
+	{
+		"args": null,
+		"command": "select_all"
+	},
+	{
+		"args": null,
+		"command": "paste"
+	}
+]
