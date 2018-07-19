@@ -13,7 +13,8 @@ alias cc='xclip -sel clip'
 alias pp='xclip -sel clip -o'
 alias n='notify-send "Script Completed"'
 alias npi='npm install --cache-min 999999 '
-
+alias dot='cd ~/.dotfiles'
+alias dit='git -C ~/.dotfiles'
 
 #docker
 alias dkillall='docker kill $(docker ps -a -q)'

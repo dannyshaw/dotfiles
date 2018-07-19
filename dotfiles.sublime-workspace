@@ -435,6 +435,13 @@
 								"SL.shellcheck.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
 								"sublime_linter.protected_regions"
 							],
+							"SL.16.region_keys":
+							[
+								"SL.shellcheck.Highlights.|f88ac9618e446a6d8c949cba1b6837faf3422341531847e4bd61220f52c1a911|region.yellowish markup.warning.sublime_linter|32",
+								"SL.shellcheck.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.shellcheck.Highlights.|dd7091e722e342a2d1a00895d282083194e1d9d805843fdfdb56b87811e2c977|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions"
+							],
 							"SL.191.region_keys":
 							[
 								"SL.shellcheck.Highlights.|dd7091e722e342a2d1a00895d282083194e1d9d805843fdfdb56b87811e2c977|region.yellowish markup.warning.sublime_linter|32",
@@ -659,7 +666,7 @@
 							"vintage_lines.mode": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1510.58823529,
+						"translation.y": 1511.17647059,
 						"zoom_level": 1.0
 					},
 					"stack_index": 5,
@@ -720,7 +727,7 @@
 							"vintage_lines.mode": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2130.58823529,
+						"translation.y": 2131.17647059,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
