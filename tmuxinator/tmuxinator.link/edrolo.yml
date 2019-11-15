@@ -46,9 +46,16 @@ windows:
       panes:
         - edrolo:
           - dev
-          - ./manage.py runserver_plus 57181
-        - htop:
-          - htop
+          - ./manage.py runserver 57181
         - term:
           - dev
-
+  - daily:
+      layout: main-vertical
+      panes:
+        - daily:
+          - cd ~/dev/daily/src
+          - ./index.js hours
+        - htop:
+          - htop
+        - dotfiles:
+          - cd ~/.dotfiles

@@ -12,26 +12,52 @@
 	"draw_minimap_border": true,
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace",
+		"*/css/screen.css"
+	],
 	"folder_exclude_patterns":
 	[
 		"node_modules",
 		"webpack-dist"
 	],
-	"font_face": "Operator Mono Lig",
+	"font_face": "Operator Mono",
 	"font_options":
 	[
 		"gray_antialias",
 		"subpixel_antialias"
 	],
-	"font_size": 9,
+	"font_size": 10,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Git Formats",
-		"Gitignore",
+		"GitGutter",
+		"React and React Router Snippets",
 		"RestructuredText",
 		"Vintage",
+		"VintageLines",
 		"Vintageous"
 	],
 	"indent_guide_options":

@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+import React from 'react';
+import style from './${1:ComponentName}.scss';
+
+const ${1:ComponentName} = ({}) => {
+  return (
+    <div className={style.${1/(.+)/\l$1/g}}>
+        <div />
+    </div>
+  );
+};
+export default ${1:ComponentName};
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>rpres</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.javascript</scope> -->
+</snippet>

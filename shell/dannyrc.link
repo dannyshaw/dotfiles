@@ -15,10 +15,15 @@ alias n='notify-send "Script Completed"'
 alias npi='npm install --cache-min 999999 '
 alias dot='cd ~/.dotfiles'
 alias dit='git -C ~/.dotfiles'
+alias hass='sudo mount -t cifs -o user=danny,uid=danny,gid=danny //10.245.52.187/config /hass'
 
 #docker
 alias dkillall='docker kill $(docker ps -a -q)'
 alias drmall='docker rm $(docker ps -a -q)'
+alias drmstar='docker image rm $(docker image ls -a -q)'
+alias dcleani='docker rmi $(docker images -a --filter=dangling=true -q)'
+alias dcleanps='docker rm $(docker ps --filter=status=exited --filter=status=created -q)'
+alias destroydocker='dkillall && dcleani && dcleanps && drmstar && drmall'
 
 exp () {
 	google-chrome http://explainshell.com/explain?cmd="$@";
@@ -29,8 +34,11 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 
+source `which activate.sh`
 
 source $HOME/.edrolorc
 
 # The Fuck
-eval "$(SHELL=zsh thefuck --alias)"
+eval $(thefuck --alias)
+export IDF_PATH=/home/danny/dev/esp/esp-idf-v3.1.3/
+

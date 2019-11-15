@@ -1,0 +1,25 @@
+<snippet>
+    <content><![CDATA[
+import { connect } from 'react-redux';
+import ${1:ComponentName} from './${1:ComponentName}';
+
+const mapStateToProps = state => {
+  return {
+    ${2:key}: state.something,
+  };
+};
+
+const mapDispatchToProps = (dispatch, ownProps) => {
+  return {
+    ${3:method}: dispatch(),
+  };
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(${1:ComponentName});
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>rconnect</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.javascript</scope> -->
+</snippet>

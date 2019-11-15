@@ -22,6 +22,13 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
 Plugin 'vim-syntastic/syntastic.git'
 Plugin 'ternjs/tern_for_vim.git'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plugin 'junegunn/fzf.vim'
+Plugin 'majutsushi/tagbar'
+Plugin 'tpope/vim-fugitive'
+Plugin 'w0rp/ale'
 
 
 " All of your Plugins must be added before the following line
@@ -60,24 +67,59 @@ let g:mapleader = ","
 "Fast saving
 nmap <leader>w :w!<cr>
 
+"Solarized
+syntax enable
+set t_Co=256
+colorscheme solarized
+set background=dark
+"Highlight search and set numbers
+set hlsearch
+highlight Search guibg=#af005f ctermbg=125
+"clear highlight with <esc> after a search
+nnoremap <C-h> :noh<return>
+
+set cc=80
 set number
 set relativenumber
 
+" Airline configuration
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#formatter = 'default'
 
 "NerdTree
-map <silent> <leader>e :NERDTreeToggle<CR>
-map <silent> <leader>f :NERDTreeFind<cr>
-let NERDTreeIgnore = ['\.swp$', '\.DS_Store']
-
 " keeps NERDTree open and highlights active buffer
 " autocmd BufEnter * if &modifiable | NERDTreeFind | wincmd p | endif
-let NERDTreeQuitOnOpen = 1
-let g:NERDTreeShowHidden=1
+map <C-n> :NERDTreeToggle<CR>
+map <silent> <leader>e :NERDTreeToggle<CR>
+map <silent> <leader>f :NERDTreeFind<cr>
+let NERDTreeIgnore=['\.pyc$', '\~$', '\.swp$', '\.DS_Store']
+autocmd VimEnter * NERDTree
+autocmd VimEnter * wincmd p
+let g:NERDTreeDirArrowExpandable = '▸'
+let g:NERDTreeDirArrowCollapsible = '▾'
 
-"Solarized
-"syntax enable
-"set background=dark
-"colorscheme solarized
+" Switching between buffers
+" Set commands to switching between buffers
+:nnoremap <Tab> :bnext!<CR>
+:nnoremap <S-Tab> :bprevious!<CR>
+:nnoremap <C-X> :bp<bar>sp<bar>bn<bar>bd<CR>
+
+" File searchs
+map <C-p> :Files<CR>
+
+" Ale Configuration
+"""" Better formatting fo worp/ale
+let g:ale_echo_msg_error_str = 'E'
+let g:ale_echo_msg_warning_str = 'W'
+let g:ale_echo_msg_format = '[%linter%] %s [%severity%] [%...code...%]'
+"""" Enable completion where available.
+let g:ale_completion_enabled = 1
+""" Customize linters that are turned on
+let g:ale_linters = {
+  \   'python': ['flake8'],
+  \}
+let g:ale_set_highlights = 0
+
 
 "FZF
 set rtp+=~/.fzf
@@ -106,7 +148,7 @@ let g:syntastic_check_on_wq = 0
 let g:syntastic_javascript_checkers = ['eslint']
 
 "Allow JSX in normal JS file
-let g:jsx_ext_required = 0 
+let g:jsx_ext_required = 0
 
 python3 from powerline.vim import setup as powerline_setup
 python3 powerline_setup()

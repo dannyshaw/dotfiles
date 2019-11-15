@@ -3,13 +3,13 @@
 		"children":
 		[
 			{
-				"caption": "Nemo",
+				"caption": "Folder",
 				"id": "side-bar-files-open-with-chrome",
 
 				"command": "side_bar_files_open_with",
 				"args": {
 									"paths": [],
-									"application": "nemo",
+									"application": "nautilus",
 									"extensions":"", //any file with extension
 									"args":[]
 						},
