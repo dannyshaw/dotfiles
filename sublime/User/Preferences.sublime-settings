@@ -52,10 +52,12 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"FlowType",
 		"Git Formats",
 		"GitGutter",
 		"React and React Router Snippets",
 		"RestructuredText",
+		"Rust",
 		"Vintage",
 		"VintageLines",
 		"Vintageous"
