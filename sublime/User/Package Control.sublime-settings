@@ -2,31 +2,26 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"JSONLint",
+		"RestructuredText Improved"
 	],
 	"installed_packages":
 	[
+		"1337 Color Scheme",
 		"A File Icon",
 		"Advanced CSV",
-		"Anaconda",
 		"Assorted Gutter Themes",
-		"Babel",
 		"CForm",
-		"CSSTidy",
-		"Djaneiro",
 		"Django",
-		"Django Manage Commands",
 		"EditorConfig",
 		"ESLint",
 		"ESLint Fix",
 		"ESLint-Formatter",
-		"FlowType",
 		"Git",
 		"GitGutter",
-		"Gitignore",
 		"Gitignored File Excluder",
 		"greybeard theme",
 		"HTML-CSS-JS Prettify",
-		"Jade",
 		"JSONLint",
 		"JsPrettier",
 		"Material Monokai",
@@ -39,11 +34,8 @@
 		"Package Control",
 		"PackageResourceViewer",
 		"Pretty JSON",
-		"Pug",
 		"Python Improved",
 		"PyYapf Python Formatter",
-		"React and React Router Snippets",
-		"React IDE",
 		"Restructured Text (RST) Snippets",
 		"RestructuredText Improved",
 		"Sass",
@@ -56,7 +48,6 @@
 		"SublimeLinter-eslint",
 		"SublimeLinter-flake8",
 		"SublimeLinter-pug-lint",
-		"SublimeLinter-pycodestyle",
 		"SublimeLinter-pyflakes",
 		"SublimeLinter-pyyaml",
 		"SublimeLinter-shellcheck",
@@ -64,7 +55,6 @@
 		"TodoReview",
 		"TypeScript Syntax",
 		"VintageLines",
-		"Vintageous",
-		"x86 and x86_64 Assembly"
+		"Vintageous"
 	]
 }

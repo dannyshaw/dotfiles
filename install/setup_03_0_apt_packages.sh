@@ -10,6 +10,7 @@ APT_PACKAGES="\
     curl \
     git \
     google-chrome-stable \
+    gnome-tweaks \
     gparted \
     htop \
     jq \
@@ -33,6 +34,7 @@ APT_PACKAGES="\
     shellcheck \
     sublime-text \
     tmux \
+    tlp \
     vim \
     vlc \
     xclip \

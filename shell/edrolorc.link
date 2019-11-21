@@ -8,3 +8,7 @@ alias tmp='cd /home/danny/dev/tmp'
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
 source ~/.local/bin/virtualenvwrapper.sh
+export DJANGO_SETTINGS_MODULE=classysettings
+export DJANGO_CONFIGURATION=LocalSettings
+source ~/.edrolosecretsrc
+

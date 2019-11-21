@@ -1,5 +1,10 @@
 [
 	{ "keys": ["ctrl+shift+r"], "command": "reveal_in_side_bar"},
 	{ "keys": ["shift+alt+m"], "command": "side_bar_move" },
-	{ "keys": ["shift+alt+r"], "command": "side_bar_rename" }
+	{ "keys": ["shift+alt+r"], "command": "side_bar_rename" },
+	{ "keys": ["ctrl+'"], "command": "toggle_bookmark" },
+	{ "keys": ["alt+'"], "command": "next_bookmark" },
+	{ "keys": ["alt+shift+'"], "command": "prev_bookmark" },
+	{ "keys": ["ctrl+alt+shift+'"], "command": "clear_bookmarks" },
+	{ "keys": ["shift+alt+'"], "command": "select_all_bookmarks" }
 ]
