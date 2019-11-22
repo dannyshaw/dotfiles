@@ -1,5 +1,4 @@
 autoenv==1.0.0
 powerline-status===2.6
-thefuck==3.24
 virtualenv==15.1.0
 virtualenvwrapper==4.8.2

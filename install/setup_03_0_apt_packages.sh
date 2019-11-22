@@ -36,6 +36,7 @@ APT_PACKAGES="\
     silversearcher-ag \
     shellcheck \
     sublime-text \
+    thefuck \
     tmux \
     tlp \
     vim \
