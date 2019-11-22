@@ -54,7 +54,9 @@
 	[
 		"Git Formats",
 		"GitGutter",
+		"JSONLint",
 		"RestructuredText",
+		"RestructuredText Improved",
 		"Rust",
 		"Vintage",
 		"VintageLines",

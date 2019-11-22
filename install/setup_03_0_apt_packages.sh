@@ -6,10 +6,12 @@ APT_PACKAGES="\
     apt-file \
     awscli \
     build-essential \
+    chrome-gnome-shell \
     dropbox \
     curl \
     git \
     google-chrome-stable \
+    gnome-shell-extensions \
     gnome-tweaks \
     gparted \
     htop \
@@ -21,6 +23,7 @@ APT_PACKAGES="\
     openvpn \
     postgresql-contrib \
     postgresql \
+    postgresql-server-dev-all \
     powertop \
     python-dev \
     python-gpg \

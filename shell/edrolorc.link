@@ -6,7 +6,7 @@ alias startdev='tmuxinator start edrolo'
 alias dev='workon edrolo && cd /home/danny/dev/edrolo/edrolo/tod_project/'
 alias tmp='cd /home/danny/dev/tmp'
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
-export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
+export VIRTUALENVWRAPPER_VIRTUALENV=/home/danny/.local/bin/virtualenv
 source ~/.local/bin/virtualenvwrapper.sh
 export DJANGO_SETTINGS_MODULE=classysettings
 export DJANGO_CONFIGURATION=LocalSettings
