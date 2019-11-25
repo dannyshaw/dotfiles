@@ -5,7 +5,7 @@ echo "Danny's Dotfiles Installation"
 
 for step in setup*.sh
 do
-  # if a hard file exists - back it up or skip
+  # check if you wanna run each file
   read -p "Do you want to process $step? (no will skip) (yn): " -r REPLY </dev/tty
   if [[ $REPLY =~ ^[Yy]$ ]]; then
     echo "Invoking [$step]"
