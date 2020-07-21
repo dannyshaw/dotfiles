@@ -6,6 +6,12 @@
 		},
 		{
 			"path": "/home/danny/dev/repos/chrome-ext"
+		},
+		{
+			"path": "/home/danny/dev/esp/tempsensor"
+		},
+		{
+			"path": "/home/danny/dev/repos/daikin-pi"
 		}
 	]
 }

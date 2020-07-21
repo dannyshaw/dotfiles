@@ -2,8 +2,6 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"JSONLint",
-		"RestructuredText Improved"
 	],
 	"installed_packages":
 	[
@@ -12,6 +10,7 @@
 		"Advanced CSV",
 		"Assorted Gutter Themes",
 		"CForm",
+		"Djaneiro",
 		"Django",
 		"EditorConfig",
 		"ESLint",
@@ -45,6 +44,7 @@
 		"Sublime Bookmarks",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint_d",
+		"SublimeLinter-contrib-SpellCheckLinter",
 		"SublimeLinter-eslint",
 		"SublimeLinter-flake8",
 		"SublimeLinter-pug-lint",
@@ -55,6 +55,7 @@
 		"TodoReview",
 		"TypeScript Syntax",
 		"VintageLines",
-		"Vintageous"
+		"Vintageous",
+		"Vue Syntax Highlight"
 	]
 }
