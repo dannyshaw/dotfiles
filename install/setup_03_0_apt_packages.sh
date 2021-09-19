@@ -26,8 +26,8 @@ APT_PACKAGES="\
     postgresql-server-dev-all \
     powertop \
     python-dev \
-    python-gpg \
-    python-pip \
+
+
     python3-pip \
     python3-dev \
     redis-server \

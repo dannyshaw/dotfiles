@@ -1,6 +1,6 @@
 {
 	"always_show_minimap_viewport": true,
-	"auto_complete": true,
+	"auto_complete": false,
 	"bold_folder_labels": true,
 	"caret_extra_bottom": 5,
 	"caret_extra_top": 5,
@@ -47,19 +47,20 @@
 		"gray_antialias",
 		"subpixel_antialias"
 	],
-	"font_size": 14,
+	"font_size": 9,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"ESLint",
 		"Git Formats",
 		"GitGutter",
-		"JsPrettier",
 		"RestructuredText",
 		"Rust",
+		"SublimeLinter-contrib-eslint_d",
 		"Vintage",
 		"VintageLines",
-		"Vintageous"
+		"Vintageous",
 	],
 	"indent_guide_options":
 	[
@@ -88,5 +89,14 @@
 	"show_line_endings": true,
 	"show_tab_close_buttons": false,
 	"theme": "Spacegray Eighties.sublime-theme",
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
+	/*"auto_complete": false,*/
+	"auto_complete_include_snippets_when_typing": false,
+	"auto_complete_trailing_symbols": false,
+	"auto_complete_use_history": true,
+	"auto_complete_include_snippets": false,
+	"auto_complete_triggers":
+	[
+		{"selector": "text.html, text.xml", "characters": "<",},
+	],
 }

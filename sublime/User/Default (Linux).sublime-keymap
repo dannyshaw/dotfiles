@@ -6,5 +6,7 @@
 	{ "keys": ["alt+'"], "command": "next_bookmark" },
 	{ "keys": ["alt+shift+'"], "command": "prev_bookmark" },
 	{ "keys": ["ctrl+alt+shift+'"], "command": "clear_bookmarks" },
-	{ "keys": ["shift+alt+'"], "command": "select_all_bookmarks" }
+	{ "keys": ["shift+alt+'"], "command": "select_all_bookmarks" },
+	{ "keys": ["ctrl+alt+left"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+	{ "keys": ["ctrl+alt+right"], "command": "move_to", "args": {"to": "eol", "extend": false} }
 ]

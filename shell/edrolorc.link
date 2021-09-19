@@ -1,9 +1,13 @@
+
+
 export PYTHONDONTWRITEBYTECODE=1
 export PROJECT_HOME=$HOME/dev/edrolo
 export WORKON_HOME=$HOME/.virtualenvs
 alias er='cd $PROJECT_HOME/edrolo/tod_project/tod_django/react'
 alias startdev='tmuxinator start edrolo'
-alias dev='workon edrolo && cd /home/danny/dev/edrolo/edrolo/tod_project/'
+alias bb='git branch --sort=-committerdate | grep -v "^\*" | fzf --height=20% --reverse --info=inline | xargs git checkout'
+alias dbtr='find . -name "*.sql" -type f | fzf -m --height=20% --reverse --info=inline | xargs -r basename -s .sql | tr "\n" " " | xargs -r dbt run -m'
+alias dev='workon edrolo38 && cd /home/danny/dev/edrolo/edrolo/tod_project/'
 alias tmp='cd /home/danny/dev/tmp'
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 export VIRTUALENVWRAPPER_VIRTUALENV=/home/danny/.local/bin/virtualenv
@@ -11,4 +15,5 @@ source ~/.local/bin/virtualenvwrapper.sh
 export DJANGO_SETTINGS_MODULE=classysettings
 export DJANGO_CONFIGURATION=LocalSettings
 source ~/.edrolosecretsrc
+
 

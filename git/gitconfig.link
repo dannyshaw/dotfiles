@@ -25,6 +25,7 @@
 	ci = commit
 	br = branch
 	st = status
+	gca = git commit -a -m
 
 	# show last 10 recently modified branches
 	recent = for-each-ref --count=10 --sort=-committerdate refs/heads/ --format=\"%(refname:short)\"
