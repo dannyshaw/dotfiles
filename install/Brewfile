@@ -7,6 +7,14 @@ tap "yazinsai/openoats", "https://github.com/yazinsai/OpenOats"
 brew "age"
 # Browser automation CLI for AI agents
 brew "agent-browser"
+# Zsh plugin manager (fast, static-cached)
+brew "antidote"
+# A Zsh theme — powerline-style prompt
+brew "powerlevel10k"
+# Smarter cd command, inspired by z and autojump
+brew "zoxide"
+# Fast and simple Node.js version manager
+brew "fnm"
 # Shell extension to jump to frequently used directories
 brew "autojump"
 # Official Amazon AWS command-line interface
@@ -153,6 +161,8 @@ cask "obsidian"
 cask "yazinsai/openoats/openoats"
 # Replacement for Docker Desktop
 cask "orbstack"
+# Virtual machines (UTM) — host the personal Ubuntu guest
+cask "utm"
 # Quick Look plug-in that renders source code with syntax highlighting
 cask "qlcolorcode"
 # Quick Look generator for Markdown files

@@ -1,0 +1,18 @@
+# ~/.zsh_plugins.txt — antidote bundle list (symlinked from dotfiles).
+# Regenerate the static cache automatically; just edit this list.
+
+# Prompt
+romkatv/powerlevel10k
+
+# Completions + better tab UI (load fzf-tab before autosuggestions/highlighting)
+zsh-users/zsh-completions
+Aloxaf/fzf-tab
+
+# Suggestions as you type
+zsh-users/zsh-autosuggestions
+
+# Oh-My-Zsh git aliases
+ohmyzsh/ohmyzsh path:plugins/git
+
+# Syntax highlighting MUST be last
+zsh-users/zsh-syntax-highlighting

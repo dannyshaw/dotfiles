@@ -1,0 +1,12 @@
+# Python CLI tools to install with `uv tool install` (one per line).
+# Read by install/modules/40-python.sh. Lines starting with # are ignored.
+#
+# This replaces the old pip/requirements.txt. virtualenv/virtualenvwrapper are
+# gone — use `uv venv` for project environments. powerline-status is gone —
+# the prompt is now powerlevel10k.
+#
+# Uncomment / add what you actually use, e.g.:
+# ruff
+# httpie
+# yt-dlp
+# poetry

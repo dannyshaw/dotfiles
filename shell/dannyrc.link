@@ -1,24 +1,48 @@
-#!/bin/bash
+# ~/.dannyrc — personal shell config, sourced from ~/.zshrc.
+# Cross-platform (macOS + Ubuntu). Everything optional is guarded so a fresh
+# machine with tools not yet installed still starts a clean shell.
+
 export EDITOR='vim'
 
+case "$(uname -s)" in
+  Darwin) _OS=mac ;;
+  *)      _OS=linux ;;
+esac
 
-#disable insert key
-#xmodmap -e "keycode 118 ="
+# --- clipboard (portable cc/pp) --------------------------------------------
+if [[ $_OS == mac ]]; then
+  alias cc='pbcopy'
+  alias pp='pbpaste'
+elif command -v xclip >/dev/null 2>&1; then
+  alias cc='xclip -sel clip'
+  alias pp='xclip -sel clip -o'
+fi
 
-#handy tools
-alias sagi='sudo apt-get install'
-alias cc='xclip -sel clip'
-alias pp='xclip -sel clip -o'
-alias ls='eza'
-alias cat='bat'
-alias less='bat'
-alias n='notify-send "Script Completed"'
-alias npi='npm install --cache-min 999999 '
+# --- modern CLI replacements (only alias if the tool exists) ---------------
+command -v eza >/dev/null 2>&1 && alias ls='eza'
+if command -v bat >/dev/null 2>&1; then
+  alias cat='bat'
+  alias less='bat'
+elif command -v batcat >/dev/null 2>&1; then   # ubuntu names it batcat
+  alias cat='batcat'
+  alias less='batcat'
+fi
+
+# --- handy aliases ---------------------------------------------------------
 alias dot='cd ~/.dotfiles'
 alias dit='git -C ~/.dotfiles'
-alias hass='cd ~/dev/repos/home-assistant-config'
-alias hassmount='sudo mount -t cifs -o user=danny,uid=danny,gid=danny //10.245.52.187/config /hass'
-#docker
+alias npi='npm install --cache-min 999999'
+[[ $_OS == linux ]] && alias sagi='sudo apt-get install'
+[[ $_OS == linux ]] && alias n='notify-send "Script Completed"'
+[[ $_OS == mac ]]   && alias fixdns='sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder'
+
+# open explainshell for a command
+exp() {
+  local url="http://explainshell.com/explain?cmd=$*"
+  if [[ $_OS == mac ]]; then open "$url"; else xdg-open "$url" >/dev/null 2>&1 || true; fi
+}
+
+# --- docker ----------------------------------------------------------------
 alias dkillall='docker kill $(docker ps -a -q)'
 alias drmall='docker rm $(docker ps -a -q)'
 alias drmstar='docker image rm $(docker image ls -a -q)'
@@ -26,34 +50,25 @@ alias dcleani='docker rmi $(docker images -a --filter=dangling=true -q)'
 alias dcleanps='docker rm $(docker ps --filter=status=exited --filter=status=created -q)'
 alias destroydocker='dkillall && dcleani && dcleanps && drmstar && drmall'
 
-exp () {
-	google-chrome http://explainshell.com/explain?cmd="$@";
-}
+# --- PATH ------------------------------------------------------------------
+export PATH="$HOME/.local/bin:$HOME/.bin:$PATH"
+[[ -f "$HOME/.local/bin/env" ]] && source "$HOME/.local/bin/env"   # uv / cargo env
 
+if [[ $_OS == mac ]]; then
+  [[ -d /opt/homebrew/opt/libpq/bin ]] && export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+  [[ -d "$HOME/.codeium/windsurf/bin" ]] && export PATH="$HOME/.codeium/windsurf/bin:$PATH"
+  export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+fi
 
+# --- node via fnm ----------------------------------------------------------
+command -v fnm >/dev/null 2>&1 && eval "$(fnm env --use-on-cd)"
 
-source $HOME/.edrolorc
+# --- interactive tools (all guarded) ---------------------------------------
+# fzf first, then mcfly so mcfly owns Ctrl-R (fzf keeps Ctrl-T / Alt-C).
+command -v fzf    >/dev/null 2>&1 && source <(fzf --zsh)
+command -v zoxide >/dev/null 2>&1 && eval "$(zoxide init zsh)"
+command -v mcfly  >/dev/null 2>&1 && eval "$(mcfly init zsh)"
+command -v thefuck>/dev/null 2>&1 && eval "$(thefuck --alias)"
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-
-
-. "$HOME/.local/bin/env"
-export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
-
-export GLOBAL_PYTHON="/opt/homebrew/lib/python3.13"
-
-# Added by Windsurf
-export PATH="$HOME/.codeium/windsurf/bin:$PATH"
-
-
-export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
-
-source <(fzf --zsh)
-eval $(thefuck --alias)
-
-export PATH=$PATH:/Users/danny/.bin
-alias fixdns="sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
-"
+# --- work config -----------------------------------------------------------
+[[ -f ~/.edrolorc ]] && source ~/.edrolorc

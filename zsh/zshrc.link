@@ -1,100 +1,38 @@
+# ~/.zshrc — managed by ~/.dotfiles (symlinked). Cross-platform (macOS + Ubuntu).
 
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-
-# Path to your oh-my-zsh installation.
-  export ZSH=/home/danny/.oh-my-zsh
-
-# Set name of the theme to load. Optionally, if you set this to "random"
-# it'll load a random theme each time that oh-my-zsh is loaded.
-# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="powerlevel9k/powerlevel9k"
-POWERLEVEL9K_MODE='awesome-fontconfig'
-#POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(root_indicator os_icon context time dir)
-#POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status vcs ip battery docker_machine)
-POWERLEVEL9K_PROMPT_ON_NEWLINE=true
-POWERLEVEL9K_RPROMPT_ON_NEWLINE=true
-#POWERLEVEL9K_BATTERY_ICON="B"
-POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=""
-
-local user_symbol="$"
-if [[ $(print -P "%#") =~ "#" ]]; then
-    user_symbol = "#"
+# --- Powerlevel10k instant prompt (must stay near the top) -----------------
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
-POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%{%B%F{yellow}%K{blue}%} $user_symbol%{%b%f%k%F{blue}%} %{%f%}"
-#POWERLEVEL9K_SHOW_CHANGESET=true
-#POWERLEVEL9K_CHANGESET_HASH_LENGTH=6
-POWERLEVEL9K_TIME_FORMAT="%D{%F %T}"
 
-
-# Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
-
-# Uncomment the following line to use hyphen-insensitive completion. Case
-# sensitive completion must be off. _ and - will be interchangeable.
-# HYPHEN_INSENSITIVE="true"
-
-# Uncomment the following line to disable bi-weekly auto-update checks.
-# DISABLE_AUTO_UPDATE="true"
-
-# Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_ZSH_DAYS=13
-
-# Uncomment the following line to disable colors in ls.
-# DISABLE_LS_COLORS="true"
-
-# Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
-
-# Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
-
-# Uncomment the following line to display red dots whilst waiting for completion.
-# COMPLETION_WAITING_DOTS="true"
-
-# Uncomment the following line if you want to disable marking untracked files
-# under VCS as dirty. This makes repository status check for large repositories
-# much, much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
-
-# Uncomment the following line if you want to change the command execution time
-# stamp shown in the history command output.
-# The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
+# --- history ---------------------------------------------------------------
+HISTFILE="$HOME/.zsh_history"
+HISTSIZE=50000
+SAVEHIST=50000
+setopt share_history hist_ignore_all_dups hist_reduce_blanks hist_verify
 HIST_STAMPS="yyyy-mm-dd"
 
-# Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
+# --- completion system (must init before plugins that call compdef) --------
+autoload -Uz compinit
+compinit -C            # -C: skip the slow daily security check (fast startup)
 
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
-# plugins=(git django)
-# source $ZSH/plugins/gitfast/git-prompt.sh
-source $ZSH/oh-my-zsh.sh
+# --- antidote plugin manager (loads plugins from ~/.zsh_plugins.txt) --------
+# powerlevel10k itself is loaded as a plugin from that file.
+_antidote=""
+for _cand in \
+  "${HOMEBREW_PREFIX:-/opt/homebrew}/opt/antidote/share/antidote/antidote.zsh" \
+  /usr/local/opt/antidote/share/antidote/antidote.zsh \
+  "$HOME/.antidote/antidote.zsh"; do
+  if [[ -r "$_cand" ]]; then _antidote="$_cand"; break; fi
+done
+if [[ -n "$_antidote" ]]; then
+  source "$_antidote"
+  antidote load "${ZDOTDIR:-$HOME}/.zsh_plugins.txt"
+fi
+unset _antidote _cand
 
-# User configuration
+# --- p10k prompt config (run `p10k configure` to (re)generate ~/.p10k.zsh) --
+[[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-source $HOME/.antigen.zsh
-source $HOME/.antigen_bundles.zsh
-source $HOME/.dannyrc
-#source virtualenvwrapper.sh
-
-
-
-
-capture() {
-  tail -f /proc/$1/fd/1
-}
-
-# tabtab source for serverless package
-# uninstall by removing these lines or running `tabtab uninstall serverless`
-[[ -f /home/danny/dev/edrolo/edrolo/lambdas/node_modules/tabtab/.completions/serverless.zsh ]] && . /home/danny/dev/edrolo/edrolo/lambdas/node_modules/tabtab/.completions/serverless.zsh
-# tabtab source for sls package
-# uninstall by removing these lines or running `tabtab uninstall sls`
-[[ -f /home/danny/dev/edrolo/edrolo/lambdas/node_modules/tabtab/.completions/sls.zsh ]] && . /home/danny/dev/edrolo/edrolo/lambdas/node_modules/tabtab/.completions/sls.zsh
-
-export PATH="$HOME/.yarn/bin:/usr/local/bin/:$PATH:$HOME/.config/yarn/global/node_modules/.bin/"
-
+# --- personal + work shell config ------------------------------------------
+[[ -f ~/.dannyrc ]]  && source ~/.dannyrc

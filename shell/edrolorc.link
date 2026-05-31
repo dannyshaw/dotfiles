@@ -1,19 +1,27 @@
-
+# ~/.edrolorc — work (edrolo) shell config, sourced from ~/.dannyrc.
+# $HOME-relative and guarded so it's a no-op on machines without the work setup.
 
 export PYTHONDONTWRITEBYTECODE=1
-export PROJECT_HOME=$HOME/dev/edrolo
-export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME="$HOME/dev/edrolo"
+export WORKON_HOME="$HOME/.virtualenvs"
+
 alias er='cd $PROJECT_HOME/edrolo/tod_project/tod_django/react'
 alias startdev='tmuxinator start edrolo'
 alias bb='git branch --sort=-committerdate | grep -v "^\*" | fzf --height=20% --reverse --info=inline | xargs git checkout'
 alias dbtr='find . -name "*.sql" -type f | fzf -m --height=20% --reverse --info=inline | xargs -r basename -s .sql | tr "\n" " " | xargs -r dbt run -m'
-alias dev='workon edrolo38 && cd /home/danny/dev/edrolo/edrolo/tod_project/'
-alias tmp='cd /home/danny/dev/tmp'
-export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
-export VIRTUALENVWRAPPER_VIRTUALENV=/home/danny/.local/bin/virtualenv
-source ~/.local/bin/virtualenvwrapper.sh
+alias dev='workon edrolo38 && cd "$PROJECT_HOME/edrolo/tod_project/"'
+alias tmp='cd "$HOME/dev/tmp"'
+
 export DJANGO_SETTINGS_MODULE=classysettings
 export DJANGO_CONFIGURATION=LocalSettings
-source ~/.edrolosecretsrc
 
+# Legacy virtualenvwrapper — only load if still installed. New project venvs
+# should use `uv venv` instead (see install/modules/40-python.sh).
+if [[ -f "$HOME/.local/bin/virtualenvwrapper.sh" ]]; then
+  export VIRTUALENVWRAPPER_PYTHON="$(command -v python3)"
+  command -v virtualenv >/dev/null 2>&1 && export VIRTUALENVWRAPPER_VIRTUALENV="$(command -v virtualenv)"
+  source "$HOME/.local/bin/virtualenvwrapper.sh"
+fi
 
+# Work secrets (pulled from the homelab into the work profile; never in git).
+[[ -f ~/.edrolosecretsrc ]] && source ~/.edrolosecretsrc
