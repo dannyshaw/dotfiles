@@ -1,17 +1,15 @@
 #!/bin/bash
 export EDITOR='vim'
-export PATH="$(yarn global bin):/home/danny/.bin:$PATH"
-export QT_DEVICE_PIXEL_RATIO=auto
 
 
 #disable insert key
-xmodmap -e "keycode 118 ="
+#xmodmap -e "keycode 118 ="
 
 #handy tools
 alias sagi='sudo apt-get install'
 alias cc='xclip -sel clip'
 alias pp='xclip -sel clip -o'
-alias ls='exa-linux-x86_64'
+alias ls='eza'
 alias cat='bat'
 alias less='bat'
 alias n='notify-send "Script Completed"'
@@ -32,19 +30,30 @@ exp () {
 	google-chrome http://explainshell.com/explain?cmd="$@";
 }
 
+
+
+source $HOME/.edrolorc
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 
-#source `which activate.sh`
 
-source $HOME/.edrolorc
+. "$HOME/.local/bin/env"
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 
-# The Fuck
+export GLOBAL_PYTHON="/opt/homebrew/lib/python3.13"
+
+# Added by Windsurf
+export PATH="$HOME/.codeium/windsurf/bin:$PATH"
+
+
+export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+
+source <(fzf --zsh)
 eval $(thefuck --alias)
-export IDF_PATH=/home/danny/dev/esp/esp-idf-v3.1.3/
 
-export ANDROID_SDK=/home/danny/Android/Sdk
-
-export PATH=$ANDROID_SDK/platform-tools:$PATH
+export PATH=$PATH:/Users/danny/.bin
+alias fixdns="sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+"
