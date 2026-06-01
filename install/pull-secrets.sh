@@ -58,16 +58,34 @@ done
 log "Linking secret dotfiles into \$HOME"
 link_tree "$STORE"
 
-# --- compose ~/.ssh from the pulled ssh/ subtree ---------------------------
-if [[ -d "$STORE/ssh" ]]; then
-  log "Composing ~/.ssh"
-  mkdir -p "$HOME/.ssh"
-  cp -a "$STORE/ssh/." "$HOME/.ssh/"
+# --- compose mixed dirs from their pulled subtrees -------------------------
+# These hold a mix of secret + non-secret files, so they're delivered as a
+# subtree (not a single *.link symlink) and merged into their real location.
+# subtree-in-store  ->  destination
+compose_subtree() {
+  local sub="$1" dest="$2"
+  [[ -d "$STORE/$sub" ]] || return 0
+  log2 "composing $sub -> ${dest/#$HOME/~}"
+  mkdir -p "$dest"
+  cp -a "$STORE/$sub/." "$dest/"
+}
+
+log "Composing mixed-dir secrets into \$HOME"
+compose_subtree ssh "$HOME/.ssh"
+compose_subtree aws "$HOME/.aws"
+compose_subtree gh  "$HOME/.config/gh"
+
+# Tighten permissions on the composed dirs.
+if [[ -d "$HOME/.ssh" ]]; then
   chmod 700 "$HOME/.ssh"
-  # Private keys 600, everything else readable.
   find "$HOME/.ssh" -type f ! -name '*.pub' ! -name 'known_hosts*' ! -name 'config' \
     -exec chmod 600 {} +
   [[ -f "$HOME/.ssh/config" ]] && chmod 600 "$HOME/.ssh/config"
 fi
+for d in "$HOME/.aws" "$HOME/.config/gh"; do
+  [[ -d "$d" ]] || continue
+  chmod 700 "$d"
+  find "$d" -type f -exec chmod 600 {} +
+done
 
 log "OK — secrets restored for profile '$SECRETS_PROFILE'."
