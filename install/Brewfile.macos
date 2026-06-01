@@ -48,8 +48,6 @@ cask "qlprettypatch"
 cask "qlstephen"
 # Quick Look plugin for CSV files
 cask "quicklook-csv"
-# Quick Look plugin for JSON files
-cask "quicklook-json"
 # Application for inspecting installer packages
 cask "suspicious-package"
 # Tool to invert scroll direction for physical scroll wheels
