@@ -56,7 +56,6 @@ export PATH="$HOME/.local/bin:$HOME/.bin:$PATH"
 
 if [[ $_OS == mac ]]; then
   [[ -d /opt/homebrew/opt/libpq/bin ]] && export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
-  [[ -d "$HOME/.codeium/windsurf/bin" ]] && export PATH="$HOME/.codeium/windsurf/bin:$PATH"
   export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 fi
 
