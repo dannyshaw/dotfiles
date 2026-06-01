@@ -1,0 +1,8 @@
+# Brewfile.linux — Linux-only GUI apps (Flatpak), for the Ubuntu UTM guest.
+# Linuxbrew has no casks, so GUI apps come via Flatpak. brew bundle drives
+# flatpak natively. Installed by install/modules/25-apps.ubuntu.sh (which sets
+# up flatpak + the flathub remote first).
+#   brew bundle --file=install/Brewfile.linux
+
+# Knowledge base over local Markdown files (matches the macOS cask)
+flatpak "md.obsidian.Obsidian"

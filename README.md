@@ -41,8 +41,9 @@ once, then run the same one-liner inside it).
 - **Packages** — Homebrew is the universal package manager (macOS *and* Ubuntu
   via Linuxbrew). `install/Brewfile` holds the cross-platform set (brew formulae +
   `uv` tools + `npm`/`go`); `install/Brewfile.macos` holds the macOS-only GUI casks
-  + VS Code extensions. Editor *settings* are left to VS Code's built-in Settings
-  Sync, not tracked here.
+  + VS Code extensions, and `install/Brewfile.linux` holds Ubuntu GUI apps via
+  Flatpak (Linuxbrew has no casks). Editor *settings* are left to VS Code's
+  built-in Settings Sync, not tracked here.
 
 - **Python** — [`uv`] for tools and venvs (no pip/virtualenvwrapper); uv tools are
   declared in the Brewfile.
