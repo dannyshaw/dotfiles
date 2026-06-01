@@ -49,10 +49,8 @@ SSH key is authorized there (the bootstrap generates one and prints it):
 ## 4. Run the install
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/dannyshaw/dotfiles/unified/install/bootstrap.sh | bash
+curl -fsSL https://raw.githubusercontent.com/dannyshaw/dotfiles/master/install/bootstrap.sh | bash
 ```
-
-(Use `master` instead of `unified` once that branch is merged.)
 
 It will: install Linuxbrew + the cross-platform `Brewfile`, link dotfiles, set up
 the zsh/p10k/fzf/mcfly/zoxide shell, and offer the secrets pull. The profile is
