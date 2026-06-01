@@ -12,10 +12,14 @@ One line, works on macOS or Ubuntu:
 curl -fsSL https://raw.githubusercontent.com/dannyshaw/dotfiles/master/install/bootstrap.sh | bash
 ```
 
-It installs prerequisites (Homebrew on macOS / apt essentials on Ubuntu), clones
-this repo to `~/.dotfiles`, ensures an SSH key, then launches an **interactive
-installer** that lets you pick what to set up. Already cloned? Just run
-`~/.dotfiles/install/install.sh`.
+It installs prerequisites (Homebrew on macOS / apt essentials + Linuxbrew on
+Ubuntu), clones this repo to `~/.dotfiles`, ensures an SSH key, then launches an
+**interactive installer** that lets you pick what to set up. Already cloned? Just
+run `~/.dotfiles/install/install.sh`.
+
+The mac host installs **UTM** (`cask`); to set up the personal Ubuntu guest inside
+it, follow [`docs/utm-ubuntu-guest.md`](docs/utm-ubuntu-guest.md) (create the VM
+once, then run the same one-liner inside it).
 
 ## How it works
 
