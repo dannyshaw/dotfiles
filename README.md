@@ -34,8 +34,14 @@ installer** that lets you pick what to set up. Already cloned? Just run
   `zsh/zsh_plugins.txt.link`. Prompt config lives in `~/.p10k.zsh`
   (`p10k configure` to regenerate).
 
-- **Python** — [`uv`] for tools and venvs (no pip/virtualenvwrapper). Tool list:
-  `install/uv-tools.txt`.
+- **Packages** — Homebrew is the universal package manager (macOS *and* Ubuntu
+  via Linuxbrew). `install/Brewfile` holds the cross-platform set (brew formulae +
+  `uv` tools + `npm`/`go`); `install/Brewfile.macos` holds the macOS-only GUI casks
+  + VS Code extensions. Editor *settings* are left to VS Code's built-in Settings
+  Sync, not tracked here.
+
+- **Python** — [`uv`] for tools and venvs (no pip/virtualenvwrapper); uv tools are
+  declared in the Brewfile.
 
 ## Secrets (homelab)
 

@@ -1,3 +1,8 @@
+# Brewfile — cross-platform package manifest.
+# brew formulae + uv tools + npm globals + go packages. Installs via
+# 'brew bundle' on macOS AND Ubuntu (Linuxbrew). GUI casks + VS Code
+# extensions are macOS-only and live in Brewfile.macos.
+
 tap "bnomei/tmux-mcp"
 tap "buildkite/buildkite"
 tap "chmouel/lazyworktree", "https://github.com/chmouel/lazyworktree"
@@ -127,80 +132,6 @@ brew "xclip"
 brew "bnomei/tmux-mcp/tmux-mcp-rs"
 # Work with Buildkite from the command-line
 brew "buildkite/buildkite/bk@3"
-# AeroSpace is an i3-like tiling window manager for macOS
-cask "nikitabobko/tap/aerospace"
-# Android SDK component
-cask "android-platform-tools"
-# Compact TeX distribution as alternative to the full TeX Live / MacTeX
-cask "basictex"
-# Utility to create and modify archives
-cask "betterzip"
-# Model Context Protocol server for Buildkite
-cask "buildkite/buildkite/buildkite-mcp-server"
-# Disk usage utility
-cask "disk-inventory-x"
-# Terminal emulator that uses platform-native UI and GPU acceleration
-cask "ghostty"
-# Personal data manager focusing on security
-cask "keepassx"
-# lazyworktree - A TUI tool to manage git worktrees
-cask "chmouel/lazyworktree/lazyworktree"
-# File system integration
-cask "macfuse"
-# Visual diff and merge tool
-cask "meld"
-# App to write, plan, collaborate, and get organised
-cask "notion"
-# Calendar for professionals and teams
-cask "notion-calendar"
-# Simple application that will prevent iTunes or Apple Music from launching
-cask "notunes"
-# Knowledge base that works on top of a local folder of plain text Markdown files
-cask "obsidian"
-# Real-time meeting copilot
-cask "yazinsai/openoats/openoats"
-# Replacement for Docker Desktop
-cask "orbstack"
-# Virtual machines (UTM) — host the personal Ubuntu guest
-cask "utm"
-# Quick Look plug-in that renders source code with syntax highlighting
-cask "qlcolorcode"
-# Quick Look generator for Markdown files
-cask "qlmarkdown"
-# Quick Look plugin to view patch files
-cask "qlprettypatch"
-# Quick Look plugin for plaintext files without an extension
-cask "qlstephen"
-# Quick Look plugin for CSV files
-cask "quicklook-csv"
-# Quick Look plugin for JSON files
-cask "quicklook-json"
-# Application for inspecting installer packages
-cask "suspicious-package"
-# Tool to invert scroll direction for physical scroll wheels
-cask "unnaturalscrollwheels"
-# Quick Look plugin for webp files
-cask "webpquicklook"
-vscode "batisteo.vscode-django"
-vscode "eamodio.gitlens"
-vscode "github.codespaces"
-vscode "github.copilot-chat"
-vscode "github.vscode-pull-request-github"
-vscode "kevinrose.vsc-python-indent"
-vscode "mechatroner.rainbow-csv"
-vscode "ms-azuretools.vscode-containers"
-vscode "ms-python.debugpy"
-vscode "ms-python.python"
-vscode "ms-python.vscode-pylance"
-vscode "ms-python.vscode-python-envs"
-vscode "ms-vscode-remote.remote-containers"
-vscode "ms-vscode-remote.remote-ssh"
-vscode "ms-vscode-remote.remote-ssh-edit"
-vscode "ms-vscode.remote-explorer"
-vscode "ms-vscode.sublime-keybindings"
-vscode "njpwerner.autodocstring"
-vscode "visualstudioexptteam.vscodeintellicode"
-vscode "wholroyd.jinja"
 go "github.com/lox/bkl"
 uv "claude-search"
 uv "django-upgrade"
@@ -211,18 +142,3 @@ uv "ruff"
 uv "toohey"
 npm "corepack"
 npm "nemoclaw"
-
-# --- Daily-driver apps that were installed manually (added 2026-05-31) ---
-# See install/apps-inventory.md for usage data. Folded in so `brew bundle`
-# reinstalls them on a fresh machine.
-cask "google-chrome"
-cask "iterm2"
-cask "slack"
-cask "github"
-cask "visual-studio-code"
-cask "telegram"
-cask "session"
-cask "tailscale"
-cask "vlc"
-cask "raycast"
-cask "brave-browser"

@@ -39,6 +39,17 @@ os_detect() {
 is_mac()    { [[ "${OS:-}" == "mac" ]]; }
 is_ubuntu() { [[ "${OS:-}" == "ubuntu" ]]; }
 
+# Ensure `brew` is on PATH (Apple Silicon, Intel, or Linuxbrew). Returns 1 if
+# Homebrew isn't installed at all.
+ensure_brew() {
+  command -v brew >/dev/null 2>&1 && return 0
+  local b
+  for b in /opt/homebrew/bin/brew /usr/local/bin/brew /home/linuxbrew/.linuxbrew/bin/brew; do
+    if [[ -x "$b" ]]; then eval "$("$b" shellenv)"; return 0; fi
+  done
+  return 1
+}
+
 # --- prompts ---------------------------------------------------------------
 # confirm "Question?"  -> returns 0 on y/Y, 1 otherwise. Reads from the tty so
 # it works even when the script itself is piped (curl | bash).

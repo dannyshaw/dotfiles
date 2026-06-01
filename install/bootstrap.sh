@@ -50,9 +50,17 @@ ensure_mac_prereqs() {
 }
 
 ensure_ubuntu_prereqs() {
-  log2 "Installing base packages (git, curl, build-essential, rsync)..."
+  log2 "Installing base packages (git, curl, build-essential, rsync, file, procps)..."
   sudo apt-get update -qq
-  sudo apt-get install -y git curl build-essential rsync
+  # build-essential, procps, curl, file = Homebrew-on-Linux prerequisites.
+  sudo apt-get install -y git curl build-essential rsync file procps
+  if ! command -v brew >/dev/null 2>&1; then
+    log2 "Installing Homebrew (Linuxbrew)..."
+    NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  fi
+  if [[ -x /home/linuxbrew/.linuxbrew/bin/brew ]]; then
+    eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+  fi
 }
 
 case "$OS" in
