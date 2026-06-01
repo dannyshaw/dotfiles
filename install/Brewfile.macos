@@ -20,8 +20,6 @@ cask "ghostty"
 cask "keepassx"
 # lazyworktree - A TUI tool to manage git worktrees
 cask "chmouel/lazyworktree/lazyworktree"
-# File system integration
-cask "macfuse"
 # Visual diff and merge tool
 cask "meld"
 # App to write, plan, collaborate, and get organised
@@ -57,7 +55,6 @@ cask "webpquicklook"
 vscode "batisteo.vscode-django"
 vscode "eamodio.gitlens"
 vscode "github.codespaces"
-vscode "github.copilot-chat"
 vscode "github.vscode-pull-request-github"
 vscode "kevinrose.vsc-python-indent"
 vscode "mechatroner.rainbow-csv"
