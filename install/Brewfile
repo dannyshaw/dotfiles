@@ -133,12 +133,14 @@ brew "bnomei/tmux-mcp/tmux-mcp-rs"
 # Work with Buildkite from the command-line
 brew "buildkite/buildkite/bk@3"
 go "github.com/lox/bkl"
-uv "claude-search"
+# Private/own tools — not on PyPI. Re-enable once published or install from git:
+#   uv tool install git+https://github.com/dannyshaw/<repo>
+# uv "claude-search"
+# uv "openheart"
+# uv "openline"
+# uv "toohey"
 uv "django-upgrade"
-uv "openheart"
-uv "openline"
 uv "pre-commit"
 uv "ruff"
-uv "toohey"
 npm "corepack"
 npm "nemoclaw"
