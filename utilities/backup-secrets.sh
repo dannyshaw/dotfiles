@@ -75,7 +75,6 @@ stage "$HOME/.codex/auth.json"
 stage "$HOME/.zprofile"
 stage "$HOME/.zshenv"
 stage "$HOME/.zshrc.local"
-stage "$HOME/.p10k.zsh"
 stage "$HOME/.edrolosecretsrc"
 
 # NOTE: ~/dev is intentionally NOT collected here — it is backed up wholesale
